@@ -8,8 +8,8 @@ Atualização: 2026-11-09. Regra atual do usuário: prosseguir tela a tela, com 
 |---|---|---|---|
 | 1 | 03 — Swipe / Descobrir | **APROVADA VISUALMENTE:9,13/10**, V2 **2.0.0-prototipo.7**, auditor03 concluído com três capturas finais e comparação. Sem P1 material no perfil estático de Enzo; P2 e limite das legendas raster documentados. | Gate >9,0 atingido. Preservar pacote/evidências da versão aprovada e seguir para planejador04. |
 | 2 | 04 — Perfil do modelo | **APROVADA VISUALMENTE:9,30/10**, V1 **1.0.0-prototipo.1**; auditor04 independente concluído, soma9,295 e nenhum P1 material. | Gate04>9,0 atingido; evidências e limites em MODEL_tela_04_V1/AUDITORIA.md. Preservar03/04 aprovadas; próximo papel planejador05. |
-| 3 | 05 — Portfólio | Liberada para planejamento; não iniciada nesta auditoria. | Tela04 aprovada9,30/10; seguir planejador→assets→implementador→auditor05. |
-| 4 | 06 — Chat / Negociação | Não iniciada. | Aprovação documentada da Tela 05. |
+| 3 | 05 — Portfólio | **APROVADA VISUALMENTE:9,34/10**, V1 **1.0.0-prototipo.1**; auditor05 independente concluído, soma9,335 e nenhum P1 material. | Gate05>9,0 atingido; preservar03/04/05 e evidências. Próximo papel planejador06 LIBERADO. |
+| 4 | 06 — Chat / Negociação | **Planejamento LIBERADO; não iniciado.** | Tela05 aprovada9,34/10; iniciar pelo planejador06. |
 | 5 | 07 — Castings | Não iniciada. | Aprovação documentada da Tela 06. |
 | 6 | 08 — Filtros | Não iniciada. | Aprovação documentada da Tela 07. |
 | 7 | 09 — Salvos | Não iniciada. | Aprovação documentada da Tela 08. |
@@ -87,3 +87,23 @@ A autorização de gerar assets não é prova de que existe a fotografia integra
 - Auditor abriu referência04, três screenshots reais e comparação; conferiu dimensões, hashes, correspondência integral da captura390 com a comparação e RGB preservado dos cinco crops. Relatório técnico do implementador revisado; não houve reteste independente em browser.
 - Evidências, notas, P2 de contador/tipografia/ícones e limites de safe-area/dispositivos em [AUDITORIA04](../MODEL_tela_04_V1/AUDITORIA.md). Nenhum código, asset, screenshot ou arquivo03 foi alterado nesta auditoria.
 - **Próximo papel: planejador05**, autorizado pelo gate04. A05 não foi iniciada e não houve publicação. Registros anteriores de bloqueio04 acima são históricos e ficam superados por esta decisão.
+
+## Estágio05 — planejamento entregue
+
+- Referência05 e original abertos; painel global `[836,0,1008,404]` confirmado pixel a pixel. Sete regiões fotográficas visíveis: cinco caixas completas e duas parciais inferiores; sem contador total no estado inicial.
+- Geometria, conteúdo, coordenadas, limites fotográficos e interações locais em `MODEL_tela_05_V1/DESIGN_SPEC.md`; sequência verificável em `MODEL_tela_05_V1/PLANO.md`.
+- **Próximo papel: assets05**, depois implementador05 e auditor05 independente. Não foram gerados assets, implementação, capturas ou nota.03/04 aprovadas preservadas.
+- Tela06 e seguintes aguardam gate próprio05>9,0; meta9,5.
+
+## Estágio05 — assets entregues
+
+- Sete PNGs RGBA: cinco caixas completas e dois parciais inferiores, RGB idêntico aos crops do JPEG oficial; somente alpha geométrico de borda. Painel `[836,0,1008,404]` confirmado idêntico à referência.
+- Coordenadas refinadas, limites, dimensões, proveniência e hashes integrais em `MODEL_tela_05_V1/ASSETS.md` e `assets/manifest.json`; extração reproduzível em `assets/extract_assets.py`. Três SVGs locais; título/abas/hora ficam nativos.
+- **Próximo papel: implementador05**, depois auditor independente. Sem fotografias sintetizadas, código de interface, capturas, nota ou publicação.03/04 preservadas. Tela06 aguarda gate05>9,0; meta9,5.
+
+## Estágio05 — auditor independente concluído
+
+- **APROVADA VISUALMENTE:9,34/10**, soma9,335; versão1.0.0-prototipo.1. Meta9,5 não atingida, gate>9,0 atingido e nenhum P1 material.
+- Referência, três screenshots e comparação abertos via view_image; dimensões raw, hashes e colagem conferidos. Sete crops RGB idênticos à fonte oficial, cinco caixas completas e dois parciais, sem extensão inventada.
+- Relatório real do implementador revisado; auditor não executou segunda renderização/browser. P2 e limites em [AUDITORIA05](../MODEL_tela_05_V1/AUDITORIA.md).
+- **Estágio auditor05 concluído. Próximo papel: planejador06 LIBERADO.** Nenhum planejamento06, publicação ou alteração03/04 realizada pelo auditor. Registros anteriores de bloqueio05 são históricos, superados por esta decisão.

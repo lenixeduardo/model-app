@@ -1,0 +1,206 @@
+{
+  "source": "MODEL_assets_v1/originais/mockup-geral.jpg",
+  "sourceSha256": "9120f379280879ca9c7695eeccba7288630b6956b39708eb94311080dbedf3dd",
+  "reference": "MODEL_assets_v1/referencias/05-portfolio.png",
+  "referenceSha256": "8e3caac689d1e17c5c62f56f30ff99e9b028244849fc2825bb9082485bf6634b",
+  "referencePanelGlobalLTRBExclusive": [
+    836,
+    0,
+    1008,
+    404
+  ],
+  "referenceRGBExact": true,
+  "operation": "Original JPEG decoded to RGB; crops exported losslessly as RGBA PNG. Only alpha boundary masking. No RGB changes, resampling, synthesis, restoration or UI labels.",
+  "photos": {
+    "foto-01-camisa-aberta.png": {
+      "description": "Camisa branca aberta, rosto inclinado",
+      "partialInferior": false,
+      "cropPanelLocalLTRBExclusive": [
+        3,
+        77,
+        109,
+        256
+      ],
+      "cropGlobalLTRBExclusive": [
+        839,
+        77,
+        945,
+        256
+      ],
+      "size": [
+        106,
+        179
+      ],
+      "aspectRatio": 0.5921787709497207,
+      "sha256": "7b4937dc6a3828c3d26f82bcf28770c070a7a0934610a94712db5e5e8ebaf8b8",
+      "opaquePixels": 18962,
+      "transparentPixels": 12,
+      "alpha": "Binary rounded tile radius3; partials extended below viewport, intersect panel radius10. RGB untouched including transparent pixels."
+    },
+    "foto-02-torso-interior.png": {
+      "description": "Torso frontal, interior quente",
+      "partialInferior": false,
+      "cropPanelLocalLTRBExclusive": [
+        111,
+        77,
+        169,
+        163
+      ],
+      "cropGlobalLTRBExclusive": [
+        947,
+        77,
+        1005,
+        163
+      ],
+      "size": [
+        58,
+        86
+      ],
+      "aspectRatio": 0.6744186046511628,
+      "sha256": "107342ae362f2008f5345a3fce17363f96865475669a20d7d8eade4e2ec4f0b5",
+      "opaquePixels": 4976,
+      "transparentPixels": 12,
+      "alpha": "Binary rounded tile radius3; partials extended below viewport, intersect panel radius10. RGB untouched including transparent pixels."
+    },
+    "foto-03-perfil-praia.png": {
+      "description": "Perfil e torso, mar ao fundo",
+      "partialInferior": false,
+      "cropPanelLocalLTRBExclusive": [
+        111,
+        165,
+        169,
+        246
+      ],
+      "cropGlobalLTRBExclusive": [
+        947,
+        165,
+        1005,
+        246
+      ],
+      "size": [
+        58,
+        81
+      ],
+      "aspectRatio": 0.7160493827160493,
+      "sha256": "fb3ed7b7e0303a35a8b6864144b044a88c8bd9866715370ca75dab958910a4f3",
+      "opaquePixels": 4686,
+      "transparentPixels": 12,
+      "alpha": "Binary rounded tile radius3; partials extended below viewport, intersect panel radius10. RGB untouched including transparent pixels."
+    },
+    "foto-04-monocromatica.png": {
+      "description": "Retrato monocromático com braço à frente",
+      "partialInferior": false,
+      "cropPanelLocalLTRBExclusive": [
+        3,
+        258,
+        109,
+        359
+      ],
+      "cropGlobalLTRBExclusive": [
+        839,
+        258,
+        945,
+        359
+      ],
+      "size": [
+        106,
+        101
+      ],
+      "aspectRatio": 1.0495049504950495,
+      "sha256": "0e165767db183debff8f4b1f76ddff3851fd885b730f69fe024e33e6f09cb1f8",
+      "opaquePixels": 10694,
+      "transparentPixels": 12,
+      "alpha": "Binary rounded tile radius3; partials extended below viewport, intersect panel radius10. RGB untouched including transparent pixels."
+    },
+    "foto-05-camiseta-branca.png": {
+      "description": "Camiseta branca e colar",
+      "partialInferior": false,
+      "cropPanelLocalLTRBExclusive": [
+        111,
+        247,
+        169,
+        327
+      ],
+      "cropGlobalLTRBExclusive": [
+        947,
+        247,
+        1005,
+        327
+      ],
+      "size": [
+        58,
+        80
+      ],
+      "aspectRatio": 0.725,
+      "sha256": "1bfe9a0b31cc5a2d339759a37091b5d55ee5def8911d18b34926cf563bacff30",
+      "opaquePixels": 4628,
+      "transparentPixels": 12,
+      "alpha": "Binary rounded tile radius3; partials extended below viewport, intersect panel radius10. RGB untouched including transparent pixels."
+    },
+    "foto-06-rosto-parcial-inferior.png": {
+      "description": "Rosto e cabelo, olhar lateral; parcial inferior",
+      "partialInferior": true,
+      "cropPanelLocalLTRBExclusive": [
+        3,
+        360,
+        109,
+        404
+      ],
+      "cropGlobalLTRBExclusive": [
+        839,
+        360,
+        945,
+        404
+      ],
+      "size": [
+        106,
+        44
+      ],
+      "aspectRatio": 2.409090909090909,
+      "sha256": "40ade36caa459377785750fd76798207804032c9324024813372f8b6b3733446",
+      "opaquePixels": 4651,
+      "transparentPixels": 13,
+      "alpha": "Binary rounded tile radius3; partials extended below viewport, intersect panel radius10. RGB untouched including transparent pixels."
+    },
+    "foto-07-sentado-parcial-inferior.png": {
+      "description": "Sentado, roupa preta sem mangas; parcial inferior",
+      "partialInferior": true,
+      "cropPanelLocalLTRBExclusive": [
+        111,
+        329,
+        169,
+        404
+      ],
+      "cropGlobalLTRBExclusive": [
+        947,
+        329,
+        1005,
+        404
+      ],
+      "size": [
+        58,
+        75
+      ],
+      "aspectRatio": 0.7733333333333333,
+      "sha256": "7e70ef593c84bdfa48c9845d7bcf9e275b981119f35042001b608c92bc398795",
+      "opaquePixels": 4337,
+      "transparentPixels": 13,
+      "alpha": "Binary rounded tile radius3; partials extended below viewport, intersect panel radius10. RGB untouched including transparent pixels."
+    }
+  },
+  "icons": {
+    "voltar.svg": {
+      "sha256": "39dd2079f19f719c56bb9bc37fdbc94c46e1d1b2651e191dd0c3539a726e53d4",
+      "source": "MODEL_tela_04_V1/assets/icons/voltar.svg (byte-identical)"
+    },
+    "busca.svg": {
+      "sha256": "a9254c40f35e11fc09cb9ab08ece6f0ae3578f460b4acd738e93abc6ba46a0c0",
+      "source": "Manual SVG approximation of panel05; original vectors unavailable"
+    },
+    "status-sinais.svg": {
+      "sha256": "037b5c73d570830d519c600f99a2ac4465b17c7f7b0448ffac597f16e1dbe3cb",
+      "source": "Manual SVG approximation of panel05; original vectors unavailable"
+    }
+  },
+  "scriptSha256": "91b0848bcc9a826b0fedcd775c79c60ce84b7a22a8c6b2fe9e9fcb3ec313e9a9"
+}

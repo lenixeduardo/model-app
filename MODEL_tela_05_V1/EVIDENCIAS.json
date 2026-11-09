@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0-prototipo.1",
+  "stage": "auditoria05 aprovada9,34; planejamento06 liberado",
+  "files": {
+    "captura-375.png": "e17d292e865132f17e1fa64c45d062a84808a62150211595f208f8b777de1340",
+    "relatorio-candidato.json": "909cb368f4f3eae49099486312ad1d4d73fd2f0f6d6f001a5a5dbb3f07d77396",
+    "relatorio-browser.json": "2064c22463882e56d3c087a8e5604f4fab2cd798a05e769ca4ac97fa3200e00a",
+    "compare.py": "e3e05bfd8c76b26f139382b4225de79b9166a9f9f925df63d528e20dc2a724b7",
+    "comparacao-390.png": "2c88bd4a4e72569257188e525a3a7836af38cd731366f145e5e942e80a3bf14d",
+    "index.html": "9653b1585531e39b82c19980604a0bbeae632e3bec8974d7ec93b7be21b9ca5d",
+    "PLANO.md": "e158ae5fa8d03baf3b4a30b77c6db6f58e423fd3876b1aa7f7be5e6de8493c6d",
+    "ASSETS.md": "d39809266e162ab7d583730d303d43897af110ee62a0adb08e016375d7a1e239",
+    "DESIGN_SPEC.md": "55dcf8e648d12cae73efaf073ef64edf52ef9740bf1303ffaa8ade03993ee76b",
+    "captura-430.png": "871c6198f0788f2a9f6988fb2c97f35bf89918c8ae9d56e4c46c7a7875db895c",
+    "candidato-390.png": "3349b232f8297f37749c44a6d8f3042c31bb81e0f0b98407a705bcf8b08fbd7c",
+    "captura-390.png": "3349b232f8297f37749c44a6d8f3042c31bb81e0f0b98407a705bcf8b08fbd7c",
+    "styles.css": "cee0439957c09380bfa67daa0d5a33c9318483f37e4e271cdbc9ed518f8314bf",
+    "render.py": "af203b148ea61e5a912574772a717197f25ab5654b843d224b26b8a31f5aa1ad",
+    "app.js": "493b8980f47b3d7c62d5688a9ee3fb07eed29b54bc772ae4089b702a8e43343d",
+    "README.md": "fe7e8741a3616a0089bb7a0e8af59e626bb958905ebfb0fd8bc8ef03cce5bde1",
+    "CHANGELOG.md": "e5b8e071ebe60e059e740f02dfc70113fd5fd71799d02a952c99bc6763f90677",
+    "VERSION": "36db35c23849bf438a82d522c1202c664362e6157dc9e9276dbec672b6c06e8a"
+  }
+}

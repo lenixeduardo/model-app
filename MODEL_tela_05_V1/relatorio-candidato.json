@@ -1,0 +1,152 @@
+{
+  "DPR": 1,
+  "viewports": [
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "document": [
+        390,
+        844
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:33223/MODEL_tela_05_V1/assets/foto-01-camisa-aberta.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            106,
+            179
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:33223/MODEL_tela_05_V1/assets/foto-02-torso-interior.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            58,
+            86
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:33223/MODEL_tela_05_V1/assets/foto-03-perfil-praia.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            58,
+            81
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:33223/MODEL_tela_05_V1/assets/foto-04-monocromatica.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            106,
+            101
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:33223/MODEL_tela_05_V1/assets/foto-05-camiseta-branca.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            58,
+            80
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:33223/MODEL_tela_05_V1/assets/foto-06-rosto-parcial-inferior.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            106,
+            44
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:33223/MODEL_tela_05_V1/assets/foto-07-sentado-parcial-inferior.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            58,
+            75
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "name": "Voltar ao perfil",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Buscar recortes",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Fotos",
+          "width": 106.5625,
+          "height": 44
+        },
+        {
+          "name": "Vídeos",
+          "width": 102.046875,
+          "height": 44
+        },
+        {
+          "name": "Trabalhos",
+          "width": 122.453125,
+          "height": 44
+        },
+        {
+          "name": "Abrir Enzo com camisa branca aberta",
+          "width": 240.34375,
+          "height": 373.9375
+        },
+        {
+          "name": "Abrir Enzo com torso nu em interior",
+          "width": 131.5,
+          "height": 179.65625
+        },
+        {
+          "name": "Abrir Enzo de perfil na praia",
+          "width": 131.5,
+          "height": 169.203125
+        },
+        {
+          "name": "Abrir Retrato monocromático de Enzo",
+          "width": 240.34375,
+          "height": 211
+        },
+        {
+          "name": "Abrir Enzo com camiseta branca e colar",
+          "width": 131.5,
+          "height": 167.125
+        },
+        {
+          "name": "Abrir Recorte parcial do rosto de Enzo",
+          "width": 240.34375,
+          "height": 91.90625
+        },
+        {
+          "name": "Abrir Recorte parcial de Enzo sentado",
+          "width": 131.5,
+          "height": 156.671875
+        }
+      ],
+      "errors": [],
+      "networkErrors": [],
+      "actions": "Tabs, seven crop dialogs, Escape, focus restoration, local search and real back04 passed"
+    }
+  ],
+  "browser": "156.0.8078.79",
+  "sha256": {
+    "index.html": "9653b1585531e39b82c19980604a0bbeae632e3bec8974d7ec93b7be21b9ca5d",
+    "candidato-390.png": "3349b232f8297f37749c44a6d8f3042c31bb81e0f0b98407a705bcf8b08fbd7c",
+    "styles.css": "cee0439957c09380bfa67daa0d5a33c9318483f37e4e271cdbc9ed518f8314bf",
+    "app.js": "493b8980f47b3d7c62d5688a9ee3fb07eed29b54bc772ae4089b702a8e43343d"
+  }
+}

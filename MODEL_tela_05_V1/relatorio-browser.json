@@ -1,0 +1,435 @@
+{
+  "DPR": 1,
+  "viewports": [
+    {
+      "viewport": [
+        375,
+        812
+      ],
+      "document": [
+        375,
+        812
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:41467/MODEL_tela_05_V1/assets/foto-01-camisa-aberta.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            106,
+            179
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:41467/MODEL_tela_05_V1/assets/foto-02-torso-interior.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            58,
+            86
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:41467/MODEL_tela_05_V1/assets/foto-03-perfil-praia.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            58,
+            81
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:41467/MODEL_tela_05_V1/assets/foto-04-monocromatica.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            106,
+            101
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:41467/MODEL_tela_05_V1/assets/foto-05-camiseta-branca.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            58,
+            80
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:41467/MODEL_tela_05_V1/assets/foto-06-rosto-parcial-inferior.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            106,
+            44
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:41467/MODEL_tela_05_V1/assets/foto-07-sentado-parcial-inferior.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            58,
+            75
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "name": "Voltar ao perfil",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Buscar recortes",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Fotos",
+          "width": 102.46875,
+          "height": 44
+        },
+        {
+          "name": "Vídeos",
+          "width": 98.125,
+          "height": 44
+        },
+        {
+          "name": "Trabalhos",
+          "width": 117.734375,
+          "height": 44
+        },
+        {
+          "name": "Abrir Enzo com camisa branca aberta",
+          "width": 231.09375,
+          "height": 359.765625
+        },
+        {
+          "name": "Abrir Enzo com torso nu em interior",
+          "width": 126.453125,
+          "height": 172.84375
+        },
+        {
+          "name": "Abrir Enzo de perfil na praia",
+          "width": 126.453125,
+          "height": 162.796875
+        },
+        {
+          "name": "Abrir Retrato monocromático de Enzo",
+          "width": 231.09375,
+          "height": 203
+        },
+        {
+          "name": "Abrir Enzo com camiseta branca e colar",
+          "width": 126.453125,
+          "height": 160.78125
+        },
+        {
+          "name": "Abrir Recorte parcial do rosto de Enzo",
+          "width": 231.09375,
+          "height": 88.421875
+        },
+        {
+          "name": "Abrir Recorte parcial de Enzo sentado",
+          "width": 126.453125,
+          "height": 150.734375
+        }
+      ],
+      "errors": [],
+      "networkErrors": [],
+      "actions": "Tabs, seven crop dialogs, Escape, focus restoration, local search and real back04 passed"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "document": [
+        390,
+        844
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:41467/MODEL_tela_05_V1/assets/foto-01-camisa-aberta.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            106,
+            179
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:41467/MODEL_tela_05_V1/assets/foto-02-torso-interior.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            58,
+            86
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:41467/MODEL_tela_05_V1/assets/foto-03-perfil-praia.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            58,
+            81
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:41467/MODEL_tela_05_V1/assets/foto-04-monocromatica.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            106,
+            101
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:41467/MODEL_tela_05_V1/assets/foto-05-camiseta-branca.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            58,
+            80
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:41467/MODEL_tela_05_V1/assets/foto-06-rosto-parcial-inferior.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            106,
+            44
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:41467/MODEL_tela_05_V1/assets/foto-07-sentado-parcial-inferior.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            58,
+            75
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "name": "Voltar ao perfil",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Buscar recortes",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Fotos",
+          "width": 106.5625,
+          "height": 44
+        },
+        {
+          "name": "Vídeos",
+          "width": 102.046875,
+          "height": 44
+        },
+        {
+          "name": "Trabalhos",
+          "width": 122.453125,
+          "height": 44
+        },
+        {
+          "name": "Abrir Enzo com camisa branca aberta",
+          "width": 240.34375,
+          "height": 373.9375
+        },
+        {
+          "name": "Abrir Enzo com torso nu em interior",
+          "width": 131.5,
+          "height": 179.65625
+        },
+        {
+          "name": "Abrir Enzo de perfil na praia",
+          "width": 131.5,
+          "height": 169.203125
+        },
+        {
+          "name": "Abrir Retrato monocromático de Enzo",
+          "width": 240.34375,
+          "height": 211
+        },
+        {
+          "name": "Abrir Enzo com camiseta branca e colar",
+          "width": 131.5,
+          "height": 167.125
+        },
+        {
+          "name": "Abrir Recorte parcial do rosto de Enzo",
+          "width": 240.34375,
+          "height": 91.90625
+        },
+        {
+          "name": "Abrir Recorte parcial de Enzo sentado",
+          "width": 131.5,
+          "height": 156.671875
+        }
+      ],
+      "errors": [],
+      "networkErrors": [],
+      "actions": "Tabs, seven crop dialogs, Escape, focus restoration, local search and real back04 passed"
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "document": [
+        430,
+        932
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:41467/MODEL_tela_05_V1/assets/foto-01-camisa-aberta.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            106,
+            179
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:41467/MODEL_tela_05_V1/assets/foto-02-torso-interior.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            58,
+            86
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:41467/MODEL_tela_05_V1/assets/foto-03-perfil-praia.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            58,
+            81
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:41467/MODEL_tela_05_V1/assets/foto-04-monocromatica.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            106,
+            101
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:41467/MODEL_tela_05_V1/assets/foto-05-camiseta-branca.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            58,
+            80
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:41467/MODEL_tela_05_V1/assets/foto-06-rosto-parcial-inferior.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            106,
+            44
+          ]
+        },
+        {
+          "src": "http://127.0.0.1:41467/MODEL_tela_05_V1/assets/foto-07-sentado-parcial-inferior.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            58,
+            75
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "name": "Voltar ao perfil",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Buscar recortes",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Fotos",
+          "width": 117.5,
+          "height": 44
+        },
+        {
+          "name": "Vídeos",
+          "width": 112.5,
+          "height": 44
+        },
+        {
+          "name": "Trabalhos",
+          "width": 135,
+          "height": 44
+        },
+        {
+          "name": "Abrir Enzo com camisa branca aberta",
+          "width": 265,
+          "height": 412.9375
+        },
+        {
+          "name": "Abrir Enzo com torso nu em interior",
+          "width": 145,
+          "height": 198.390625
+        },
+        {
+          "name": "Abrir Enzo de perfil na praia",
+          "width": 145,
+          "height": 186.859375
+        },
+        {
+          "name": "Abrir Retrato monocromático de Enzo",
+          "width": 265,
+          "height": 233
+        },
+        {
+          "name": "Abrir Enzo com camiseta branca e colar",
+          "width": 145,
+          "height": 184.546875
+        },
+        {
+          "name": "Abrir Recorte parcial do rosto de Enzo",
+          "width": 265,
+          "height": 101.5
+        },
+        {
+          "name": "Abrir Recorte parcial de Enzo sentado",
+          "width": 145,
+          "height": 173.015625
+        }
+      ],
+      "errors": [],
+      "networkErrors": [],
+      "actions": "Tabs, seven crop dialogs, Escape, focus restoration, local search and real back04 passed"
+    }
+  ],
+  "browser": "156.0.8078.79",
+  "sha256": {
+    "captura-375.png": "e17d292e865132f17e1fa64c45d062a84808a62150211595f208f8b777de1340",
+    "index.html": "9653b1585531e39b82c19980604a0bbeae632e3bec8974d7ec93b7be21b9ca5d",
+    "captura-430.png": "871c6198f0788f2a9f6988fb2c97f35bf89918c8ae9d56e4c46c7a7875db895c",
+    "candidato-390.png": "3349b232f8297f37749c44a6d8f3042c31bb81e0f0b98407a705bcf8b08fbd7c",
+    "captura-390.png": "3349b232f8297f37749c44a6d8f3042c31bb81e0f0b98407a705bcf8b08fbd7c",
+    "styles.css": "cee0439957c09380bfa67daa0d5a33c9318483f37e4e271cdbc9ed518f8314bf",
+    "app.js": "493b8980f47b3d7c62d5688a9ee3fb07eed29b54bc772ae4089b702a8e43343d"
+  }
+}
