@@ -1,3 +1,7 @@
+# Histórico — auditoria inicial anterior à implementação
+
+**Superada pela [auditoria da V2](../MODEL_tela_03_V2/AUDITORIA.md).** O bloqueio de ausência de HTML descrito abaixo foi resolvido nesta sessão. A aprovação visual continua dependente da auditoria atual.
+
 # Tela 03 — auditoria de disponibilidade para validação
 
 Estado: BLOQUEADA / NÃO APROVADA.

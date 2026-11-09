@@ -10,5 +10,5 @@ Extração do mockup fornecido (1179 × 753 px), sem geração de pessoas, retoq
 Não ampliar com largura e altura independentes. Para fotografia, usar object-fit: cover com posição calibrada. A foto parcial não contém informação suficiente para reproduzir o fundo integral da Tela 03. Esticá-la ou aplicá-la como fundo completo mudará enquadramento e escala. Para fidelidade >=9,0, permanece necessária a fotografia original ou uma fonte limpa equivalente do mesmo retrato.
 
 ## Escopo e estado
-Inclui recortes das 11 telas e do painel editorial, Os dois anexos originais permanecem somente no pacote local e não integram esta publicação no GitHub. A primeira imagem é outra referência de login; não substitui Enzo.
+Inclui recortes das 11 telas e do painel editorial, Inclui também os dois anexos originais, com publicação expressamente autorizada pelo usuário em2026-11-09. A primeira imagem é outra referência de login; não substitui Enzo.
 Não inclui a V2 anterior, não recebida, nem implementação validada. Não foram geradas capturas de navegador ou nota de fidelidade. Tela 03 não aprovada. Não houve avanço à Tela 04; seu recorte é somente referência do mockup.

@@ -1,0 +1,510 @@
+{
+  "url": "http://127.0.0.1:35769/",
+  "deviceScaleFactor": 1,
+  "viewports": [
+    {
+      "width": 375,
+      "height": 812,
+      "state": {
+        "viewport": [
+          375,
+          812
+        ],
+        "document": [
+          375,
+          812
+        ],
+        "font": "Arial, Helvetica, sans-serif",
+        "images": [
+          {
+            "src": "assets/enzo-swipe-referencia.png",
+            "loaded": true,
+            "natural": [
+              201,
+              242
+            ],
+            "rendered": [
+              375,
+              451
+            ]
+          },
+          {
+            "src": "assets/icons/voltar.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              22,
+              22
+            ]
+          },
+          {
+            "src": "assets/icons/opcoes.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              22,
+              22
+            ]
+          },
+          {
+            "src": "assets/icons/verificado.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              24,
+              24
+            ]
+          },
+          {
+            "src": "assets/icons/informacao.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              25,
+              25
+            ]
+          },
+          {
+            "src": "assets/icons/fechar-acao.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              40,
+              40
+            ]
+          },
+          {
+            "src": "assets/icons/estrela.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              37,
+              37
+            ]
+          },
+          {
+            "src": "assets/icons/coracao.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              38,
+              38
+            ]
+          },
+          {
+            "src": "assets/icons/fechar.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              22,
+              22
+            ]
+          }
+        ],
+        "targets": [
+          {
+            "label": "Voltar",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "Mais opções",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "Informações sobre Enzo",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "Ignorar Enzo",
+            "width": 78.75,
+            "height": 78.75
+          },
+          {
+            "label": "Favoritar Enzo",
+            "width": 78.75,
+            "height": 78.75
+          },
+          {
+            "label": "Curtir Enzo",
+            "width": 78.75,
+            "height": 78.75
+          }
+        ]
+      },
+      "consoleErrors": [],
+      "networkErrors": [],
+      "screenshot": "captura-375.png",
+      "sha256": "50b1d1f954128d866c3bbd73573378ed5118c7ccd43fef729c28354abb410694",
+      "interactions": "passed",
+      "keyboardFocus": {
+        "tag": "BUTTON",
+        "outline": "solid"
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": {
+        "viewport": [
+          390,
+          844
+        ],
+        "document": [
+          390,
+          844
+        ],
+        "font": "Arial, Helvetica, sans-serif",
+        "images": [
+          {
+            "src": "assets/enzo-swipe-referencia.png",
+            "loaded": true,
+            "natural": [
+              201,
+              242
+            ],
+            "rendered": [
+              390,
+              470
+            ]
+          },
+          {
+            "src": "assets/icons/voltar.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              22,
+              22
+            ]
+          },
+          {
+            "src": "assets/icons/opcoes.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              22,
+              22
+            ]
+          },
+          {
+            "src": "assets/icons/verificado.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              25,
+              25
+            ]
+          },
+          {
+            "src": "assets/icons/informacao.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              25,
+              25
+            ]
+          },
+          {
+            "src": "assets/icons/fechar-acao.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              40,
+              40
+            ]
+          },
+          {
+            "src": "assets/icons/estrela.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              37,
+              37
+            ]
+          },
+          {
+            "src": "assets/icons/coracao.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              38,
+              38
+            ]
+          },
+          {
+            "src": "assets/icons/fechar.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              22,
+              22
+            ]
+          }
+        ],
+        "targets": [
+          {
+            "label": "Voltar",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "Mais opções",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "Informações sobre Enzo",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "Ignorar Enzo",
+            "width": 81.890625,
+            "height": 81.890625
+          },
+          {
+            "label": "Favoritar Enzo",
+            "width": 81.890625,
+            "height": 81.890625
+          },
+          {
+            "label": "Curtir Enzo",
+            "width": 81.890625,
+            "height": 81.890625
+          }
+        ]
+      },
+      "consoleErrors": [],
+      "networkErrors": [],
+      "screenshot": "captura-390.png",
+      "sha256": "981ef3f0a3168ecb2543d81d5aac73c804ba4bd3396db3d2391c39244e27971a",
+      "interactions": "passed",
+      "keyboardFocus": {
+        "tag": "BUTTON",
+        "outline": "solid"
+      }
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "state": {
+        "viewport": [
+          430,
+          932
+        ],
+        "document": [
+          430,
+          932
+        ],
+        "font": "Arial, Helvetica, sans-serif",
+        "images": [
+          {
+            "src": "assets/enzo-swipe-referencia.png",
+            "loaded": true,
+            "natural": [
+              201,
+              242
+            ],
+            "rendered": [
+              430,
+              518
+            ]
+          },
+          {
+            "src": "assets/icons/voltar.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              22,
+              22
+            ]
+          },
+          {
+            "src": "assets/icons/opcoes.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              22,
+              22
+            ]
+          },
+          {
+            "src": "assets/icons/verificado.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              27,
+              27
+            ]
+          },
+          {
+            "src": "assets/icons/informacao.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              25,
+              25
+            ]
+          },
+          {
+            "src": "assets/icons/fechar-acao.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              40,
+              40
+            ]
+          },
+          {
+            "src": "assets/icons/estrela.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              37,
+              37
+            ]
+          },
+          {
+            "src": "assets/icons/coracao.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              38,
+              38
+            ]
+          },
+          {
+            "src": "assets/icons/fechar.svg",
+            "loaded": true,
+            "natural": [
+              150,
+              150
+            ],
+            "rendered": [
+              22,
+              22
+            ]
+          }
+        ],
+        "targets": [
+          {
+            "label": "Voltar",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "Mais opções",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "Informações sobre Enzo",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "Ignorar Enzo",
+            "width": 86,
+            "height": 86
+          },
+          {
+            "label": "Favoritar Enzo",
+            "width": 86,
+            "height": 86
+          },
+          {
+            "label": "Curtir Enzo",
+            "width": 86,
+            "height": 86
+          }
+        ]
+      },
+      "consoleErrors": [],
+      "networkErrors": [],
+      "screenshot": "captura-430.png",
+      "sha256": "11953911334780b2edbecdbee0eed3cc5ca502e38c59ec1a1e2cbdc068082e46",
+      "interactions": "passed",
+      "keyboardFocus": {
+        "tag": "BUTTON",
+        "outline": "solid"
+      }
+    }
+  ],
+  "checks": [
+    "Reduced motion: interaction works",
+    "Missing portrait: visible fallback and actions disabled"
+  ],
+  "browser": "156.0.8078.79",
+  "result": "passed"
+}

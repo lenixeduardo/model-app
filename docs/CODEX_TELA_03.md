@@ -29,3 +29,7 @@ Se o navegador não produzir capturas verificáveis, marcar a versão como **nã
 
 ## Próximo passo
 Adicionar ao repositório os arquivos locais da V2, a imagem de referência e os assets originais, preservando os direitos e a origem das fotografias.
+
+## Regra atual da fila — 2026-11-09
+
+O usuário solicitou quatro agentes em sequência (planejamento → assets → implementação → auditoria) e nota **superior a9,0** para liberar a tela seguinte. Essa condição mais estrita substitui o mínimo inclusivo anterior. Ver [FILA_AGENTES.md](FILA_AGENTES.md). Nota exatamente9,0 não libera avanço.

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101313">
+  <title>Enzo, 26 — MODEL</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="screen" aria-label="Descobrir modelos">
+    <div class="photo" aria-hidden="true">
+      <div class="sky"></div>
+      <img class="portrait" src="assets/enzo-swipe-referencia.png" alt="" width="201" height="242" fetchpriority="high">
+      <div class="shade"></div>
+    </div>
+    <div class="status-bar" aria-hidden="true">
+      <span>9:41</span>
+      <div class="status-icons">
+        <svg viewBox="0 0 20 14"><path d="M1 10h3v4H1zm5-3h3v7H6zm5-3h3v10h-3zm5-3h3v13h-3z"/></svg>
+        <svg viewBox="0 0 20 14"><path d="M1.5 4.5a13 13 0 0 1 17 0M4.5 7.5a8.5 8.5 0 0 1 11 0M7.5 10.5a4 4 0 0 1 5 0" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><circle cx="10" cy="13" r="1"/></svg>
+        <svg class="battery" viewBox="0 0 29 14"><rect x="1" y="1" width="24" height="12" rx="3" fill="none" stroke="currentColor" stroke-width="1.4" opacity=".6"/><rect x="3" y="3" width="20" height="8" rx="1.5"/><path d="M27 4v6c3 0 3-6 0-6" opacity=".6"/></svg>
+      </div>
+    </div>
+    <div class="progress" aria-label="Foto 1 de 5"><span class="current"></span><span></span><span></span><span></span><span></span></div>
+    <nav class="top-controls" aria-label="Navegação do perfil">
+      <button type="button" class="icon-button" data-panel="back" aria-label="Voltar"><img src="assets/icons/voltar.svg" alt="" width="22" height="22"></button>
+      <button type="button" class="icon-button" data-panel="options" aria-label="Mais opções"><img src="assets/icons/opcoes.svg" alt="" width="22" height="22"></button>
+    </nav>
+    <section class="details" aria-label="Perfil de Enzo">
+      <div class="name"><h1>Enzo, 26</h1><img class="verified" src="assets/icons/verificado.svg" alt="Perfil verificado" width="25" height="25"></div>
+      <div class="location-row"><p>São Paulo, SP · 1,84 m</p><button type="button" class="icon-button information" data-panel="info" aria-label="Informações sobre Enzo"><img src="assets/icons/informacao.svg" alt="" width="25" height="25"></button></div>
+      <ul class="categories" aria-label="Categorias"><li>Fashion</li><li>Editorial</li><li>Comercial</li></ul>
+    </section>
+    <div class="actions" role="group" aria-label="Ações do perfil">
+      <button type="button" class="action dismiss" aria-label="Ignorar Enzo"><img src="assets/icons/fechar-acao.svg" alt="" width="40" height="40"></button>
+      <button type="button" class="action favorite" aria-label="Favoritar Enzo" aria-pressed="false"><img src="assets/icons/estrela.svg" alt="" width="37" height="37"></button>
+      <button type="button" class="action like" aria-label="Curtir Enzo" aria-pressed="false"><img src="assets/icons/coracao.svg" alt="" width="38" height="38"></button>
+    </div>
+    <section class="empty-state" aria-labelledby="empty-title" hidden>
+      <h2 id="empty-title">Perfil ignorado</h2><p>Enzo foi removido desta sessão.</p><button type="button" class="text-button undo">Desfazer</button>
+    </section>
+    <p class="image-error" role="status" hidden>Não foi possível carregar a fotografia.</p>
+    <p class="sr-only" id="announcement" aria-live="polite" aria-atomic="true"></p>
+    <div class="home-indicator" aria-hidden="true"></div>
+  </main>
+  <dialog aria-labelledby="dialog-title">
+    <div class="dialog-heading"><h2 id="dialog-title"></h2><button type="button" class="icon-button close-dialog" aria-label="Fechar"><img src="assets/icons/fechar.svg" alt="" width="22" height="22"></button></div>
+    <p id="dialog-copy"></p>
+  </dialog>
+</body>
+</html>
