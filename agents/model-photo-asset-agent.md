@@ -5,7 +5,7 @@ Produzir um catálogo de fotografias originais, independentes dos mockups, em al
 
 ## Perfis do lote piloto (todos adultos, 21+)
 - MODEL-ATH-01: homem adulto musculoso, atlético, torso sem camisa, postura natural, sem hipertrofia caricatural.
-- MODEL-STR-02: homem adulto de porte grande/parrudo, ombros largos, corpo robusto e abdômen natural, torso sem camisa; sem ridicularização.
+- MODEL-STR-02: homem adulto musculoso e parrudo, ombros largos, peito e braços fortes, pelos corporais naturais visíveis no peito e abdômen, torso sem camisa; porte robusto e musculatura evidente, sem aparência artificial.
 - MODEL-YNG-03: homem adulto jovem de 21–25 anos, aparência inequivocamente adulta, constituição magra ou mediana, torso sem camisa.
 Diversificar tons de pele, traços faciais, cabelos e poses sem estereótipos. Não simular pessoas reais nem alegar consentimento de modelos reais.
 
@@ -14,7 +14,7 @@ Fotografia editorial de moda masculina premium, elegante, não sexualizada, sem 
 
 ## Prompts-base
 ATH: "Editorial fashion photograph of an adult male model age 28–35, visibly muscular athletic build, shirtless torso, natural proportions, tasteful neutral studio, soft directional light, premium magazine photography, realistic skin texture, head and torso fully in frame, no text or interface, vertical composition."
-STR: "Editorial fashion photograph of an adult male model age 30–40, broad stocky sturdy build, strong shoulders and natural fuller midsection, shirtless torso, confident relaxed pose, premium beige studio, natural skin texture, realistic proportions, head and torso fully in frame, no text or interface, vertical composition."
+STR: "Editorial fashion photograph of an adult male model age 30–40, thick muscular stocky build, broad shoulders, powerful chest and arms, naturally hairy chest and abdomen with visible body hair, shirtless torso, confident relaxed pose, premium beige studio, natural skin texture, realistic proportions, head and torso fully in frame, no text or interface, vertical composition."
 YNG: "Editorial fashion photograph of a clearly adult male model age 23, lean medium build, shirtless torso, approachable expression, premium black-and-white fashion studio, realistic natural skin texture, head and torso fully in frame, no text or interface, vertical composition."
 
 ## Entregáveis por perfil
