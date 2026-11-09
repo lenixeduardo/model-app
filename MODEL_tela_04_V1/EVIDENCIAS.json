@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0-prototipo.1",
+  "browser_executable": "/usr/bin/chromium",
+  "browser_version": "Chromium 156.0.8078.79 built on Debian GNU/Linux 13 (trixie)",
+  "DPR": 1,
+  "capture_method": "Playwright page.screenshot; raw files; compare.py only changes separate comparison artifact",
+  "files": [
+    {
+      "file": "captura-375.png",
+      "size": [
+        375,
+        812
+      ],
+      "sha256": "5caa8cc19f9b60489407056faba862c88b705d20d8fe6d5966e31cd98e3f75aa"
+    },
+    {
+      "file": "captura-390.png",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "51b44781ebb87fde8be24abdca34b8e6ef1ac00b812e26e617b5df7eb9fb9931"
+    },
+    {
+      "file": "captura-430.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "69058529d18140344cb688fdaefba92d1c9a58993711d162b6ec9579129239ac"
+    }
+  ]
+}

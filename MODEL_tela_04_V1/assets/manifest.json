@@ -1,0 +1,284 @@
+{
+  "source": "MODEL_assets_v1/originais/mockup-geral.jpg",
+  "sourceSha256": "9120f379280879ca9c7695eeccba7288630b6956b39708eb94311080dbedf3dd",
+  "referencePanelCropLTRBExclusive": [
+    634,
+    0,
+    826,
+    404
+  ],
+  "operation": "Crop original decoded RGB, modify only alpha to remove UI/frame regions, and set hidden RGB to zero. No synthesis, cloning, filling or resampling.",
+  "photos": {
+    "hero-enzo-perfil.png": {
+      "cropGlobalLTRBExclusive": [
+        634,
+        0,
+        826,
+        156
+      ],
+      "cropPanelLocalLTRBExclusive": [
+        0,
+        0,
+        192,
+        156
+      ],
+      "size": [
+        192,
+        156
+      ],
+      "visiblePixelsSourceExact": 29085,
+      "transparentPixelsRgbZero": 867,
+      "sha256": "d080e0c08db39731b621d34d9ca8486a951ea15d388bcf326d2f406ceb5b94d3",
+      "identity": "Monochrome hero from official panel04",
+      "alphaMasks": [
+        {
+          "id": "status-time",
+          "searchBoxLTRBInclusive": [
+            12,
+            2,
+            36,
+            16
+          ],
+          "shape": "bright-ui-contour",
+          "rule": "minRGB>=90 && maxRGB-minRGB<=35",
+          "seedPixels": 43,
+          "maskedPixelsAfterDilation": 116,
+          "dilationRadius": 1
+        },
+        {
+          "id": "status-icons",
+          "searchBoxLTRBInclusive": [
+            141,
+            2,
+            186,
+            16
+          ],
+          "shape": "bright-ui-contour",
+          "rule": "minRGB>=90 && maxRGB-minRGB<=35",
+          "seedPixels": 102,
+          "maskedPixelsAfterDilation": 208,
+          "dilationRadius": 1
+        },
+        {
+          "id": "back",
+          "searchBoxLTRBInclusive": [
+            10,
+            22,
+            27,
+            43
+          ],
+          "shape": "bright-ui-contour",
+          "rule": "minRGB>=90 && maxRGB-minRGB<=35",
+          "seedPixels": 12,
+          "maskedPixelsAfterDilation": 48,
+          "dilationRadius": 1
+        },
+        {
+          "id": "options-uncertain",
+          "searchBoxLTRBInclusive": [
+            164,
+            21,
+            186,
+            43
+          ],
+          "shape": "bright-ui-contour",
+          "rule": "minRGB>=90 && maxRGB-minRGB<=35",
+          "seedPixels": 12,
+          "maskedPixelsAfterDilation": 55,
+          "dilationRadius": 1
+        },
+        {
+          "id": "counter-1-of-8",
+          "shape": "rounded-rect",
+          "boxLTRBInclusive": [
+            159,
+            130,
+            182,
+            148
+          ],
+          "radius": 9,
+          "note": "Whole pill UI removed; counter remains native UI, not eight supplied photos."
+        }
+      ],
+      "outerMask": {
+        "shape": "top-rounded-panel",
+        "radius": 12,
+        "roundedRectExtendedBelowCrop": [
+          0,
+          0,
+          191,
+          167
+        ]
+      },
+      "limitations": "Status/controls/count have transparent holes; co-register native UI over them. Source photo has limited resolution; no missing pixels reconstructed."
+    },
+    "thumb-01.png": {
+      "cropGlobalLTRBExclusive": [
+        639,
+        157,
+        690,
+        205
+      ],
+      "cropPanelLocalLTRBExclusive": [
+        5,
+        157,
+        56,
+        205
+      ],
+      "size": [
+        51,
+        48
+      ],
+      "visiblePixelsSourceExact": 2242,
+      "transparentPixelsRgbZero": 206,
+      "sha256": "dbe616c1ed2aa7df28e3addb83966aff9804ad115c591407c0705ed79ea91e3a",
+      "partial": false,
+      "frameAlphaRemoval": {
+        "roundedRectBoundsLTRBInclusive": [
+          1,
+          1,
+          49,
+          46
+        ],
+        "radius": 3,
+        "trimPixels": 1,
+        "rightEdgeClipped": false
+      },
+      "limitations": "Complete thumbnail as visible in panel; thin UI frame excluded by alpha."
+    },
+    "thumb-02.png": {
+      "cropGlobalLTRBExclusive": [
+        693,
+        157,
+        745,
+        205
+      ],
+      "cropPanelLocalLTRBExclusive": [
+        59,
+        157,
+        111,
+        205
+      ],
+      "size": [
+        52,
+        48
+      ],
+      "visiblePixelsSourceExact": 2100,
+      "transparentPixelsRgbZero": 396,
+      "sha256": "c67a1166c63ea2f33bfbb84db6ede43af4720bbb9660550a5af6002e9876bcee",
+      "partial": false,
+      "frameAlphaRemoval": {
+        "roundedRectBoundsLTRBInclusive": [
+          2,
+          2,
+          49,
+          45
+        ],
+        "radius": 3,
+        "trimPixels": 2,
+        "rightEdgeClipped": false
+      },
+      "limitations": "Complete thumbnail as visible in panel; thin UI frame excluded by alpha."
+    },
+    "thumb-03.png": {
+      "cropGlobalLTRBExclusive": [
+        748,
+        157,
+        800,
+        205
+      ],
+      "cropPanelLocalLTRBExclusive": [
+        114,
+        157,
+        166,
+        205
+      ],
+      "size": [
+        52,
+        48
+      ],
+      "visiblePixelsSourceExact": 2288,
+      "transparentPixelsRgbZero": 208,
+      "sha256": "da65542e37b6bae3ae3e5d254bceaf861ed0ef7fa4192c9f54578e9cbb71dc61",
+      "partial": false,
+      "frameAlphaRemoval": {
+        "roundedRectBoundsLTRBInclusive": [
+          1,
+          1,
+          50,
+          46
+        ],
+        "radius": 3,
+        "trimPixels": 1,
+        "rightEdgeClipped": false
+      },
+      "limitations": "Complete thumbnail as visible in panel; thin UI frame excluded by alpha."
+    },
+    "thumb-04-parcial.png": {
+      "cropGlobalLTRBExclusive": [
+        803,
+        157,
+        826,
+        205
+      ],
+      "cropPanelLocalLTRBExclusive": [
+        169,
+        157,
+        192,
+        205
+      ],
+      "size": [
+        23,
+        48
+      ],
+      "visiblePixelsSourceExact": 1006,
+      "transparentPixelsRgbZero": 98,
+      "sha256": "f7b9841fcfc56184519dd06313569099ef68df9139138cd377e5e51c3a7fe3a0",
+      "partial": true,
+      "frameAlphaRemoval": {
+        "roundedRectBoundsLTRBInclusive": [
+          1,
+          1,
+          26,
+          46
+        ],
+        "radius": 3,
+        "trimPixels": 1,
+        "rightEdgeClipped": true
+      },
+      "limitations": "Partial visible fourth image only, no hidden right side recovered."
+    }
+  },
+  "icons": {
+    "voltar.svg": {
+      "source": "MODEL_tela_03_V2/assets/icons/voltar.svg",
+      "reuse": "byte-identical copy",
+      "sha256": "39dd2079f19f719c56bb9bc37fdbc94c46e1d1b2651e191dd0c3539a726e53d4"
+    },
+    "verificado.svg": {
+      "source": "MODEL_tela_03_V2/assets/icons/verificado.svg",
+      "reuse": "byte-identical copy",
+      "sha256": "53616d75a8938e7afb6cd038e4d13ccdd2bfc33ebd1822d2ff0e8ec2cc77d25f"
+    },
+    "opcoes.svg": {
+      "source": "Manual vector approximation from small official panel04",
+      "sha256": "3447f0cb12f25c30063d296d74a270d1d96cddbf5489a58b8c8f36b4af8c35d1",
+      "uncertainty": "Top-right mark resembles a reticle/cross, not provably original options glyph; no visible label invented."
+    },
+    "compartilhar.svg": {
+      "source": "Manual vector approximation from small official panel04",
+      "sha256": "4023b5e5ee1f3cf677a97b614da703b4ffc052e2be8f1ad7af947052f9aac8e3",
+      "uncertainty": "Vector shape approximated; original vector unavailable."
+    },
+    "salvar.svg": {
+      "source": "Manual vector approximation from small official panel04",
+      "sha256": "e74797ddd29d545b601d59173d74257708a126be3e8e325b6affbaa9712acc16",
+      "uncertainty": "Vector shape approximated; original vector unavailable."
+    },
+    "aviao.svg": {
+      "source": "Manual vector approximation from small official panel04",
+      "sha256": "606fa523772034a4d8d4c3a052379e458611be34e683dd9f0a28438d0802032b",
+      "uncertainty": "Vector shape approximated; original vector unavailable."
+    }
+  }
+}

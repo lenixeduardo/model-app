@@ -23,8 +23,9 @@ Fila de agentes: [planejamento → assets → implementação → auditoria](doc
 ## Estado das demais telas
 - Tela01 — Login: referência disponível; autenticação não integrada.
 - Tela02 — Descobrir: V3 mencionada no handoff, código ainda não recebido.
-- Tela04 — Perfil do modelo: planejamento liberado e iniciado após aceite da03.
-- Telas05–11: aguardam aprovação da tela anterior.
+- Tela04 — Perfil do modelo: **aprovada9,30/10**, versão1.0.0-prototipo.1. [Auditoria](MODEL_tela_04_V1/AUDITORIA.md).
+- Tela05 — Portfólio: planejamento liberado e iniciado após aceite04.
+- Telas06–11: aguardam aprovação da tela anterior.
 
 ## Arquivos
 - MODEL_tela_03_V2/: implementação, assets, screenshots, comparação, especificação, auditoria, changelog e scripts reproduzíveis.

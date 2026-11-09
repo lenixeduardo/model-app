@@ -1,0 +1,374 @@
+{
+  "DPR": 1,
+  "viewports": [
+    {
+      "size": [
+        375,
+        812
+      ],
+      "document": [
+        375,
+        812
+      ],
+      "images": [
+        {
+          "src": "assets/hero-enzo-perfil.png",
+          "loaded": true,
+          "fit": "cover"
+        },
+        {
+          "src": "assets/icons/voltar.svg",
+          "loaded": true,
+          "fit": "fill"
+        },
+        {
+          "src": "assets/icons/opcoes.svg",
+          "loaded": true,
+          "fit": "fill"
+        },
+        {
+          "src": "assets/thumb-01.png",
+          "loaded": true,
+          "fit": "cover"
+        },
+        {
+          "src": "assets/thumb-02.png",
+          "loaded": true,
+          "fit": "cover"
+        },
+        {
+          "src": "assets/thumb-03.png",
+          "loaded": true,
+          "fit": "cover"
+        },
+        {
+          "src": "assets/thumb-04-parcial.png",
+          "loaded": true,
+          "fit": "cover"
+        },
+        {
+          "src": "assets/icons/verificado.svg",
+          "loaded": true,
+          "fit": "fill"
+        },
+        {
+          "src": "assets/icons/compartilhar.svg",
+          "loaded": true,
+          "fit": "fill"
+        },
+        {
+          "src": "assets/icons/salvar.svg",
+          "loaded": true,
+          "fit": "fill"
+        },
+        {
+          "src": "assets/icons/aviao.svg",
+          "loaded": true,
+          "fit": "fill"
+        }
+      ],
+      "targets": [
+        {
+          "label": "Voltar",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "Mais opções",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "Ver foto 1",
+          "width": 99.609375,
+          "height": 96.484375
+        },
+        {
+          "label": "Ver foto 2",
+          "width": 101.5625,
+          "height": 96.484375
+        },
+        {
+          "label": "Ver foto 3",
+          "width": 101.5625,
+          "height": 96.484375
+        },
+        {
+          "label": "Ver recorte parcial da foto 4",
+          "width": 44.921875,
+          "height": 96.484375
+        },
+        {
+          "label": "Compartilhar perfil",
+          "width": 44.921875,
+          "height": 48.234375
+        },
+        {
+          "label": "Salvar perfil",
+          "width": 44.921875,
+          "height": 48.234375
+        },
+        {
+          "label": "Solicitar contato",
+          "width": 185.546875,
+          "height": 48.234375
+        },
+        {
+          "label": "Opções de mensagem",
+          "width": 44.921875,
+          "height": 48.234375
+        }
+      ],
+      "reducedMotion": true,
+      "errors": [],
+      "networkErrors": [],
+      "actions": "save, 4 photo crops, contact/share/options/send dialogs, Escape, return focus and real back passed"
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "document": [
+        390,
+        844
+      ],
+      "images": [
+        {
+          "src": "assets/hero-enzo-perfil.png",
+          "loaded": true,
+          "fit": "cover"
+        },
+        {
+          "src": "assets/icons/voltar.svg",
+          "loaded": true,
+          "fit": "fill"
+        },
+        {
+          "src": "assets/icons/opcoes.svg",
+          "loaded": true,
+          "fit": "fill"
+        },
+        {
+          "src": "assets/thumb-01.png",
+          "loaded": true,
+          "fit": "cover"
+        },
+        {
+          "src": "assets/thumb-02.png",
+          "loaded": true,
+          "fit": "cover"
+        },
+        {
+          "src": "assets/thumb-03.png",
+          "loaded": true,
+          "fit": "cover"
+        },
+        {
+          "src": "assets/thumb-04-parcial.png",
+          "loaded": true,
+          "fit": "cover"
+        },
+        {
+          "src": "assets/icons/verificado.svg",
+          "loaded": true,
+          "fit": "fill"
+        },
+        {
+          "src": "assets/icons/compartilhar.svg",
+          "loaded": true,
+          "fit": "fill"
+        },
+        {
+          "src": "assets/icons/salvar.svg",
+          "loaded": true,
+          "fit": "fill"
+        },
+        {
+          "src": "assets/icons/aviao.svg",
+          "loaded": true,
+          "fit": "fill"
+        }
+      ],
+      "targets": [
+        {
+          "label": "Voltar",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "Mais opções",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "Ver foto 1",
+          "width": 103.59375,
+          "height": 100.296875
+        },
+        {
+          "label": "Ver foto 2",
+          "width": 105.625,
+          "height": 100.296875
+        },
+        {
+          "label": "Ver foto 3",
+          "width": 105.625,
+          "height": 100.296875
+        },
+        {
+          "label": "Ver recorte parcial da foto 4",
+          "width": 46.71875,
+          "height": 100.296875
+        },
+        {
+          "label": "Compartilhar perfil",
+          "width": 46.71875,
+          "height": 50.125
+        },
+        {
+          "label": "Salvar perfil",
+          "width": 46.71875,
+          "height": 50.125
+        },
+        {
+          "label": "Solicitar contato",
+          "width": 192.96875,
+          "height": 50.125
+        },
+        {
+          "label": "Opções de mensagem",
+          "width": 46.71875,
+          "height": 50.125
+        }
+      ],
+      "reducedMotion": true,
+      "errors": [],
+      "networkErrors": [],
+      "actions": "save, 4 photo crops, contact/share/options/send dialogs, Escape, return focus and real back passed"
+    },
+    {
+      "size": [
+        430,
+        932
+      ],
+      "document": [
+        430,
+        932
+      ],
+      "images": [
+        {
+          "src": "assets/hero-enzo-perfil.png",
+          "loaded": true,
+          "fit": "cover"
+        },
+        {
+          "src": "assets/icons/voltar.svg",
+          "loaded": true,
+          "fit": "fill"
+        },
+        {
+          "src": "assets/icons/opcoes.svg",
+          "loaded": true,
+          "fit": "fill"
+        },
+        {
+          "src": "assets/thumb-01.png",
+          "loaded": true,
+          "fit": "cover"
+        },
+        {
+          "src": "assets/thumb-02.png",
+          "loaded": true,
+          "fit": "cover"
+        },
+        {
+          "src": "assets/thumb-03.png",
+          "loaded": true,
+          "fit": "cover"
+        },
+        {
+          "src": "assets/thumb-04-parcial.png",
+          "loaded": true,
+          "fit": "cover"
+        },
+        {
+          "src": "assets/icons/verificado.svg",
+          "loaded": true,
+          "fit": "fill"
+        },
+        {
+          "src": "assets/icons/compartilhar.svg",
+          "loaded": true,
+          "fit": "fill"
+        },
+        {
+          "src": "assets/icons/salvar.svg",
+          "loaded": true,
+          "fit": "fill"
+        },
+        {
+          "src": "assets/icons/aviao.svg",
+          "loaded": true,
+          "fit": "fill"
+        }
+      ],
+      "targets": [
+        {
+          "label": "Voltar",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "Mais opções",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "Ver foto 1",
+          "width": 114.21875,
+          "height": 110.75
+        },
+        {
+          "label": "Ver foto 2",
+          "width": 116.453125,
+          "height": 110.75
+        },
+        {
+          "label": "Ver foto 3",
+          "width": 116.453125,
+          "height": 110.75
+        },
+        {
+          "label": "Ver recorte parcial da foto 4",
+          "width": 51.5,
+          "height": 110.75
+        },
+        {
+          "label": "Compartilhar perfil",
+          "width": 51.5,
+          "height": 55.359375
+        },
+        {
+          "label": "Salvar perfil",
+          "width": 51.5,
+          "height": 55.359375
+        },
+        {
+          "label": "Solicitar contato",
+          "width": 212.796875,
+          "height": 55.359375
+        },
+        {
+          "label": "Opções de mensagem",
+          "width": 51.5,
+          "height": 55.359375
+        }
+      ],
+      "reducedMotion": true,
+      "errors": [],
+      "networkErrors": [],
+      "actions": "save, 4 photo crops, contact/share/options/send dialogs, Escape, return focus and real back passed"
+    }
+  ]
+}

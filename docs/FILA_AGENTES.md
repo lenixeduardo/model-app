@@ -7,8 +7,8 @@ Atualização: 2026-11-09. Regra atual do usuário: prosseguir tela a tela, com 
 | Ordem | Tela | Estado | Dependência para iniciar |
 |---|---|---|---|
 | 1 | 03 — Swipe / Descobrir | **APROVADA VISUALMENTE:9,13/10**, V2 **2.0.0-prototipo.7**, auditor03 concluído com três capturas finais e comparação. Sem P1 material no perfil estático de Enzo; P2 e limite das legendas raster documentados. | Gate >9,0 atingido. Preservar pacote/evidências da versão aprovada e seguir para planejador04. |
-| 2 | 04 — Perfil do modelo | **Liberada para planejamento e implementação**, ainda não iniciada pelo auditor. | Aceite03 concluído. Próxima etapa: planejador04→assets04→implementador04→auditor04, com nova auditoria própria. |
-| 3 | 05 — Portfólio | Não iniciada. | Aprovação documentada da Tela 04. |
+| 2 | 04 — Perfil do modelo | **APROVADA VISUALMENTE:9,30/10**, V1 **1.0.0-prototipo.1**; auditor04 independente concluído, soma9,295 e nenhum P1 material. | Gate04>9,0 atingido; evidências e limites em MODEL_tela_04_V1/AUDITORIA.md. Preservar03/04 aprovadas; próximo papel planejador05. |
+| 3 | 05 — Portfólio | Liberada para planejamento; não iniciada nesta auditoria. | Tela04 aprovada9,30/10; seguir planejador→assets→implementador→auditor05. |
 | 4 | 06 — Chat / Negociação | Não iniciada. | Aprovação documentada da Tela 05. |
 | 5 | 07 — Castings | Não iniciada. | Aprovação documentada da Tela 06. |
 | 6 | 08 — Filtros | Não iniciada. | Aprovação documentada da Tela 07. |
@@ -66,3 +66,24 @@ A autorização de gerar assets não é prova de que existe a fotografia integra
 - **Próxima ação: planejador04.** Tela04 está liberada para seu planejamento e implementação. O auditor não iniciou essa etapa nem publicou a V2; o coordenador deve preservar/publicar código, assets e evidências correspondentes à versão aprovada.
 - Histórico: ciclo4:7,84; ciclo5:8,72; ciclo6:8,92; ciclo7:9,13. A nota7 não decorre do progresso obrigatório: as imagens finais foram avaliadas novamente. Ela não se transfere à Tela04 ou a qualquer outra implementação.
 - As telas05–11 continuam aguardando seus gates sequenciais próprios.
+
+## Estágio04 — planejamento entregue
+
+- Referência04 e mockup geral abertos; medidas, conteúdo legível e incertezas documentados em `MODEL_tela_04_V1/DESIGN_SPEC.md`.
+- Plano executável em `MODEL_tela_04_V1/PLANO.md`; sem código, assets novos ou nota nesta etapa.
+- Assets04 concluído: hero monocromático correto e três thumbs completas+quarta parcial extraídos, seis SVGs locais e máscaras/proveniência em `MODEL_tela_04_V1/ASSETS.md` e `assets/manifest.json`. Tipografia sobre branco permanece nativa.
+- Próximo papel: implementador04, seguido de auditor04 independente. A aprovação da03 não é nota da04; gate04 permanece>9,0.
+- Tela05 e seguintes aguardam o gate próprio04; nenhum conteúdo05 foi planejado.
+
+## Estágio04 — implementação técnica pronta
+
+- Versão `1.0.0-prototipo.1`: HTML/CSS/JS independentes em `MODEL_tela_04_V1/`; assets recebidos preservados, bio com “editoriais”, sem alterações à03 aprovada.
+- Candidato390 inspecionado antes das três capturas finais375×812,390×844,430×932. `render.py`, `compare.py`, `relatorio-browser.json` e `comparacao-390.png` entregues; testes de carregamento/console/rede/overflow/alvos/ações/foco/back passaram no Chromium real DPR1.
+- Próximo papel: **auditor04 independente**. Sem nota ou publicação nesta etapa. Tela05 permanece bloqueada até gate04>9,0 e ausência de bloqueadores.
+
+## Estágio04 — auditor independente concluído
+
+- **APROVADA VISUALMENTE:9,30/10**, soma ponderada9,295; versão1.0.0-prototipo.1. Meta9,5 não atingida; gate>9,0 atingido, nenhum P1 material.
+- Auditor abriu referência04, três screenshots reais e comparação; conferiu dimensões, hashes, correspondência integral da captura390 com a comparação e RGB preservado dos cinco crops. Relatório técnico do implementador revisado; não houve reteste independente em browser.
+- Evidências, notas, P2 de contador/tipografia/ícones e limites de safe-area/dispositivos em [AUDITORIA04](../MODEL_tela_04_V1/AUDITORIA.md). Nenhum código, asset, screenshot ou arquivo03 foi alterado nesta auditoria.
+- **Próximo papel: planejador05**, autorizado pelo gate04. A05 não foi iniciada e não houve publicação. Registros anteriores de bloqueio04 acima são históricos e ficam superados por esta decisão.
