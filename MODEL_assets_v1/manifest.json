@@ -1,0 +1,212 @@
+[
+  {
+    "file": "referencias/01-splash.png",
+    "source": "originais/mockup-geral.jpg",
+    "crop": [
+      11,
+      0,
+      199,
+      404
+    ],
+    "size": [
+      188,
+      404
+    ],
+    "role": "Referência raster com interface incorporada; não usar como fotografia de fundo."
+  },
+  {
+    "file": "referencias/02-descoberta.png",
+    "source": "originais/mockup-geral.jpg",
+    "crop": [
+      210,
+      0,
+      409,
+      404
+    ],
+    "size": [
+      199,
+      404
+    ],
+    "role": "Referência raster com interface incorporada; não usar como fotografia de fundo."
+  },
+  {
+    "file": "referencias/03-swipe.png",
+    "source": "originais/mockup-geral.jpg",
+    "crop": [
+      420,
+      0,
+      623,
+      404
+    ],
+    "size": [
+      203,
+      404
+    ],
+    "role": "Referência raster com interface incorporada; não usar como fotografia de fundo."
+  },
+  {
+    "file": "referencias/04-perfil-modelo.png",
+    "source": "originais/mockup-geral.jpg",
+    "crop": [
+      634,
+      0,
+      826,
+      404
+    ],
+    "size": [
+      192,
+      404
+    ],
+    "role": "Referência raster com interface incorporada; não usar como fotografia de fundo."
+  },
+  {
+    "file": "referencias/05-portfolio.png",
+    "source": "originais/mockup-geral.jpg",
+    "crop": [
+      836,
+      0,
+      1008,
+      404
+    ],
+    "size": [
+      172,
+      404
+    ],
+    "role": "Referência raster com interface incorporada; não usar como fotografia de fundo."
+  },
+  {
+    "file": "referencias/06-chat.png",
+    "source": "originais/mockup-geral.jpg",
+    "crop": [
+      1018,
+      0,
+      1174,
+      404
+    ],
+    "size": [
+      156,
+      404
+    ],
+    "role": "Referência raster com interface incorporada; não usar como fotografia de fundo."
+  },
+  {
+    "file": "referencias/07-castings.png",
+    "source": "originais/mockup-geral.jpg",
+    "crop": [
+      11,
+      434,
+      212,
+      751
+    ],
+    "size": [
+      201,
+      317
+    ],
+    "role": "Referência raster com interface incorporada; não usar como fotografia de fundo."
+  },
+  {
+    "file": "referencias/08-filtros.png",
+    "source": "originais/mockup-geral.jpg",
+    "crop": [
+      220,
+      434,
+      420,
+      751
+    ],
+    "size": [
+      200,
+      317
+    ],
+    "role": "Referência raster com interface incorporada; não usar como fotografia de fundo."
+  },
+  {
+    "file": "referencias/09-salvos.png",
+    "source": "originais/mockup-geral.jpg",
+    "crop": [
+      428,
+      434,
+      604,
+      751
+    ],
+    "size": [
+      176,
+      317
+    ],
+    "role": "Referência raster com interface incorporada; não usar como fotografia de fundo."
+  },
+  {
+    "file": "referencias/10-meu-perfil.png",
+    "source": "originais/mockup-geral.jpg",
+    "crop": [
+      612,
+      434,
+      797,
+      751
+    ],
+    "size": [
+      185,
+      317
+    ],
+    "role": "Referência raster com interface incorporada; não usar como fotografia de fundo."
+  },
+  {
+    "file": "referencias/11-notificacoes.png",
+    "source": "originais/mockup-geral.jpg",
+    "crop": [
+      805,
+      434,
+      989,
+      751
+    ],
+    "size": [
+      184,
+      317
+    ],
+    "role": "Referência raster com interface incorporada; não usar como fotografia de fundo."
+  },
+  {
+    "file": "referencias/painel-editorial.png",
+    "source": "originais/mockup-geral.jpg",
+    "crop": [
+      997,
+      435,
+      1173,
+      752
+    ],
+    "size": [
+      176,
+      317
+    ],
+    "role": "Referência raster com interface incorporada; não usar como fotografia de fundo."
+  },
+  {
+    "file": "assets/enzo-retrato-parcial.png",
+    "source": "originais/mockup-geral.jpg",
+    "crop": [
+      421,
+      28,
+      622,
+      270
+    ],
+    "size": [
+      201,
+      242
+    ],
+    "role": "Trecho visível sem controles/textos; fotografia parcial, não é fundo integral."
+  },
+  {
+    "file": "referencias/referencia-tela-03.png",
+    "source": "originais/mockup-geral.jpg",
+    "crop": [
+      420,
+      0,
+      623,
+      404
+    ],
+    "size": [
+      203,
+      404
+    ],
+    "role": "Referência oficial isolada com interface incorporada."
+  }
+]
