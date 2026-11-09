@@ -9,8 +9,8 @@ Atualização: 2026-11-09. Regra atual do usuário: prosseguir tela a tela, com 
 | 1 | 03 — Swipe / Descobrir | **APROVADA VISUALMENTE:9,13/10**, V2 **2.0.0-prototipo.7**, auditor03 concluído com três capturas finais e comparação. Sem P1 material no perfil estático de Enzo; P2 e limite das legendas raster documentados. | Gate >9,0 atingido. Preservar pacote/evidências da versão aprovada e seguir para planejador04. |
 | 2 | 04 — Perfil do modelo | **APROVADA VISUALMENTE:9,30/10**, V1 **1.0.0-prototipo.1**; auditor04 independente concluído, soma9,295 e nenhum P1 material. | Gate04>9,0 atingido; evidências e limites em MODEL_tela_04_V1/AUDITORIA.md. Preservar03/04 aprovadas; próximo papel planejador05. |
 | 3 | 05 — Portfólio | **APROVADA VISUALMENTE:9,34/10**, V1 **1.0.0-prototipo.1**; auditor05 independente concluído, soma9,335 e nenhum P1 material. | Gate05>9,0 atingido; preservar03/04/05 e evidências. Próximo papel planejador06 LIBERADO. |
-| 4 | 06 — Chat / Negociação | **Planejamento LIBERADO; não iniciado.** | Tela05 aprovada9,34/10; iniciar pelo planejador06. |
-| 5 | 07 — Castings | Não iniciada. | Aprovação documentada da Tela 06. |
+| 4 | 06 — Chat / Negociação | **APROVADA VISUALMENTE:9,28/10**, V1 **1.0.0-prototipo.1**; auditor06 independente concluído, soma9,275 e nenhum P1 material. | Gate06>9,0 atingido; preservar03/04/05/06 e evidências. Próximo papel planejador07 LIBERADO. |
+| 5 | 07 — Castings | Não iniciada; **planejador07 LIBERADO**. | Gate06 aprovado9,28/10; executar quatro papéis próprios07. |
 | 6 | 08 — Filtros | Não iniciada. | Aprovação documentada da Tela 07. |
 | 7 | 09 — Salvos | Não iniciada. | Aprovação documentada da Tela 08. |
 | 8 | 10 — Meu perfil | Não iniciada. | Aprovação documentada da Tela 09. |
@@ -107,3 +107,31 @@ A autorização de gerar assets não é prova de que existe a fotografia integra
 - Referência, três screenshots e comparação abertos via view_image; dimensões raw, hashes e colagem conferidos. Sete crops RGB idênticos à fonte oficial, cinco caixas completas e dois parciais, sem extensão inventada.
 - Relatório real do implementador revisado; auditor não executou segunda renderização/browser. P2 e limites em [AUDITORIA05](../MODEL_tela_05_V1/AUDITORIA.md).
 - **Estágio auditor05 concluído. Próximo papel: planejador06 LIBERADO.** Nenhum planejamento06, publicação ou alteração03/04 realizada pelo auditor. Registros anteriores de bloqueio05 são históricos, superados por esta decisão.
+
+## Estágio06 — planejamento entregue
+
+- Referência06 e mockup geral abertos; painel global `[1018,0,1174,404]`,156×404, confirmado RGB idêntico à referência (bbox de diferença=None).
+- Geometria, redação/horas originais, card de campanha, avatares, escritório, ícones, tipografia nativa e limites de proporção em `MODEL_tela_06_V1/DESIGN_SPEC.md`; sequência em `MODEL_tela_06_V1/PLANO.md`.
+- Interações locais: voltar05 aprovada, dialogs telefone/opções/detalhes/imagem/clipe e envio somente em memória; sem backend/envio externo, contato ou conteúdo oculto inventado.
+- **Planejador06 concluído. Próximo papel: assets06 LIBERADO**, seguido de implementador06 e auditor06 independente. Sem assets novos, implementação, capturas, nota ou publicação nesta etapa;03/04/05 preservadas.
+- Tela07 e seguintes aguardam gate próprio06>9,0; meta9,5.
+
+## Estágio06 — assets entregues
+
+- Quatro PNGs RGBA originais: header e dois avatares recebidos preservados separadamente, mais escritório134×44. Dois avatares pequenos mostram a mesma identidade visual, mas não são RGB idênticos; sem deduplicação presumida.
+- Painel global[1018,0,1174,404] idêntico à referência; todos pixels com alpha>0 mantêm RGB original; RGB oculto zero. Máscaras geométricas conservadoras, sem reconstrução de pixels ou UI incorporada.
+- Onze SVGs locais aproximados, títulos acessíveis; incertezas dos pequenos pictogramas documentadas. ASSETS.md, assets/manifest.json e assets/extract_assets.py registram hashes, boxes, testes e limites.
+- **Assets06 concluído. Próximo papel: implementador06 LIBERADO**, depois auditor06 independente; gate06>9,0 ainda pendente.03/04/05 preservadas; sem interface, capturas, nota ou publicação neste papel.07 permanece bloqueada.
+
+## Estágio06 — implementação entregue
+
+- Versão1.0.0-prototipo.1 em `MODEL_tela_06_V1/`: HTML/CSS/JS nativos, assets originais separados, compositor somente em memória e dialogs locais; retorno real05.
+- Candidata390 inspecionada antes das três capturas finais375×812,390×844,430×932. Testes Chromium DPR1 verdes; relatório, comparação proporcional, documentação e evidências entregues. Sem overflow inicial, erros de console/rede externa ou recursos ausentes no contexto normal; falha de fotos/reduced-motion verificada separadamente.
+- **Implementador06 concluído. Próximo papel: auditor06 independente.** Nenhuma nota ou publicação;07 aguarda gate06>9,0. Pacotes03/04/05 preservados.
+
+## Estágio06 — auditor independente concluído
+
+- **APROVADA VISUALMENTE:9,28/10**, soma9,275; versão1.0.0-prototipo.1. Meta9,5 não atingida; gate>9,0 atingido e nenhum P1 material.
+- Referência, três capturas raw e comparação abertas via view_image; dimensões, hashes atuais, colagem exata390 e RGB dos quatro crops conferidos independentemente.
+- Evidência técnica do implementador revisada, sem segunda navegação/browser pelo auditor. P2: foto proporcional exige conteúdo de card compacto, último avatar≈20px alto, diferenças de fonte/ícones e acabamento. Limites completos em [AUDITORIA06](../MODEL_tela_06_V1/AUDITORIA.md).
+- **Auditor06 concluído. Próximo papel: planejador07 LIBERADO.**03/04/05 preservadas; código/assets/capturas06 intactos; sem publicação ou início07 nesta auditoria. Registros anteriores de bloqueio06 são históricos e superados por esta decisão.

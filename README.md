@@ -25,8 +25,9 @@ Fila de agentes: [planejamento → assets → implementação → auditoria](doc
 - Tela02 — Descobrir: V3 mencionada no handoff, código ainda não recebido.
 - Tela04 — Perfil do modelo: **aprovada9,30/10**, versão1.0.0-prototipo.1. [Auditoria](MODEL_tela_04_V1/AUDITORIA.md).
 - Tela05 — Portfólio: **aprovada9,34/10**, versão1.0.0-prototipo.1. [Auditoria](MODEL_tela_05_V1/AUDITORIA.md).
-- Tela06 — Chat/Negociação: planejamento liberado após aceite05.
-- Telas07–11: aguardam aprovação da tela anterior.
+- Tela06 — Chat/Negociação: **aprovada9,28/10**, versão1.0.0-prototipo.1. [Auditoria](MODEL_tela_06_V1/AUDITORIA.md).
+- Tela07 — Castings: planejamento liberado após aceite06.
+- Telas08–11: aguardam aprovação da tela anterior.
 
 ## Arquivos
 - MODEL_tela_03_V2/: implementação, assets, screenshots, comparação, especificação, auditoria, changelog e scripts reproduzíveis.

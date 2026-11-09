@@ -1,0 +1,369 @@
+{
+  "DPR": 1,
+  "viewports": [
+    {
+      "viewport": [
+        375,
+        812
+      ],
+      "document": [
+        375,
+        812
+      ],
+      "conversation": [
+        624,
+        624
+      ],
+      "images": [
+        {
+          "src": "assets/avatar-header.png",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            22,
+            22
+          ],
+          "render": [
+            52.875,
+            52.875
+          ]
+        },
+        {
+          "src": "assets/avatar-received-first.png",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            18,
+            19
+          ],
+          "render": [
+            43.265625,
+            45.671875
+          ]
+        },
+        {
+          "src": "assets/campaign-office.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            134,
+            44
+          ],
+          "render": [
+            322.09375,
+            105.75
+          ]
+        },
+        {
+          "src": "assets/avatar-received-last.png",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            18,
+            19
+          ],
+          "render": [
+            43.265625,
+            45.671875
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "name": "back",
+          "width": 57,
+          "height": 44
+        },
+        {
+          "name": "phone",
+          "width": 52.359375,
+          "height": 44
+        },
+        {
+          "name": "options",
+          "width": 52.359375,
+          "height": 44
+        },
+        {
+          "name": "office",
+          "width": 322.09375,
+          "height": 105.75
+        },
+        {
+          "name": "details",
+          "width": 286.09375,
+          "height": 44
+        },
+        {
+          "name": "attachment",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "message",
+          "width": 236.953125,
+          "height": 44
+        },
+        {
+          "name": "send",
+          "width": 50.625,
+          "height": 50.625
+        }
+      ],
+      "errors": [],
+      "networkErrors": [],
+      "externalRequests": [],
+      "actions": "Five panels via keyboard; focus trapped/restored; Escape; empty/common/literal/long sends; memory reset; real back05 passed"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "document": [
+        390,
+        844
+      ],
+      "conversation": [
+        649,
+        649
+      ],
+      "images": [
+        {
+          "src": "assets/avatar-header.png",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            22,
+            22
+          ],
+          "render": [
+            54.984375,
+            54.984375
+          ]
+        },
+        {
+          "src": "assets/avatar-received-first.png",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            18,
+            19
+          ],
+          "render": [
+            45,
+            47.5
+          ]
+        },
+        {
+          "src": "assets/campaign-office.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            134,
+            44
+          ],
+          "render": [
+            335,
+            110
+          ]
+        },
+        {
+          "src": "assets/avatar-received-last.png",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            18,
+            19
+          ],
+          "render": [
+            45,
+            47.5
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "name": "back",
+          "width": 59.28125,
+          "height": 44
+        },
+        {
+          "name": "phone",
+          "width": 54.453125,
+          "height": 44
+        },
+        {
+          "name": "options",
+          "width": 54.453125,
+          "height": 44
+        },
+        {
+          "name": "office",
+          "width": 335,
+          "height": 110
+        },
+        {
+          "name": "details",
+          "width": 297.5625,
+          "height": 44
+        },
+        {
+          "name": "attachment",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "message",
+          "width": 248.234375,
+          "height": 44
+        },
+        {
+          "name": "send",
+          "width": 52.640625,
+          "height": 52.640625
+        }
+      ],
+      "errors": [],
+      "networkErrors": [],
+      "externalRequests": [],
+      "actions": "Five panels via keyboard; focus trapped/restored; Escape; empty/common/literal/long sends; memory reset; real back05 passed"
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "document": [
+        430,
+        932
+      ],
+      "conversation": [
+        717,
+        717
+      ],
+      "images": [
+        {
+          "src": "assets/avatar-header.png",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            22,
+            22
+          ],
+          "render": [
+            60.625,
+            60.625
+          ]
+        },
+        {
+          "src": "assets/avatar-received-first.png",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            18,
+            19
+          ],
+          "render": [
+            49.609375,
+            52.359375
+          ]
+        },
+        {
+          "src": "assets/campaign-office.png",
+          "loaded": true,
+          "fit": "cover",
+          "natural": [
+            134,
+            44
+          ],
+          "render": [
+            369.34375,
+            121.265625
+          ]
+        },
+        {
+          "src": "assets/avatar-received-last.png",
+          "loaded": true,
+          "fit": "contain",
+          "natural": [
+            18,
+            19
+          ],
+          "render": [
+            49.609375,
+            52.359375
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "name": "back",
+          "width": 65.359375,
+          "height": 44
+        },
+        {
+          "name": "phone",
+          "width": 60.046875,
+          "height": 44
+        },
+        {
+          "name": "options",
+          "width": 60.046875,
+          "height": 44
+        },
+        {
+          "name": "office",
+          "width": 369.34375,
+          "height": 121.265625
+        },
+        {
+          "name": "details",
+          "width": 328.09375,
+          "height": 44
+        },
+        {
+          "name": "attachment",
+          "width": 45.109375,
+          "height": 44
+        },
+        {
+          "name": "message",
+          "width": 277.125,
+          "height": 44
+        },
+        {
+          "name": "send",
+          "width": 58,
+          "height": 58
+        }
+      ],
+      "errors": [],
+      "networkErrors": [],
+      "externalRequests": [],
+      "actions": "Five panels via keyboard; focus trapped/restored; Escape; empty/common/literal/long sends; memory reset; real back05 passed"
+    }
+  ],
+  "version": "1.0.0-prototipo.1",
+  "browser": "156.0.8078.79",
+  "fallback": {
+    "separateContext": true,
+    "reducedMotion": true,
+    "failedPhotos": 4,
+    "composerAndPanel": true
+  },
+  "sha256": {
+    "comparacao-390.png": "eb681be84a7c2211ad0591b6cefb2c747a7972d4ea90cf0e94bc341c502b492a",
+    "index.html": "c5a62e04807adcb9a2bb09b192cb1aa715910f1aeed925fb5b05674ca9789550",
+    "candidato-390.png": "6c00f65f51660467777c309fd34e0e1ba0b1d22d75387107c0be8ef018f1bdf1",
+    "styles.css": "8f957776f3db962ded2696b5463d087397cb3ceca24c53055694e939a14dc622",
+    "app.js": "ccadd36d45d5425d193b4c61369192e4ce8e2fe1bac2e754409ecea719e5e355",
+    "assets/avatar-received-first.png": "8bef69b99c8edcab97f8e966d68b4c44ba146dfbb6e410d728d41a7cba3ed244",
+    "assets/avatar-header.png": "fc4f7eb88e25e5b9b8d0e30c18fbd14266403cc2310491a9642fb7985c6ac738",
+    "assets/avatar-received-last.png": "826f642277d26796703ad609e95b3b81f11b47b310ae649e74f6b5778ed5d066",
+    "assets/campaign-office.png": "c44df16320d00cecd715108f74cb96a1f58ed26e222493c55615ce8d73abca65",
+    "screenshots/430x932.png": "8116aac22690ba216934e1d6cddb417217a59bfe4c86b90226b052d34cc49e2e",
+    "screenshots/375x812.png": "28f64c6b1955907564a1daaf391bdd9328fb3ae5f3fbe93c91d56827e044a38f",
+    "screenshots/390x844.png": "aac6d46f3c49e1a96184c56671008a8102e664734fab12f6670ec8f1c088788f"
+  }
+}

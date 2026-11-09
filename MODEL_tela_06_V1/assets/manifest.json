@@ -1,0 +1,226 @@
+{
+  "schema": 1,
+  "source": {
+    "path": "MODEL_assets_v1/originais/mockup-geral.jpg",
+    "sha256": "9120f379280879ca9c7695eeccba7288630b6956b39708eb94311080dbedf3dd",
+    "size": [
+      1179,
+      753
+    ],
+    "panel_global": [
+      1018,
+      0,
+      1174,
+      404
+    ],
+    "panel_size": [
+      156,
+      404
+    ],
+    "reference": "MODEL_assets_v1/referencias/06-chat.png",
+    "reference_sha256": "e26142ed93c525807ef91392d9dd5479c4e49eecd8614e0c2dbf28f027b188dc",
+    "panel_rgb_difference_bbox": null
+  },
+  "photos": [
+    {
+      "file": "avatar-header.png",
+      "sha256": "fc4f7eb88e25e5b9b8d0e30c18fbd14266403cc2310491a9642fb7985c6ac738",
+      "size": [
+        22,
+        22
+      ],
+      "local_box": [
+        29,
+        22,
+        51,
+        44
+      ],
+      "global_box": [
+        1047,
+        22,
+        1069,
+        44
+      ],
+      "alpha_geometry": "circle",
+      "geometry_parameters": [
+        11,
+        11,
+        10.2
+      ],
+      "visible_pixels": 360,
+      "opaque_pixels": 238,
+      "rgb_exact_all_nonzero_alpha": true,
+      "hidden_rgb_zero": true,
+      "classification": "source-photo-crop; geometry-only alpha; no UI text"
+    },
+    {
+      "file": "avatar-received-first.png",
+      "sha256": "8bef69b99c8edcab97f8e966d68b4c44ba146dfbb6e410d728d41a7cba3ed244",
+      "size": [
+        18,
+        19
+      ],
+      "local_box": [
+        8,
+        69,
+        26,
+        88
+      ],
+      "global_box": [
+        1026,
+        69,
+        1044,
+        88
+      ],
+      "alpha_geometry": "circle",
+      "geometry_parameters": [
+        9,
+        9.5,
+        8.05
+      ],
+      "visible_pixels": 230,
+      "opaque_pixels": 130,
+      "rgb_exact_all_nonzero_alpha": true,
+      "hidden_rgb_zero": true,
+      "classification": "source-photo-crop; geometry-only alpha; no UI text"
+    },
+    {
+      "file": "avatar-received-last.png",
+      "sha256": "826f642277d26796703ad609e95b3b81f11b47b310ae649e74f6b5778ed5d066",
+      "size": [
+        18,
+        19
+      ],
+      "local_box": [
+        8,
+        325,
+        26,
+        344
+      ],
+      "global_box": [
+        1026,
+        325,
+        1044,
+        344
+      ],
+      "alpha_geometry": "circle",
+      "geometry_parameters": [
+        9,
+        9.5,
+        8.05
+      ],
+      "visible_pixels": 230,
+      "opaque_pixels": 130,
+      "rgb_exact_all_nonzero_alpha": true,
+      "hidden_rgb_zero": true,
+      "classification": "source-photo-crop; geometry-only alpha; no UI text"
+    },
+    {
+      "file": "campaign-office.png",
+      "sha256": "c44df16320d00cecd715108f74cb96a1f58ed26e222493c55615ce8d73abca65",
+      "size": [
+        134,
+        44
+      ],
+      "local_box": [
+        16,
+        165,
+        150,
+        209
+      ],
+      "global_box": [
+        1034,
+        165,
+        1168,
+        209
+      ],
+      "alpha_geometry": "top-rounded",
+      "geometry_parameters": [
+        6
+      ],
+      "visible_pixels": 5892,
+      "opaque_pixels": 5856,
+      "rgb_exact_all_nonzero_alpha": true,
+      "hidden_rgb_zero": true,
+      "classification": "source-photo-crop; geometry-only alpha; no UI text"
+    }
+  ],
+  "vectors": [
+    {
+      "file": "back.svg",
+      "sha256": "6853b01f809d11819a2c25ab780b83cdd6d0347f1927f92c411b332d3e024627",
+      "classification": "local-vector-approximation",
+      "accessible_title": "Voltar"
+    },
+    {
+      "file": "phone.svg",
+      "sha256": "0853bd481d3318c2b5595340dbaccdce2ce03e77ee12fd1c97d14a5d7a2eab0f",
+      "classification": "local-vector-approximation",
+      "accessible_title": "Telefone"
+    },
+    {
+      "file": "options.svg",
+      "sha256": "dcb329108276b34be7048c1995467ae0a90aefd15d4f84c3eb6d4600b47d8826",
+      "classification": "local-vector-approximation",
+      "accessible_title": "Opções"
+    },
+    {
+      "file": "location.svg",
+      "sha256": "98c07716f96393609740fc77e15db40ad56a7a37c70dd2e9598dc06df53fcf18",
+      "classification": "local-vector-approximation",
+      "accessible_title": "Localização"
+    },
+    {
+      "file": "calendar.svg",
+      "sha256": "980f1f969493304f29ebcd03cf42f19b30a187f32bd2e7c60d2b63f5692a0f32",
+      "classification": "local-vector-approximation",
+      "accessible_title": "Duração"
+    },
+    {
+      "file": "money.svg",
+      "sha256": "ac8122696bf5a6d76a581e75636861ed72d443c63f58bd236231693dcf0666a5",
+      "classification": "local-vector-approximation",
+      "accessible_title": "Cachê"
+    },
+    {
+      "file": "paperclip.svg",
+      "sha256": "13f5670944308e4b76f92cc1a873367ed35775ef38c6758ab875d2d8c359f814",
+      "classification": "local-vector-approximation",
+      "accessible_title": "Anexar"
+    },
+    {
+      "file": "send.svg",
+      "sha256": "660b75a32b7df2886a7eb8c9f016f22ffe06e8ef1eb9ba7d41e9eacc68a3edd0",
+      "classification": "local-vector-approximation",
+      "accessible_title": "Enviar mensagem"
+    },
+    {
+      "file": "cellular.svg",
+      "sha256": "bfef56a21521154b475f4e5dd76c582a6d0b512103b73195d80b767e6998e8df",
+      "classification": "local-vector-approximation",
+      "accessible_title": "Sinal celular simulado"
+    },
+    {
+      "file": "wifi.svg",
+      "sha256": "4fadfbcb4893402906a346c5c2f462bda9052857153b27a750214e940c7f8815",
+      "classification": "local-vector-approximation",
+      "accessible_title": "Wi-Fi simulado"
+    },
+    {
+      "file": "battery.svg",
+      "sha256": "00adb9fbad3577e1a5110e4fe7039773faaebc79eef595ea602f56eb79b788e4",
+      "classification": "local-vector-approximation",
+      "accessible_title": "Bateria simulada"
+    }
+  ],
+  "avatar_comparison": {
+    "first_last_raw_rgb_equal": false,
+    "difference_bbox": [
+      0,
+      0,
+      18,
+      19
+    ],
+    "decision": "Keep three independent crops. Same visual portrait identity; different JPEG RGB and header size. No exact duplicate or larger original proven."
+  }
+}
