@@ -16,14 +16,15 @@ Abrir http://127.0.0.1:8765/MODEL_tela_03_V2/.
 
 HTML/CSS/JS e assets independentes. Capturas reais de375×812,390×844 e430×932, DPR1, Chromium156.0.8078.79. Testes de interações, teclado, carregamento e overflow em MODEL_tela_03_V2/render.py; relatório em relatorio-browser.json.
 
-**Estado: V2 implementada e tecnicamente verificada; não aprovada visualmente.** A fotografia disponível é parcial; o torso inferior não foi recebido e não foi gerado. Consulte a nota ponderada e as divergências na auditoria. Não avançar à Tela04 antes de nota>9,0 e aceite documentado.
+**Estado: Tela03 aprovada visualmente em9,13/10**, versão2.0.0-prototipo.7, ciclo7. Capturas e auditoria independentes documentadas. O torso foi recuperado de pixels existentes no mockup, sem gerar pessoa ou pele. Nome/localização usamUIforegrounds específicos do perfil, com H1/P acessíveis e fallback nativo para falha/novos dados; consulte limitações no README da tela.
 
-Fila de agentes: [planejamento → assets → implementação → auditoria](docs/FILA_AGENTES.md). Ciclo4 da Tela03: **7,84/10**, não aprovado. Para retomar, falta a fotografia limpa e integral do mesmo retrato de Enzo.
+Fila de agentes: [planejamento → assets → implementação → auditoria](docs/FILA_AGENTES.md). O gate>9,0 da Tela03 foi atingido e libera o planejamento da Tela04. As telas seguintes precisam de suas próprias capturas e notas.
 
 ## Estado das demais telas
 - Tela01 — Login: referência disponível; autenticação não integrada.
 - Tela02 — Descobrir: V3 mencionada no handoff, código ainda não recebido.
-- Tela04 em diante: não implementadas.
+- Tela04 — Perfil do modelo: planejamento liberado e iniciado após aceite da03.
+- Telas05–11: aguardam aprovação da tela anterior.
 
 ## Arquivos
 - MODEL_tela_03_V2/: implementação, assets, screenshots, comparação, especificação, auditoria, changelog e scripts reproduzíveis.

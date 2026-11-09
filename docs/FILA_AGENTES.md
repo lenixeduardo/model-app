@@ -6,8 +6,8 @@ Atualização: 2026-11-09. Regra atual do usuário: prosseguir tela a tela, com 
 
 | Ordem | Tela | Estado | Dependência para iniciar |
 |---|---|---|---|
-| 1 | 03 — Swipe / Descobrir | V2 2.0.0-prototipo.4 funcional e capturada; auditor03 concluído no ciclo4: **7,84/10, não aprovada**. Revisão de assets confirmou ausência da fotografia integral limpa. X/selo/chips refinados e auditados; não resolvem o torso ausente. Fila pausada nesta tela. | Retomar em assets03 somente após receber/verificar a foto integral limpa do mesmo retrato. Plano registrado em [PLANO_REVISAO.md](../MODEL_tela_03_V2/PLANO_REVISAO.md). |
-| 2 | 04 — Perfil do modelo | Aguardando gate da Tela 03; conteúdo não planejado e implementação não iniciada nesta fila. | Aprovação documentada da Tela 03, nota >9,0, evidências completas. |
+| 1 | 03 — Swipe / Descobrir | **APROVADA VISUALMENTE:9,13/10**, V2 **2.0.0-prototipo.7**, auditor03 concluído com três capturas finais e comparação. Sem P1 material no perfil estático de Enzo; P2 e limite das legendas raster documentados. | Gate >9,0 atingido. Preservar pacote/evidências da versão aprovada e seguir para planejador04. |
+| 2 | 04 — Perfil do modelo | **Liberada para planejamento e implementação**, ainda não iniciada pelo auditor. | Aceite03 concluído. Próxima etapa: planejador04→assets04→implementador04→auditor04, com nova auditoria própria. |
 | 3 | 05 — Portfólio | Não iniciada. | Aprovação documentada da Tela 04. |
 | 4 | 06 — Chat / Negociação | Não iniciada. | Aprovação documentada da Tela 05. |
 | 5 | 07 — Castings | Não iniciada. | Aprovação documentada da Tela 06. |
@@ -55,12 +55,14 @@ Preservar Enzo e o retrato oficial. Não substituir por outra pessoa ou por outr
 
 A autorização de gerar assets não é prova de que existe a fotografia integral. A autorização de publicação também não altera a nota ou resolve uma lacuna visual. Restrições de ferramenta/publicação devem ser registradas separadamente da fidelidade.
 
-## Registro atual
+## Registro atual — auditor03 ciclo7
 
-- Evidências da V2: `MODEL_tela_03_V2/captura-375.png`, `captura-390.png`, `captura-430.png`, `comparacao-390.png`, `relatorio-browser.json`.
-- Auditoria independente atual: [7,84/10 — ciclo4 não aprovado](../MODEL_tela_03_V2/AUDITORIA.md).
-- Condição de retomada principal: fotografia limpa e integral do **mesmo retrato** de Enzo, contendo céu/ombros/torso necessários à composição, ou constatação documentada de que um arquivo já fornecido realmente contém essa informação sem interface incorporada.
-- Assets03: revisão concluída em `MODEL_tela_03_V2/ASSETS.md`; variante independente `assets/icons/fechar-acao.svg` entregue. Nenhuma fonte local contém o torso integral limpo. A implementação pode avaliar o refinamento vetorial como protótipo não aprovado; a fotografia suficiente permanece pendente.
-- Implementação03: ciclo4 concluído tecnicamente, com refinamentos de X/selo/chips e três capturas finais novas. render.py passou; comparação regenerada.
-- **Estágio auditor03: concluído.** Referência, três capturas finais e comparação foram abertas; hashes conferidos no relatório. Decisão final: **7,84/10, não aprovado**. O gate >9,0 não foi atingido; nota exatamente9,0 também não liberaria.
-- **Próxima ação: aguardar o insumo fotográfico e retomar em assets03.** Novos ciclos cosméticos não se justificam como caminho ao gate: o torso ausente não é recuperável por CSS/ícones. Não iniciar planejamento de conteúdo ou implementação da Tela04.
+- Versão avaliada: `MODEL_tela_03_V2/VERSION`, **2.0.0-prototipo.7**.
+- Evidências: três capturas reais375×812,390×844,430×932, comparação390 e relatório final`passed` no Chromium156/DPR1. O auditor abriu as imagens finais e conferiu seus hashes.
+- Auditoria atual: [APROVADA VISUALMENTE —9,13/10](../MODEL_tela_03_V2/AUDITORIA.md). Soma ponderada9,125; gate **>9,0** atingido, meta9,5 ainda não atingida.
+- Assets03: fotografia203×404 com lacunas e torso genuíno; nome/localização em foregrounds deUIpor contorno, separados da foto, com matte contextual de1px documentado. Não há anatomia sintetizada ou referência integral usada como fundo com texto intacto.
+- Limite do aceite: protótipo estático de Enzo. As legendas raster não são fonte genérica; H1/P semânticos e fallback nativo atômico existem para falha/opt-out/textos divergentes. Dados arbitrários ou modo nativo exigem revalidação visual, sem reaproveitar bitmap com outra semântica.
+- **Estágio auditor03: concluído e aprovado.** P1 de legendas/informação resolvido materialmente nas capturas atuais. Permanecem P2 de borda do selo, acabamento dos chips, margem da informação e céu/base uniformes; sem bloqueador material do perfil estático.
+- **Próxima ação: planejador04.** Tela04 está liberada para seu planejamento e implementação. O auditor não iniciou essa etapa nem publicou a V2; o coordenador deve preservar/publicar código, assets e evidências correspondentes à versão aprovada.
+- Histórico: ciclo4:7,84; ciclo5:8,72; ciclo6:8,92; ciclo7:9,13. A nota7 não decorre do progresso obrigatório: as imagens finais foram avaliadas novamente. Ela não se transfere à Tela04 ou a qualquer outra implementação.
+- As telas05–11 continuam aguardando seus gates sequenciais próprios.

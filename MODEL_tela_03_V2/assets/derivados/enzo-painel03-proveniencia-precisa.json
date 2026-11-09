@@ -1,0 +1,52 @@
+{
+  "source": "MODEL_assets_v1/originais/mockup-geral.jpg",
+  "sourceSha256": "9120f379280879ca9c7695eeccba7288630b6956b39708eb94311080dbedf3dd",
+  "cropLTRBExclusive": [
+    420,
+    0,
+    623,
+    404
+  ],
+  "size": [
+    203,
+    404
+  ],
+  "baseMask": "assets/derivados/enzo-painel03-alpha.png",
+  "baseMaskSha256": "484b5f3d9d5f6f9647f72ddc4010df309e04cd24848148ba959a63d7319f0d5c",
+  "precisionRegions": [
+    {
+      "id": "name-age-verification",
+      "box": [
+        11,
+        272,
+        94,
+        292
+      ],
+      "selectedSeedPixels": 317,
+      "maskedAfterDilation": 699
+    },
+    {
+      "id": "location-height",
+      "box": [
+        11,
+        292,
+        118,
+        307
+      ],
+      "selectedSeedPixels": 195,
+      "maskedAfterDilation": 606
+    }
+  ],
+  "selectionRule": "Within the two label bounding boxes only: (maxRGB>=120 && minRGB>=100 && maxRGB-minRGB<=60) OR (B>R+15 && G>R+15 && B>125). Dilate selected UI contours by one pixel using MaxFilter(3).",
+  "operation": "Visible RGB (alpha255) copied byte-for-byte from decoded source; hidden RGB (alpha0) set to zero. Alpha mask unchanged. No photo synthesis, interpolation, cloning or filling.",
+  "retainedPixels": 66737,
+  "transparentPixels": 15275,
+  "retainedPixelsConservative": 64634,
+  "additionalPreservedPixels": 2103,
+  "outputs": {
+    "enzo-painel03-mascarado-preciso.png": "457ce5eea85460635937551c64368d1d5fc0d54febcdb433b93af626b2bfe448",
+    "enzo-painel03-alpha-preciso.png": "b7bc57ea8586bc107edc98869baf15853b6fe78954fe7e295cb0ba2865701894",
+    "enzo-painel03-preview-preto-preciso.png": "c3537441d8e22ecc0f6d39299f889da13ad15d15e2e0aa949550551d18ef175e",
+    "enzo-painel03-preview-quadriculado-preciso.png": "96bea03f81271e4673bc232a4e93d71fab8f7c777d848b33a54a86f3b7365b16"
+  }
+}

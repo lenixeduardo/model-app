@@ -1,0 +1,169 @@
+{
+  "source": "MODEL_assets_v1/originais/mockup-geral.jpg",
+  "sourceSha256": "9120f379280879ca9c7695eeccba7288630b6956b39708eb94311080dbedf3dd",
+  "cropLTRBExclusive": [
+    420,
+    0,
+    623,
+    404
+  ],
+  "size": [
+    203,
+    404
+  ],
+  "coordinateConvention": "crop right/bottom exclusive; mask boxes use Pillow inclusive endpoints",
+  "outerShape": {
+    "shape": "rounded-rect",
+    "box": [
+      0,
+      0,
+      202,
+      403
+    ],
+    "radius": 14
+  },
+  "uiRegionsRemoved": [
+    {
+      "id": "status-hour",
+      "shape": "rect",
+      "box": [
+        14,
+        2,
+        44,
+        17
+      ]
+    },
+    {
+      "id": "status-icons",
+      "shape": "rect",
+      "box": [
+        151,
+        2,
+        195,
+        17
+      ]
+    },
+    {
+      "id": "progress",
+      "shape": "rect",
+      "box": [
+        12,
+        20,
+        191,
+        28
+      ]
+    },
+    {
+      "id": "name-age-verification",
+      "shape": "rect",
+      "box": [
+        11,
+        272,
+        94,
+        292
+      ]
+    },
+    {
+      "id": "location-height",
+      "shape": "rect",
+      "box": [
+        11,
+        292,
+        118,
+        307
+      ]
+    },
+    {
+      "id": "information",
+      "shape": "ellipse",
+      "box": [
+        170,
+        281,
+        192,
+        303
+      ]
+    },
+    {
+      "id": "chip-fashion",
+      "shape": "rounded-rect",
+      "box": [
+        11,
+        310,
+        60,
+        333
+      ],
+      "radius": 10
+    },
+    {
+      "id": "chip-editorial",
+      "shape": "rounded-rect",
+      "box": [
+        62,
+        310,
+        111,
+        333
+      ],
+      "radius": 10
+    },
+    {
+      "id": "chip-comercial",
+      "shape": "rounded-rect",
+      "box": [
+        113,
+        310,
+        176,
+        333
+      ],
+      "radius": 10
+    },
+    {
+      "id": "ignore",
+      "shape": "ellipse",
+      "box": [
+        26,
+        340,
+        75,
+        390
+      ]
+    },
+    {
+      "id": "favorite",
+      "shape": "ellipse",
+      "box": [
+        77,
+        340,
+        126,
+        390
+      ]
+    },
+    {
+      "id": "like",
+      "shape": "ellipse",
+      "box": [
+        128,
+        340,
+        178,
+        390
+      ]
+    },
+    {
+      "id": "home-indicator",
+      "shape": "rect",
+      "box": [
+        66,
+        392,
+        139,
+        403
+      ]
+    }
+  ],
+  "operation": "RGB copied byte-for-byte from decoded source crop; binary alpha mask, no inpainting, no generation, no resampling",
+  "retainedPixels": 64634,
+  "transparentPixels": 17378,
+  "outputs": {
+    "enzo-painel03-mascarado.png": "0f07951bf0db194f4bb4cb3024288fa560dd1a6a0a7e30c833f2d6514137dab9",
+    "enzo-painel03-alpha.png": "484b5f3d9d5f6f9647f72ddc4010df309e04cd24848148ba959a63d7319f0d5c",
+    "enzo-painel03-preview-preto.png": "9534b6f858b8ccbc8a58d9b96ba31dcc6c77c444e72ddf7a5aed8c8da04534c5",
+    "enzo-painel03-preview-quadriculado.png": "c8453e21c3c3174bd650d0991fe5fc59bf4cfabd5b58a05c97da5283e0e1adf7"
+  }
+}

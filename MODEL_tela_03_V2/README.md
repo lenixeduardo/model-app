@@ -1,8 +1,8 @@
 # MODEL — Tela 03 V2
 
-Protótipo funcional de Swipe / Descobrir com assets independentes. Implementação nova com base no mockup, sem o código V2 anterior.
+**Aprovada visualmente:9,13/10**, ciclo7, versão2.0.0-prototipo.7. Gate>9,0 atingido; meta9,5 permanece. Aceite do protótipo estático de Enzo, sem certificação de backend ou dados arbitrários.
 
-## Abrir
+## Abrir e verificar
 
 Da raiz do repositório:
 
@@ -10,39 +10,33 @@ Da raiz do repositório:
 python3 -m http.server 8765 --bind 127.0.0.1
 ```
 
-Acessar http://127.0.0.1:8765/MODEL_tela_03_V2/.
-
-Ou abrir index.html diretamente; todos os assets são relativos e não há dependências externas.
-
-## Reproduzir a validação
-
-Python3, Playwright para Python, Pillow e Chromium são as dependências de desenvolvimento. No ambiente desta entrega já estavam instaladas. Runtime da página usa somente navegador.
+Abrir http://127.0.0.1:8765/MODEL_tela_03_V2/ ou index.html diretamente. Runtime HTML/CSS/JS, sem recursos externos.
 
 ```sh
 python MODEL_tela_03_V2/render.py --chromium /usr/bin/chromium
 python MODEL_tela_03_V2/compare.py
 ```
 
-O renderizador inicia servidor HTTP local em porta livre, captura os três viewports em DPR1 e testa cliques/toques, toggles, desfazer, diálogo, teclado, imagem quebrada, redução de movimento, alvos de toque e overflow. Não altera o CSS para as capturas. O arquivo relatorio-browser.json registra versão do Chromium, dimensões, fontes efetivas, imagens, erros e hashes. Fonte local Arial/Helvetica/sans-serif; não foi fornecido arquivo da fonte original.
+Dependências de desenvolvimento em requirements-dev.txt. O script inicia servidor local, captura375×812/390×844/430×932 emDPR1 e registra browser, erros, dimensões e hashes em relatorio-browser.json. Testa ações, foco, toque, overflow, proporção com cover, movimento reduzido, falha de foto, falhas individuais das legendas, opt-out e divergência textual. Não altera a página para a captura.
 
-## Integração
+## Composição e integração
 
-Reutilizar index.html, styles.css, app.js e assets/. As escolhas ficam somente em memória; recarregar reinicia os estados. Nenhuma API é chamada. Back e opções abrem painéis locais; não há navegação para a Tela04. Em um contêiner nativo que já apresenta status/gesto, aplicar data-native-status="true" no elemento .screen.
+Reutilizar index.html, styles.css, app.js e assets/. Fotografia extraída do mockup com UI removida por transparência; os pixels conhecidos de rosto/ombros/torso são preservados. Não foi gerada pessoa/pele nem encontrada a fotografia original limpa. Cover proporcional e fades restritos ao céu/rodapé integram as camadas.
+
+Somente nome/localização usam foregroundsPNG deUI por contornos, separados da fotografia, com franja contextual conhecida de1px. São recursos estáticos para este Enzo, não arquivos da fonte tipográfica original. Ícones, selo e botões permanecem SVG/CSS/HTML. Manifesto: assets/ui/reference-type-manifest.json; proveniência em ASSETS.md.
+
+H1/P nativos são acessíveis e fonte semântica. As imagens visuais são decorativas e só ativam quando ambos osPNGs carregam e ambos os textos coincidem exatamente. Falha de qualquerPNG, alteração textual ou data-native-text="true" na .screen mantém as duas legendas nativas visíveis. Para nomes/localizações/traduções arbitrárias, usar esse opt-out e revalidar; não reutilizar a tipografia gráfica de Enzo com outro texto.
+
+As escolhas ficam em memória; recarregar reinicia. Nenhuma API é chamada. Voltar/opções/informações usam painéis locais. data-native-status="true" oculta status e gesto simulados se o contêiner nativo já os apresentar.
 
 ## Evidências e limites
 
-- captura-375.png, captura-390.png, captura-430.png: screenshots reais do Chromium.
-- comparacao-390.png: mesma altura entre referência e captura, sem alterar suas proporções. As larguras diferem porque o painel do mockup tem razão203/404.
-- AUDITORIA.md: nota visual e decisão de aceite.
-- DESIGN_SPEC.md e CHANGELOG.md: critérios e alterações.
-- evidencias/: primeiro ciclo e erro reproduzível do sandbox.
+- captura-375.png, captura-390.png, captura-430.png: capturas reais finais do Chromium.
+- comparacao-390.png: alturas normalizadas, proporções intactas; larguras diferentes porque o painel fonte tem razão203/404.
+- AUDITORIA.md: aprovação independente9,13, rubrica, hashes e P2.
+- DESIGN_SPEC.md / CHANGELOG.md / ASSETS.md: decisões, histórico e proveniência.
+- evidencias/: candidatos e ciclos anteriores identificados como históricos, não prova da versão final.
 
-Fotografia disponível é parcial201×242px e não deve ser confundida com a foto original integral. Não usar a referência completa como fundo: ela já contém textos e botões. A aprovação visual permanece sujeita à rubrica, independentemente dos testes técnicos.
+P2 restantes: contorno do selo, diferença de nitidez dos chips, margem da informação e céu/base mais uniformes. UI raster tem resolução limitada e é específica deste perfil. Aparelho físico, VoiceOver e safe areas reais não certificados. Testes técnicos e aprovação visual são escopos diferentes.
 
-## Fila e última revisão
-
-Versão2.0.0-prototipo.4. Os quatro papéis executaram o ciclo: planejamento → assets → implementação → auditoria independente. Nota final7,84/10, não aprovada. O gate atual exige nota superior a9,0. Ver ../docs/FILA_AGENTES.md.
-
-As capturas históricas ciclo03 estão preservadas somente no pacote local desta entrega; o repositório contém as capturas finais e os históricos ciclo01/02 explicitamente autorizados.
-
-O recorte histórico assets/enzo-ceu-topo.png também fica somente no pacote local. O runtime final usa preenchimento CSS para o céu; esse PNG não é dependência da página. O retrato enzo-swipe-referencia.png é cópia exata do asset já público MODEL_assets_v1/assets/enzo-retrato-parcial.png (mesmo blob Git).
+A fila em ../docs/FILA_AGENTES.md libera a Tela04. Esta nota não se transfere às telas seguintes. Os PNGs e SVGs experimentais rejeitados não são dependências do runtime aprovado.

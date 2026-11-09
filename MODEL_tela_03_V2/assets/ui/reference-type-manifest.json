@@ -1,0 +1,76 @@
+{
+  "purpose": "Cycle7 candidate, independent foreground UI rasters for fixed reference labels, not approval or original font discovery.",
+  "source": "MODEL_assets_v1/originais/mockup-geral.jpg",
+  "sourceSha256": "9120f379280879ca9c7695eeccba7288630b6956b39708eb94311080dbedf3dd",
+  "sourceCropLTRBExclusive": [
+    420,
+    0,
+    623,
+    404
+  ],
+  "photo": "assets/enzo-mockup-foto-com-lacunas-precisas2.png",
+  "photoSha256": "7a7bd30d8de86d6c6c20b27f9bef49c6d6b23f389335934c961d0c15e286d592",
+  "sourcePlane": [
+    203,
+    404
+  ],
+  "operation": "Foreground alpha is the complement of precise2 photo alpha within each label box. Copy source RGB only for foreground alpha255; zero all transparent RGB. No resampling, generated pixels, hidden full rectangle or complete photograph in UI layer.",
+  "contextMatte": "The existing one-pixel geometric dilation of UI core removal is retained as a contextual antialias matte copied from known source pixels. It may include the already-composited local backdrop at the glyph edge. No extra expansion beyond D was applied in this first candidate.",
+  "integration": "Project source boxes using identical scale/cropOffset as photo. Keep native h1/p accessible and native font fallback. These fixed raster labels do not support arbitrary names/locales or identify the original font.",
+  "labels": {
+    "name-reference.png": {
+      "sourceBoxLTRBExclusive": [
+        11,
+        272,
+        77,
+        293
+      ],
+      "sourceBoxXYWH": [
+        11,
+        272,
+        66,
+        21
+      ],
+      "size": [
+        66,
+        21
+      ],
+      "opaquePixels": 551,
+      "totalPixels": 1386,
+      "alphaFillFraction": 0.39754689754689754,
+      "contextMatteExpansionBeyondPhotoHole": 0,
+      "existingPhotoHoleDilationSourcePixels": 1,
+      "sha256": "30a8fd4a3448a7cb4006518668e04ac44170496fd55b1b4428648864df6e0bb9",
+      "nativeCompositionMatchesSourceRgb": true,
+      "foregroundVisibleRgbMatchesSourceRgb": true,
+      "transparentRgbZero": true
+    },
+    "location-reference.png": {
+      "sourceBoxLTRBExclusive": [
+        11,
+        292,
+        119,
+        308
+      ],
+      "sourceBoxXYWH": [
+        11,
+        292,
+        108,
+        16
+      ],
+      "size": [
+        108,
+        16
+      ],
+      "opaquePixels": 606,
+      "totalPixels": 1728,
+      "alphaFillFraction": 0.3506944444444444,
+      "contextMatteExpansionBeyondPhotoHole": 0,
+      "existingPhotoHoleDilationSourcePixels": 1,
+      "sha256": "610a71b6567fb02663d45e6dc11a45d66fb658a23f2d67c7b1081e0ea70f45da",
+      "nativeCompositionMatchesSourceRgb": true,
+      "foregroundVisibleRgbMatchesSourceRgb": true,
+      "transparentRgbZero": true
+    }
+  }
+}

@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/workspace/model-app/MODEL_tela_03_V2/render.py", line 142, in <module>
+    main()
+  File "/workspace/model-app/MODEL_tela_03_V2/render.py", line 49, in main
+    assert page.locator('.label-name').count() == 1, 'Missing independent foreground name label'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Missing independent foreground name label

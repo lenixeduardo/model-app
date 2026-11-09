@@ -46,10 +46,28 @@ def main():
                 assert all(i['loaded'] for i in state['images']), state
                 assert all(b['width']>=44 and b['height']>=44 for b in state['targets']), state['targets']
                 assert page.locator('.progress span').count() == 5
+                assert page.locator('.label-name').count() == 1, 'Missing independent foreground name label'
+                assert page.locator('.label-name').is_visible()
+                assert page.locator('.label-location').is_visible()
+                assert page.locator('.name h1').evaluate("el => el.classList.contains('sr-only')")
+                assert page.locator('.location-row p').evaluate("el => el.classList.contains('sr-only')")
                 portrait = next(i for i in state['images'] if 'enzo-' in i['src'])
-                nr = portrait['natural'][0]/portrait['natural'][1]
-                rr = portrait['rendered'][0]/portrait['rendered'][1]
-                assert abs(nr-rr)<0.01, portrait
+                geometry = page.locator('.portrait').evaluate('''img => { const box=img.getBoundingClientRect(); const style=getComputedStyle(img); return {box:[box.width,box.height],fit:style.objectFit,position:style.objectPosition,transform:style.transform,mask:style.maskImage,natural:[img.naturalWidth,img.naturalHeight]}; }''')
+                assert geometry['transform'] == 'none', geometry
+                natural_width, natural_height = geometry['natural']
+                box_width, box_height = geometry['box']
+                assert natural_width > 0 and natural_height > 0, geometry
+                if geometry['fit'] == 'cover':
+                    scale = max(box_width/natural_width, box_height/natural_height)
+                    content_width, content_height = natural_width*scale, natural_height*scale
+                    assert content_width >= box_width-0.01 and content_height >= box_height-0.01, geometry
+                    assert abs(content_width/content_height - natural_width/natural_height) < 0.000001, geometry
+                    geometry['uniformScale'] = scale
+                    geometry['coveredContent'] = [content_width,content_height]
+                    geometry['cropExcess'] = [content_width-box_width,content_height-box_height]
+                else:
+                    assert abs(natural_width/natural_height - box_width/box_height) < 0.01, geometry
+                state['portraitGeometry'] = geometry
                 shot = out / f'captura-{width}.png'
                 page.screenshot(path=str(shot), full_page=True)
                 for label in ['Favoritar Enzo', 'Curtir Enzo']:
@@ -82,8 +100,33 @@ def main():
             assert page.get_by_role('button', name='Curtir Enzo', exact=True).get_attribute('aria-pressed')=='true'
             report['checks'].append('Reduced motion: interaction works')
             page.close()
+            for blocked_label in ['name-reference.png', 'location-reference.png']:
+                page = browser.new_page(viewport={'width':390,'height':844})
+                page.route('**/' + blocked_label, lambda route: route.abort())
+                page.goto(url, wait_until='networkidle')
+                for selector in ['.name h1', '.location-row p']:
+                    assert page.locator(selector).evaluate("el => !el.classList.contains('sr-only') && el.getBoundingClientRect().width > 100 && el.getBoundingClientRect().height > 10"), selector
+                assert not page.locator('.label-name').is_visible()
+                assert not page.locator('.label-location').is_visible()
+                report['checks'].append('UI label blocked: atomic native fallback for ' + blocked_label)
+                page.close()
             page = browser.new_page(viewport={'width':390,'height':844})
-            page.route('**/enzo-swipe-referencia.png', lambda route: route.abort())
+            page.goto(url, wait_until='networkidle')
+            page.locator('.screen').evaluate("el => el.dataset.nativeText = 'true'")
+            page.wait_for_function("!document.querySelector('.name h1').classList.contains('sr-only')")
+            assert not page.locator('.label-name').is_visible()
+            assert not page.locator('.label-location').is_visible()
+            assert page.get_by_role('heading',name='Enzo, 26',exact=True).is_visible()
+            page.locator('.screen').evaluate("el => delete el.dataset.nativeText")
+            page.wait_for_function("document.querySelector('.name h1').classList.contains('sr-only')")
+            page.locator('.name h1').evaluate("el => el.textContent = 'Perfil atualizado'")
+            page.wait_for_function("!document.querySelector('.name h1').classList.contains('sr-only')")
+            assert not page.locator('.label-name').is_visible()
+            assert not page.locator('.label-location').is_visible()
+            report['checks'].append('Native text opt-out and metadata mismatch avoid stale raster labels')
+            page.close()
+            page = browser.new_page(viewport={'width':390,'height':844})
+            page.route('**/enzo-mockup-foto-com-lacunas-precisas2.png', lambda route: route.abort())
             page.goto(url, wait_until='networkidle')
             assert page.get_by_role('status').filter(has_text='Não foi possível carregar a fotografia.').is_visible()
             assert page.get_by_role('button',name='Curtir Enzo',exact=True).is_disabled()

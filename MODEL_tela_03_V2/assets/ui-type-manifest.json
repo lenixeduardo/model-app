@@ -1,0 +1,114 @@
+{
+  "source": "MODEL_assets_v1/originais/mockup-geral.jpg",
+  "sourceSha256": "9120f379280879ca9c7695eeccba7288630b6956b39708eb94311080dbedf3dd",
+  "sourceCropLTRBExclusive": [
+    420,
+    0,
+    623,
+    404
+  ],
+  "sourcePlane": [
+    203,
+    404
+  ],
+  "operation": "Binary UI contour support traced as uniform-fill SVG paths. No photographic RGB, image element, raster payload, font discovery or anatomy reconstruction.",
+  "positioning": "u=viewportHeight/404; image width=203*u; cropOffsetX=(imageWidth-viewportWidth)*0.08; SVG left=x*u-cropOffsetX, top=y*u, width=w*u, height=h*u. Bounds are inclusive in the source; local viewBox starts at0,0.",
+  "assets": {
+    "name-type.svg": {
+      "sourceBoxXYWH": [
+        11,
+        272,
+        66,
+        21
+      ],
+      "sourceBoxLTRBInclusive": [
+        11,
+        272,
+        76,
+        292
+      ],
+      "viewBox": [
+        0,
+        0,
+        66,
+        21
+      ],
+      "supportPixels": {
+        "opaqueCore": 225,
+        "geometricRing": 326
+      },
+      "fills": [
+        "#fafafa"
+      ],
+      "dilation": 0,
+      "photographicRemoval": "Photo precise2 uses one-pixel-dilated removal. This SVG has the identical225-pixel core contour plus the matching geometric one-pixel ring at20% opacity; the group is blurred0.35source units. Any halo/weight must be judged in actual browser capture.",
+      "sha256": "fe52c23319b3ffc221a0f46bdf25913c68a05b1d6440db62aebeb93581a708fe",
+      "geometricAA": {
+        "onePixelRingOpacity": 0.2,
+        "gaussianBlurStdDeviationSourceUnits": 0.35,
+        "uniformFill": "#fafafa",
+        "noPhotographicRgb": true
+      }
+    },
+    "location-type.svg": {
+      "sourceBoxXYWH": [
+        11,
+        292,
+        108,
+        16
+      ],
+      "sourceBoxLTRBInclusive": [
+        11,
+        292,
+        118,
+        307
+      ],
+      "viewBox": [
+        0,
+        0,
+        108,
+        16
+      ],
+      "supportPixels": {
+        "text": 195
+      },
+      "fills": [
+        "#eeece9"
+      ],
+      "dilation": 0,
+      "photographicRemoval": "The photograph precise2 has one-pixel-dilated removal support around these source glyphs; this UI paints only original core contour support, never the699-pixel enlarged name hole. Any remaining halo must be judged in the browser.",
+      "sha256": "f19749f0c8525de3bc87515b1c799623673dcea5917373e48b1344a5d3279839"
+    },
+    "verification-type.svg": {
+      "sourceBoxXYWH": [
+        76,
+        272,
+        19,
+        21
+      ],
+      "sourceBoxLTRBInclusive": [
+        76,
+        272,
+        94,
+        292
+      ],
+      "viewBox": [
+        0,
+        0,
+        19,
+        21
+      ],
+      "supportPixels": {
+        "badge": 89,
+        "check": 0
+      },
+      "fills": [
+        "#69b9f1",
+        "#ffffff"
+      ],
+      "dilation": 0,
+      "photographicRemoval": "The photograph precise2 has one-pixel-dilated removal support around these source glyphs; this UI paints only original core contour support, never the699-pixel enlarged name hole. Any remaining halo must be judged in the browser.",
+      "sha256": "8dda81c823dd328e3214eb7b0e4cba13b0d5bce6264e46e6a878904fba4ba81c"
+    }
+  }
+}

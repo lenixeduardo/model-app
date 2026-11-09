@@ -1,0 +1,230 @@
+{
+  "source": "MODEL_assets_v1/originais/mockup-geral.jpg",
+  "sourceSha256": "9120f379280879ca9c7695eeccba7288630b6956b39708eb94311080dbedf3dd",
+  "cropLTRBExclusive": [
+    420,
+    0,
+    623,
+    404
+  ],
+  "size": [
+    203,
+    404
+  ],
+  "outerShape": {
+    "shape": "rounded-rect",
+    "box": [
+      0,
+      0,
+      202,
+      403
+    ],
+    "radius": 14
+  },
+  "regions": [
+    {
+      "id": "status-hour",
+      "shape": "contour",
+      "searchBox": [
+        14,
+        2,
+        44,
+        17
+      ],
+      "rule": "status",
+      "seedPixels": 58,
+      "pixelsAfterDilation": 135,
+      "dilationRadius": 1
+    },
+    {
+      "id": "status-icons",
+      "shape": "contour",
+      "searchBox": [
+        151,
+        2,
+        195,
+        17
+      ],
+      "rule": "status",
+      "seedPixels": 118,
+      "pixelsAfterDilation": 229,
+      "dilationRadius": 1
+    },
+    {
+      "id": "progress",
+      "shape": "contour",
+      "searchBox": [
+        12,
+        21,
+        191,
+        26
+      ],
+      "rule": "progress-local-contrast",
+      "seedPixels": 347,
+      "pixelsAfterDilation": 738,
+      "dilationRadius": 1
+    },
+    {
+      "id": "name-age-verification",
+      "shape": "contour",
+      "searchBox": [
+        11,
+        272,
+        94,
+        292
+      ],
+      "rule": "label",
+      "seedPixels": 317,
+      "pixelsAfterDilation": 699,
+      "dilationRadius": 1
+    },
+    {
+      "id": "location-height",
+      "shape": "contour",
+      "searchBox": [
+        11,
+        292,
+        118,
+        307
+      ],
+      "rule": "label",
+      "seedPixels": 195,
+      "pixelsAfterDilation": 606,
+      "dilationRadius": 1
+    },
+    {
+      "id": "information",
+      "shape": "contour",
+      "searchBox": [
+        171,
+        282,
+        191,
+        302
+      ],
+      "rule": "info",
+      "seedPixels": 70,
+      "pixelsAfterDilation": 185,
+      "dilationRadius": 1
+    },
+    {
+      "id": "chip-Fashion",
+      "shape": "rounded-rect",
+      "box": [
+        12,
+        311,
+        60,
+        331
+      ],
+      "radius": 10
+    },
+    {
+      "id": "chip-Editorial",
+      "shape": "rounded-rect",
+      "box": [
+        61,
+        311,
+        110,
+        331
+      ],
+      "radius": 10
+    },
+    {
+      "id": "chip-Comercial",
+      "shape": "rounded-rect",
+      "box": [
+        112,
+        311,
+        170,
+        331
+      ],
+      "radius": 10
+    },
+    {
+      "id": "ignore",
+      "shape": "ellipse",
+      "box": [
+        28,
+        343,
+        72,
+        387
+      ],
+      "center": [
+        50,
+        365
+      ],
+      "radius": 22
+    },
+    {
+      "id": "favorite",
+      "shape": "ellipse",
+      "box": [
+        79,
+        343,
+        123,
+        387
+      ],
+      "center": [
+        101,
+        365
+      ],
+      "radius": 22
+    },
+    {
+      "id": "like",
+      "shape": "ellipse",
+      "box": [
+        130,
+        343,
+        174,
+        387
+      ],
+      "center": [
+        152,
+        365
+      ],
+      "radius": 22
+    },
+    {
+      "id": "like-jpeg-red-fringe",
+      "shape": "contour",
+      "searchBox": [
+        126,
+        339,
+        178,
+        391
+      ],
+      "rule": "R>16 && R>=G*1.8+5 && R>=B*1.3+3",
+      "seedPixels": 1355,
+      "pixelsAfterDilation": 1635,
+      "dilationRadius": 1
+    },
+    {
+      "id": "home-indicator",
+      "shape": "rect",
+      "box": [
+        69,
+        395,
+        135,
+        401
+      ]
+    }
+  ],
+  "rules": {
+    "label": "(maxRGB>=120 && minRGB>=100 && maxRGB-minRGB<=60) OR (B>R+15 && G>R+15 && B>125)",
+    "status": "maxRGB>=120 && minRGB>=100 && maxRGB-minRGB<=60",
+    "info": "maxRGB>=90 && minRGB>=75 && maxRGB-minRGB<=45",
+    "progress-local-contrast": "meanRGB(pixel)-average(meanRGB(y-3),meanRGB(y+3))>=9 && maxRGB-minRGB<=80; search only y21..26",
+    "contourDilation": "MaxFilter(3), one pixel"
+  },
+  "operation": "Visible RGB copied byte-for-byte from decoded source; hidden RGB zero. Binary alpha masks only. No synthesis, filling, cloning or resampling.",
+  "retainedPixels": 70768,
+  "transparentPixels": 11244,
+  "previousPreciseRetainedPixels": 66737,
+  "additionalPreservedPixels": 4031,
+  "outputs": {
+    "enzo-painel03-mascarado-preciso2.png": "7a7bd30d8de86d6c6c20b27f9bef49c6d6b23f389335934c961d0c15e286d592",
+    "enzo-painel03-alpha-preciso2.png": "7103e6a799fc277c477168d302e018e1687ac78399a8327da72e4deb7aaa766f",
+    "enzo-painel03-preview-preto-preciso2.png": "c0f58e02072ad2fbd337f85ac8327c1d534882d16dcf22c51a82ef17a0863149",
+    "enzo-painel03-preview-quadriculado-preciso2.png": "9c7ab2f0f174b9cbe4a0481aebb81b100d18e6fc3aaa93a2bd3adf154bc2b7df"
+  }
+}

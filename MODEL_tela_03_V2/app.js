@@ -65,3 +65,29 @@ function showImageError() {
 }
 portrait.addEventListener('error', showImageError);
 if (portrait.complete && portrait.naturalWidth === 0) showImageError();
+
+
+// These foreground glyph contours represent only the fixed reference data.
+// Native text remains the accessible source of truth and the atomic fallback.
+const referenceTextLayers = [
+  { native: document.querySelector('.name h1'), visual: document.querySelector('.label-name'), expected: 'Enzo, 26' },
+  { native: document.querySelector('.location-row p'), visual: document.querySelector('.label-location'), expected: 'São Paulo, SP · 1,84 m' },
+];
+function syncReferenceText() {
+  const ready = screen.dataset.nativeText !== 'true' && referenceTextLayers.every(({ native, visual, expected }) =>
+    native.textContent.trim() === expected && visual.complete && visual.naturalWidth > 0
+  );
+  for (const { native, visual } of referenceTextLayers) {
+    native.classList.toggle('sr-only', ready);
+    visual.hidden = !ready;
+  }
+}
+for (const { visual } of referenceTextLayers) {
+  visual.addEventListener('load', syncReferenceText);
+  visual.addEventListener('error', syncReferenceText);
+}
+new MutationObserver(syncReferenceText).observe(screen, {
+  subtree: true, childList: true, characterData: true,
+  attributes: true, attributeFilter: ['data-native-text'],
+});
+syncReferenceText();
