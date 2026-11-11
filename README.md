@@ -4,7 +4,7 @@ Aplicativo editorial para descoberta e contratação de modelos masculinos. Prot
 
 ## Validação do projeto como conjunto
 
-**Pendente como aplicativo integrado.** A revisão global de11/11/2026 confirmou o carregamento dos nove protótipos e identificou navegação incompleta, estado isolado, pendências de acessibilidade e sobreposição de toque em Filtros. Aprovação visual individual não equivale a aprovação do produto completo. [Relatório e evidências](docs/VALIDACAO_GLOBAL.md).
+**Pendente como aplicativo integrado.** A revisão global de11/11/2026 confirmou o carregamento dos nove protótipos e identificou navegação incompleta, estado isolado, pendências de acessibilidade e sobreposição de toque em Filtros. Aprovação visual individual não equivale a aprovação do produto completo. [Relatório e evidências](docs/VALIDACAO_GLOBAL.md). [To-do de correção](docs/superpowers/plans/2026-11-11-correcao-global-model.md).
 
 ## Estado validado
 
