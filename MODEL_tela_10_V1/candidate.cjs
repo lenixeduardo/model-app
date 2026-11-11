@@ -1,0 +1,1 @@
+const{chromium}=require('playwright');(async()=>{const b=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true});const p=await b.newPage({viewport:{width:390,height:844},deviceScaleFactor:1});await p.goto('http://127.0.0.1:8099/MODEL_tela_10_V1/');await p.screenshot({path:__dirname+'/candidata-390.png'});await b.close()})()

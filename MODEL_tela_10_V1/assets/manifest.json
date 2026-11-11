@@ -1,0 +1,186 @@
+{
+  "source": {
+    "reference": "MODEL_assets_v1/referencias/10-meu-perfil.png",
+    "sha256": "f55790f16507b4d92e9e59f2cb54f63cf1a76f6b23ae3f05e77d4290e9f9748c",
+    "size": [
+      185,
+      317
+    ],
+    "original": "MODEL_assets_v1/originais/mockup-geral.jpg",
+    "original_sha256": "9120f379280879ca9c7695eeccba7288630b6956b39708eb94311080dbedf3dd",
+    "global_crop": [
+      612,
+      434,
+      797,
+      751
+    ],
+    "crop_rgb_equal": true
+  },
+  "avatar": {
+    "file": "matheus-avatar.png",
+    "identity": "Matheus Silva, 24 — exclusively screen10",
+    "local_box": [
+      53,
+      39,
+      130,
+      116
+    ],
+    "global_box": [
+      665,
+      473,
+      742,
+      550
+    ],
+    "size": [
+      77,
+      77
+    ],
+    "ratio": 1,
+    "circle_center_crop": [
+      38.5,
+      38.5
+    ],
+    "circle_radius": 38.5,
+    "alpha": "binary geometric; outside circle and edit footprint transparent RGB=0",
+    "edit_hole_center_crop": [
+      64.5,
+      64
+    ],
+    "edit_hole_radius": 12.5,
+    "edit_overlay": "edit-overlay.svg",
+    "support_radius": 13.5,
+    "visible_rgb_exact": true,
+    "visible_pixels": 4386,
+    "ui_hole_pixels": 283,
+    "no_inpainting": true
+  },
+  "palette": {
+    "paper": "#f8f7f3",
+    "chips": "#efeeea",
+    "primary": "#111111",
+    "secondary_approx": "#70706c"
+  },
+  "reuse": {
+    "cellular.svg": {
+      "source": "MODEL_tela_07_V1/assets/cellular.svg",
+      "sha256": "bfef56a21521154b475f4e5dd76c582a6d0b512103b73195d80b767e6998e8df"
+    },
+    "wifi.svg": {
+      "source": "MODEL_tela_07_V1/assets/wifi.svg",
+      "sha256": "4fadfbcb4893402906a346c5c2f462bda9052857153b27a750214e940c7f8815"
+    },
+    "battery.svg": {
+      "source": "MODEL_tela_07_V1/assets/battery.svg",
+      "sha256": "00adb9fbad3577e1a5110e4fe7039773faaebc79eef595ea602f56eb79b788e4"
+    },
+    "search.svg": {
+      "source": "MODEL_tela_07_V1/assets/search.svg",
+      "sha256": "07af411c8440344908a7705a6ed1e02860f5c23d7074c07c0f03b6357cd01fed"
+    },
+    "chat.svg": {
+      "source": "MODEL_tela_07_V1/assets/chat.svg",
+      "sha256": "4081da2af81779dcc72c1cadbf3c442bd3eb42c8bd68d8b037d932cd612007d5"
+    },
+    "plus.svg": {
+      "source": "MODEL_tela_07_V1/assets/plus.svg",
+      "sha256": "0ea5353e0a94c8b2426684db1179c448bfeb7cc992ceac8cf6206360a636f623"
+    },
+    "location.svg": {
+      "source": "MODEL_tela_07_V1/assets/location.svg",
+      "sha256": "98c07716f96393609740fc77e15db40ad56a7a37c70dd2e9598dc06df53fcf18"
+    }
+  },
+  "files": {
+    "availability.svg": {
+      "sha256": "e3710835b3d28ac6b38dcb863b7565592ba12074d87f5f503b131269bbba6102",
+      "bytes": 252
+    },
+    "back.svg": {
+      "sha256": "0e90279da92d54033788049b133597c174b4f61f653d0b47388023988d292444",
+      "bytes": 193
+    },
+    "battery.svg": {
+      "sha256": "00adb9fbad3577e1a5110e4fe7039773faaebc79eef595ea602f56eb79b788e4",
+      "bytes": 397
+    },
+    "cellular.svg": {
+      "sha256": "bfef56a21521154b475f4e5dd76c582a6d0b512103b73195d80b767e6998e8df",
+      "bytes": 353
+    },
+    "chat.svg": {
+      "sha256": "4081da2af81779dcc72c1cadbf3c442bd3eb42c8bd68d8b037d932cd612007d5",
+      "bytes": 310
+    },
+    "chevron.svg": {
+      "sha256": "b37ac962b5789c7e49c3c8439ab3cc4c18a38d4f61bf5c16ee413f817d3f282f",
+      "bytes": 192
+    },
+    "edit-overlay.svg": {
+      "sha256": "6ccd59628e2f133c876d0db6b9962918a21b64f094873bf2f2d5aa2162fddc95",
+      "bytes": 350
+    },
+    "edit.svg": {
+      "sha256": "00bffb0e5beb85b3018de9b85c461da3ef20bd6686069bc2c3415948e1bfd36e",
+      "bytes": 323
+    },
+    "extract_assets.py": {
+      "sha256": "09401d7db59a4464016722d29345e801f67fbdf736a033e4180d8bfe3c5da86a",
+      "bytes": 4672
+    },
+    "fee.svg": {
+      "sha256": "ebc1d429a6beb1891155c3628320eff18e24a8404be3b832a69995c31d7ec043",
+      "bytes": 260
+    },
+    "location.svg": {
+      "sha256": "98c07716f96393609740fc77e15db40ad56a7a37c70dd2e9598dc06df53fcf18",
+      "bytes": 333
+    },
+    "matheus-avatar.png": {
+      "sha256": "d097b8d18b094325bcebc2ccbbb600614292c4006400d45131febe9607f5b40d",
+      "bytes": 10508
+    },
+    "nav-home.svg": {
+      "sha256": "b571a7d14a4bd4181d1e3ec6ba74d3b4d0ecc83222b09a5e571213e25933c185",
+      "bytes": 209
+    },
+    "plans.svg": {
+      "sha256": "2d324758aaec36711dc76ae6b6825e3aa6ad81f6a587f637c9fe8db00ca5aa68",
+      "bytes": 248
+    },
+    "plus.svg": {
+      "sha256": "0ea5353e0a94c8b2426684db1179c448bfeb7cc992ceac8cf6206360a636f623",
+      "bytes": 266
+    },
+    "portfolio.svg": {
+      "sha256": "5f09af116d0b2f8aa2a9c859cabbbbf254d9f3c76030aedae25f8a5625088aa2",
+      "bytes": 264
+    },
+    "profile-active.svg": {
+      "sha256": "37ec99c3acd8ea5a1a6610328b0a326cad556ac90e1c586e0fe9b838882c2777",
+      "bytes": 231
+    },
+    "search.svg": {
+      "sha256": "07af411c8440344908a7705a6ed1e02860f5c23d7074c07c0f03b6357cd01fed",
+      "bytes": 294
+    },
+    "statistics.svg": {
+      "sha256": "481634536eb143b539a4c5ae4249df072e471b5877d36391e27c99f2f76c3d74",
+      "bytes": 223
+    },
+    "verified.svg": {
+      "sha256": "6680694fd55cdb934121a623a47d6aad545a81a331577671434507d2d5d00865",
+      "bytes": 352
+    },
+    "wifi.svg": {
+      "sha256": "4fadfbcb4893402906a346c5c2f462bda9052857153b27a750214e940c7f8815",
+      "bytes": 369
+    }
+  },
+  "limits": [
+    "77px JPEG photo; enlargement does not restore detail",
+    "SVGs approximated from screen10; reused vectors checked for role",
+    "Binary circle edge retains JPEG matte at circumference; no RGB recoloring",
+    "Keep image width fluid and height auto; overlay absolute inset 0 width/height 100%; permanent opaque support",
+    "Do not apply object-fit cover, independent overlay scaling or remove support in dialogs; 44px hit target can be transparent around visible support"
+  ]
+}

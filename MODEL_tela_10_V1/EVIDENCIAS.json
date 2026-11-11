@@ -1,0 +1,353 @@
+{
+  "version": "1.0.0-prototipo.1",
+  "browser": "156.0.8078.79",
+  "date": "2026-11-11",
+  "timezone": "America/Sao_Paulo",
+  "errors": [],
+  "networkFailures": [],
+  "badResponses": [],
+  "viewports": [
+    {
+      "width": 375,
+      "height": 812,
+      "dpr": 1,
+      "documentFit": true,
+      "assetsLoaded": true,
+      "avatar": {
+        "natural": [
+          77,
+          77
+        ],
+        "render": [
+          156.0625,
+          156.0625
+        ],
+        "frameVisiblePercent": 100,
+        "ratio": 1,
+        "objectFit": "fill"
+      },
+      "targets": [
+        {
+          "name": "Voltar",
+          "width": 44,
+          "height": 44,
+          "x": 11.25,
+          "y": 44.25
+        },
+        {
+          "name": "Editar perfil",
+          "width": 44,
+          "height": 44,
+          "x": 216.15625,
+          "y": 207.578125
+        },
+        {
+          "name": "Meu portfólio",
+          "width": 326.25,
+          "height": 44,
+          "x": 26.25,
+          "y": 521.359375
+        },
+        {
+          "name": "Disponibilidade",
+          "width": 326.25,
+          "height": 44,
+          "x": 26.25,
+          "y": 565.359375
+        },
+        {
+          "name": "Cachê",
+          "width": 326.25,
+          "height": 44,
+          "x": 26.25,
+          "y": 609.359375
+        },
+        {
+          "name": "Estatísticas",
+          "width": 326.25,
+          "height": 44,
+          "x": 26.25,
+          "y": 653.359375
+        },
+        {
+          "name": "Planos e assinaturas",
+          "width": 326.25,
+          "height": 44,
+          "x": 26.25,
+          "y": 697.359375
+        },
+        {
+          "name": "Início",
+          "width": 67.5,
+          "height": 48,
+          "x": 3.75,
+          "y": 753.78125
+        },
+        {
+          "name": "Buscar",
+          "width": 67.5,
+          "height": 48,
+          "x": 78.75,
+          "y": 753.78125
+        },
+        {
+          "name": "Adicionar",
+          "width": 67.5,
+          "height": 48,
+          "x": 153.75,
+          "y": 753.78125
+        },
+        {
+          "name": "Conversas",
+          "width": 67.5,
+          "height": 48,
+          "x": 228.75,
+          "y": 753.78125
+        },
+        {
+          "name": "Meu perfil",
+          "width": 67.5,
+          "height": 48,
+          "x": 303.75,
+          "y": 753.78125
+        }
+      ],
+      "menuCount": 5,
+      "navCount": 5
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "documentFit": true,
+      "assetsLoaded": true,
+      "avatar": {
+        "natural": [
+          77,
+          77
+        ],
+        "render": [
+          162.3125,
+          162.3125
+        ],
+        "frameVisiblePercent": 100,
+        "ratio": 1,
+        "objectFit": "fill"
+      },
+      "targets": [
+        {
+          "name": "Voltar",
+          "width": 44,
+          "height": 44,
+          "x": 11.6875,
+          "y": 45.984375
+        },
+        {
+          "name": "Editar perfil",
+          "width": 44,
+          "height": 44,
+          "x": 225.6875,
+          "y": 216.703125
+        },
+        {
+          "name": "Meu portfólio",
+          "width": 339.3125,
+          "height": 44.046875,
+          "x": 27.296875,
+          "y": 550.296875
+        },
+        {
+          "name": "Disponibilidade",
+          "width": 339.3125,
+          "height": 44.0625,
+          "x": 27.296875,
+          "y": 594.34375
+        },
+        {
+          "name": "Cachê",
+          "width": 339.3125,
+          "height": 44.046875,
+          "x": 27.296875,
+          "y": 638.40625
+        },
+        {
+          "name": "Estatísticas",
+          "width": 339.3125,
+          "height": 44.0625,
+          "x": 27.296875,
+          "y": 682.453125
+        },
+        {
+          "name": "Planos e assinaturas",
+          "width": 339.3125,
+          "height": 44.0625,
+          "x": 27.296875,
+          "y": 726.515625
+        },
+        {
+          "name": "Início",
+          "width": 70.1875,
+          "height": 48,
+          "x": 3.90625,
+          "y": 784.421875
+        },
+        {
+          "name": "Buscar",
+          "width": 70.1875,
+          "height": 48,
+          "x": 81.90625,
+          "y": 784.421875
+        },
+        {
+          "name": "Adicionar",
+          "width": 70.1875,
+          "height": 48,
+          "x": 159.90625,
+          "y": 784.421875
+        },
+        {
+          "name": "Conversas",
+          "width": 70.1875,
+          "height": 48,
+          "x": 237.90625,
+          "y": 784.421875
+        },
+        {
+          "name": "Meu perfil",
+          "width": 70.1875,
+          "height": 48,
+          "x": 315.90625,
+          "y": 784.421875
+        }
+      ],
+      "menuCount": 5,
+      "navCount": 5
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "dpr": 1,
+      "documentFit": true,
+      "assetsLoaded": true,
+      "avatar": {
+        "natural": [
+          77,
+          77
+        ],
+        "render": [
+          178.953125,
+          178.953125
+        ],
+        "frameVisiblePercent": 100,
+        "ratio": 1,
+        "objectFit": "fill"
+      },
+      "targets": [
+        {
+          "name": "Voltar",
+          "width": 44,
+          "height": 44,
+          "x": 12.890625,
+          "y": 50.78125
+        },
+        {
+          "name": "Editar perfil",
+          "width": 44,
+          "height": 44,
+          "x": 251.078125,
+          "y": 241.359375
+        },
+        {
+          "name": "Meu portfólio",
+          "width": 374.109375,
+          "height": 48.640625,
+          "x": 30.09375,
+          "y": 607.671875
+        },
+        {
+          "name": "Disponibilidade",
+          "width": 374.109375,
+          "height": 48.65625,
+          "x": 30.09375,
+          "y": 656.3125
+        },
+        {
+          "name": "Cachê",
+          "width": 374.109375,
+          "height": 48.640625,
+          "x": 30.09375,
+          "y": 704.96875
+        },
+        {
+          "name": "Estatísticas",
+          "width": 374.109375,
+          "height": 48.65625,
+          "x": 30.09375,
+          "y": 753.609375
+        },
+        {
+          "name": "Planos e assinaturas",
+          "width": 374.109375,
+          "height": 48.65625,
+          "x": 30.09375,
+          "y": 802.265625
+        },
+        {
+          "name": "Início",
+          "width": 77.390625,
+          "height": 48,
+          "x": 4.296875,
+          "y": 868.65625
+        },
+        {
+          "name": "Buscar",
+          "width": 77.390625,
+          "height": 48,
+          "x": 90.296875,
+          "y": 868.65625
+        },
+        {
+          "name": "Adicionar",
+          "width": 77.390625,
+          "height": 48,
+          "x": 176.296875,
+          "y": 868.65625
+        },
+        {
+          "name": "Conversas",
+          "width": 77.390625,
+          "height": 48,
+          "x": 262.296875,
+          "y": 868.65625
+        },
+        {
+          "name": "Meu perfil",
+          "width": 77.390625,
+          "height": 48,
+          "x": 348.296875,
+          "y": 868.65625
+        }
+      ],
+      "menuCount": 5,
+      "navCount": 5
+    }
+  ],
+  "actions": {
+    "Meu portfólio": "dialog, Escape e retorno de foco aprovados",
+    "Disponibilidade": "dialog, Escape e retorno de foco aprovados",
+    "Cachê": "dialog, Escape e retorno de foco aprovados",
+    "Estatísticas": "dialog, Escape e retorno de foco aprovados",
+    "Planos e assinaturas": "dialog, Escape e retorno de foco aprovados",
+    "Adicionar": "dialog, Escape e retorno de foco aprovados",
+    "availabilityMemory": true,
+    "editCancelSafeTextAndVerification": true,
+    "reloadResets": true,
+    "dialogFocusContainment": true,
+    "navigation03": "http://127.0.0.1:8099/MODEL_tela_03_V2/index.html",
+    "navigation07": "http://127.0.0.1:8099/MODEL_tela_07_V1/index.html",
+    "navigation06": "http://127.0.0.1:8099/MODEL_tela_06_V1/index.html",
+    "backFallback09": true,
+    "reducedMotion": true,
+    "avatarFallbackAndPermanentOverlay": true
+  }
+}

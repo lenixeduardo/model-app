@@ -13,7 +13,7 @@ Atualização: 2026-11-11 (America/Sao_Paulo). Regra atual do usuário: prossegu
 | 5 | 07 — Castings | **APROVADA VISUALMENTE:9,32/10**, soma9,315; versão1.0.0-prototipo.2, auditor07 concluído sem P1 material. | Gate07>9,0 atingido; preservar03–07 e evidências. Próximo papel planejador08 LIBERADO. |
 | 6 | 08 — Filtros | **APROVADA VISUALMENTE:9,23/10**, soma9,234615; versão1.0.0-prototipo.1, auditor08 independente concluído sem P1 material. | Gate08>9,0 atingido; fotografia N/A e rubrica normalizada. Preservar03–08; próximo papel planejador09 LIBERADO. |
 | 7 | 09 — Salvos | **APROVADA VISUALMENTE:9,27/10**, soma9,265; versão1.0.0-prototipo.1, auditor09 concluído sem P1 material. | Gate09>9,0 atingido; preservar03–09. Próximo papel planejador10 LIBERADO. |
-| 8 | 10 — Meu perfil | **Planejador10 LIBERADO** pelo gate09 de9,27/10. | Executar quatro papéis sequenciais; gate10 próprio antes de11. |
+| 8 | 10 — Meu perfil | **Planejamento10 concluído; assets10 LIBERADO** após gate09 de9,27/10. | DESIGN_SPEC.md e PLANO.md entregues; assets10 → implementador10 → auditor10 independente. Gate10 próprio antes de11. |
 | 9 | 11 — Notificações | Aguardando gate10. | Auditoria10 documentada >9,0; depois planejador11. |
 
 As telas 01/02 não integram esta fila de continuidade iniciada na 03. Os recortes já existentes das telas seguintes são referências; sua existência não significa planejamento, implementação ou aprovação.
@@ -228,3 +228,29 @@ A execução já está autorizada, incluindo dependências necessárias e public
 - Referência, três CAPtura finais e comparação abertas;10 hashes, colagem390 exata, RGB genuíno dos4 crops e12 ratios de frame conferidos. Relatórios Chromium/fallback revisados, sem segunda sessão de browser independente.
 - P2 de respiro foto/legenda, bookmark opaco dominante, fonte/ícones e limites de insumos em [AUDITORIA09](../MODEL_tela_09_V1/AUDITORIA.md).
 - **Auditor09 concluído. Próximo papel: planejador10 LIBERADO.**03–08 (08=9,23) e código/assets/capturas09 preservados. Sem publicação ou início10 neste papel;11 aguarda gate10. Pendências09 anteriores acima são históricas, superadas por esta decisão.
+
+## Estágio10 — planejamento entregue
+
+- Referência10 e original abertos; crop global[612,434,797,751],185×317, RGB idêntico confirmado(bbox=None). Nome fonte Matheus Silva,24; avatar circular exclusivo10 com editar sobreposto, três tags/três medidas, cinco menus e navbar5 documentados. Não há bio nem sexto item na fonte.
+- Geometria, textos nativos Arial, cores amostradas, limites de retrato/alpha/suporte opaco e ações locais honestas em `MODEL_tela_10_V1/DESIGN_SPEC.md`; sequência em `MODEL_tela_10_V1/PLANO.md`. Não atribuir portfólio de Enzo a Matheus.
+- **Planejador10 concluído. Próximo papel: assets10 LIBERADO**, seguido de implementador10 e auditor10 independente; gate10>9,0 pendente, meta9,5.03–09 preservadas;11 aguarda gate10. Sem assets novos, HTML/CSS/JS, capturas, auditoria, nota ou publicação neste papel.
+
+## Estágio10 — assets entregues
+
+- Avatar exclusivo Matheus Silva24,77×77 RGBA, bbox global[665,473,742,550], circular integral1:1;4386 pixels visíveis RGB idênticos à fonte. Alpha exterior/footprint editar sem inpaint; suporte SVG opaco co-registrado77×77 com margem1px e permanente.
+-20 assets independentes (avatar+19SVGs), extração reproduzível, manifest de hashes/proveniência/máscaras e ASSETS.md. Status/nav adequados, selo preto/check branco, cinco menus; texto fica HTML nativo. Limites JPEG/matte e verificação SVG pelo navegador documentados.
+- **Assets10 concluído. Próximo papel: implementador10 LIBERADO**, seguido por auditor10 independente. Gate10>9,0 pendente, meta9,5;11 aguarda gate10.03–09 preservadas. Sem HTML/CSS/JS, capturas de app, nota ou publicação neste papel.
+
+## Estágio10 — implementação entregue
+
+- Versão1.0.0-prototipo.1: HTML/CSS/JS nativos, Matheus Silva24 exclusivo10, avatar77×77 integral em proporção1:1, overlay opaco co-registrado e suporte CSS permanente. Cinco menus exatos, três tags/três medidas, navbar5 e dialogs locais sem dados remotos inventados.
+- Teste inicial falhou por ausência do HTML antes da construção e passa depois. Capturas minúsculas `captura-375.png`, `captura-390.png`, `captura-430.png`, candidata e comparação proporcional à altura844 abertas. Playwright/Chromium156 DPR1: documento sem overflow, alvos44 sem interseções, assets carregados, zero erros nas ações principais; edição segura, cancelamento/reload, menus, teclado/Escape/foco, navegação aprovada, reduced-motion e fallback verificados nos relatórios.
+- **Implementador10 concluído. Próximo papel: auditor10 independente LIBERADO.** Gate10>9,0/meta9,5 pendente;03–09 preservadas;11 segue bloqueada. Sem nota ou publicação.
+
+
+## Estágio10 — auditor independente concluído
+
+- **APROVADA VISUALMENTE:9,28/10**, soma9,2825; versão1.0.0-prototipo.1. Gate>9,0 atendido, meta9,5 não atingida; nenhum P1 material.
+- Referência, três capturas reais e comparação abertas;46 hashes release, colagem390 exata, crop fonte e4386 pixels RGB genuínos do avatar conferidos independentemente. Foto integral1:1, overlay co-registrado e suporte permanente; cinco menus sem bio, selo preto, texto nativo.
+- P2: editar dominante, respiro avatar/identidade, tipografia/ícones aproximados e limites fora dos tamanhos-alvo. Relatórios Chromium revisados, sem segunda sessão browser pelo auditor; detalhes/sha em [AUDITORIA10](../MODEL_tela_10_V1/AUDITORIA.md).
+- **Auditor10 concluído. Próximo papel: planejador11 LIBERADO.**03–09 e runtime/assets/capturas10 preservados. Sem publicação ou início11 por este papel. Pendências10 anteriores são históricas, superadas por esta decisão.
