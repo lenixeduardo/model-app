@@ -8,6 +8,6 @@ Filtros reais, salvos apenas em memória e detalhes locais. Datas do mockup são
 
 Reproduzir: `python MODEL_tela_07_V1/render.py` e `python MODEL_tela_07_V1/compare.py` na raiz. Requer Python, Pillow, Playwright e `/usr/bin/chromium`. `--candidate` captura somente390. A raiz é servida para resolver links03/06.
 
-Fotos extraídas do original, sem geração ou modificação de identidade. CSS exibe o frame integral com largura fluida e altura intrínseca; sem corte de laterais ou torso. Baixa resolução e matte JPEG são limites do original. SVGs locais aproximados. Veja ASSETS.md e EVIDENCIAS.md. Auditoria independente e gate>9,0 pendentes; sem publicação.
+Fotos extraídas do original, sem geração ou modificação de identidade. CSS exibe o frame integral com largura fluida e altura intrínseca; sem corte de laterais ou torso. Baixa resolução e matte JPEG são limites do original. SVGs locais aproximados. Veja ASSETS.md e EVIDENCIAS.md. Auditoria independente concluída em9,32/10; gate>9,0 atingido e versão aprovada publicada.
 
 As capturas captura-375.png / captura-390.png / captura-430.png são os raw finais ou cópias idênticas dos raw em screenshots/, sem edição. Candidatos e versões anteriores são históricos, não prova da versão aprovada.
