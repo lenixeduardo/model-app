@@ -11,8 +11,8 @@ Atualização: 2026-11-11 (America/Sao_Paulo). Regra atual do usuário: prossegu
 | 3 | 05 — Portfólio | **APROVADA VISUALMENTE:9,34/10**, V1 **1.0.0-prototipo.1**; auditor05 independente concluído, soma9,335 e nenhum P1 material. | Gate05>9,0 atingido; preservar03/04/05 e evidências. Próximo papel planejador06 LIBERADO. |
 | 4 | 06 — Chat / Negociação | **APROVADA VISUALMENTE:9,28/10**, V1 **1.0.0-prototipo.1**; auditor06 independente concluído, soma9,275 e nenhum P1 material. | Gate06>9,0 atingido; preservar03/04/05/06 e evidências. Próximo papel planejador07 LIBERADO. |
 | 5 | 07 — Castings | **APROVADA VISUALMENTE:9,32/10**, soma9,315; versão1.0.0-prototipo.2, auditor07 concluído sem P1 material. | Gate07>9,0 atingido; preservar03–07 e evidências. Próximo papel planejador08 LIBERADO. |
-| 6 | 08 — Filtros | **Planejador08 LIBERADO**; conteúdo não iniciado pelo auditor07. | Auditoria07 V2 aprovada9,32/10 (>9,0); seguir planejador → assets → implementador → auditor08. |
-| 7 | 09 — Salvos | Aguardando gate08. | Auditoria08 documentada >9,0; depois planejador09. |
+| 6 | 08 — Filtros | **APROVADA VISUALMENTE:9,23/10**, soma9,234615; versão1.0.0-prototipo.1, auditor08 independente concluído sem P1 material. | Gate08>9,0 atingido; fotografia N/A e rubrica normalizada. Preservar03–08; próximo papel planejador09 LIBERADO. |
+| 7 | 09 — Salvos | **Planejador09 LIBERADO** pelo gate08 de9,23/10. | Seguir quatro papéis sequenciais; gate09 próprio antes de10. |
 | 8 | 10 — Meu perfil | Aguardando gate09. | Auditoria09 documentada >9,0; depois planejador10. |
 | 9 | 11 — Notificações | Aguardando gate10. | Auditoria10 documentada >9,0; depois planejador11. |
 
@@ -180,3 +180,23 @@ A execução já está autorizada, incluindo dependências necessárias e public
 - Referência, três novas capturas V2 e comparação reabertas; enquadramentos integrais e proporção das três pessoas preservados. RGB dos crops, dimensões, hashes JSON/SHA256SUMS e colagem390 conferidos independentemente. Evidência Chromium atual revisada, sem segunda renderização/browser pelo auditor.
 - P2: fotos proporcionais mais baixas que rows/metadados, fonte/ícones e matte/resolução do original. Escopo e hashes em [AUDITORIA07](../MODEL_tela_07_V1/AUDITORIA.md).
 - **Auditor07 concluído. Próximo papel: planejador08 LIBERADO.**03–06 preservadas; código/assets/capturas07 intactos na auditoria. Não houve publicação ou início de conteúdo08 por este papel.
+
+## Estágio08 — planejamento entregue
+
+- Referência08 e original abertos; crop global[220,434,420,751],200×317, confirmado RGB idêntico(bbox=None). Geometria, textos, estados, faixas e contratos locais em `MODEL_tela_08_V1/DESIGN_SPEC.md`; execução em `MODEL_tela_08_V1/PLANO.md`.
+- Sem fotografias: rubrica08 registra fotografia N/A e normaliza65% restantes(25geometria/20tipografia/10cores/10responsividade), sem10 gratuito ou alteração das notas anteriores.
+- **Planejador08 concluído. Próximo papel: assets08 LIBERADO**, depois implementador08 e auditor independente. Gate08>9,0, meta9,5;09–11 aguardam.03–07 preservadas; sem assets novos, código, capturas, nota ou publicação neste papel.
+
+## Estágio08 — assets entregues
+
+- Referência200×317 e original1179×753 abertos com zoom; crop global[220,434,420,751] RGB idêntico comprovado. Sem fotografia, fotografia N/A e rubrica normalizada conforme DESIGN_SPEC. Nenhum PNG de interface ou fotografia produzido.
+- Seis SVGs aproximados: voltar, lupa do campo(location.svg), chevron, celular, Wi-Fi e bateria. Cinco cópias byte idênticas06/07 e chevron novo, com hashes/proveniência; cores exatas amostradas, boxes e limites JPEG em ASSETS.md/assets/manifest.json. Script prepare_assets.py reproduz prova e inventário.
+- **Assets08 concluído. Próximo papel: implementador08 LIBERADO**, depois auditor independente. Gate08>9,0 pendente, meta9,5.03–07 preservadas; sem código de interface, capturas, nota, publicação ou início09.
+
+
+## Estágio08 — auditor independente concluído
+
+- **APROVADA VISUALMENTE:9,23/10**, soma9,234615; versão1.0.0-prototipo.1. Gate>9,0 atingido, meta9,5 não atingida; nenhum P1 material. Fotografia N/A, rubrica (25G+20T+10C+10R)/65 sem nota gratuita.
+- Referência, três capturas e comparação abertas via view_image; dimensões e11 hashes conferidos. Logs/scripts Chromium156/DPR1 revisados, sem segunda sessão de browser ou recaptura independente.
+- P2 e limites: fonte/ícones aproximados, thumb idade≈7px deslocado na390, preenchimento negativo quando altura inferior fica abaixo do domínio visual inicial, clamp dos sliders e cobertura parcial de acessibilidade/rede no script. Detalhes e hashes em [AUDITORIA08](../MODEL_tela_08_V1/AUDITORIA.md).
+- **Auditor08 concluído. Próximo papel: planejador09 LIBERADO.**03–07 e código/assets/capturas08 preservados; sem publicação ou planejamento09 neste papel. Registros anteriores de pendência08 são históricos, superados por esta decisão.

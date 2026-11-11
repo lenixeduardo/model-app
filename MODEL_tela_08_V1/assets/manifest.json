@@ -1,0 +1,214 @@
+{
+  "source": {
+    "file": "MODEL_assets_v1/originais/mockup-geral.jpg",
+    "sha256": "9120f379280879ca9c7695eeccba7288630b6956b39708eb94311080dbedf3dd",
+    "dimensions": [
+      1179,
+      753
+    ]
+  },
+  "reference": {
+    "file": "MODEL_assets_v1/referencias/08-filtros.png",
+    "sha256": "b2a0298f8990e50248b5e11bc1af49b72d468ec4ff11691f19d5f8ccce020d99",
+    "dimensions": [
+      200,
+      317
+    ],
+    "source_box": [
+      220,
+      434,
+      420,
+      751
+    ],
+    "rgb_identical": true,
+    "difference_bbox": null
+  },
+  "photos": [],
+  "photography_criterion": "N/A; normalize remaining 65% as DESIGN_SPEC.md",
+  "color_samples": {
+    "paper": {
+      "local_box": [
+        70,
+        35,
+        120,
+        42
+      ],
+      "method": "most frequent exact RGB; text patch includes antialias/background",
+      "rgb": [
+        249,
+        248,
+        244
+      ],
+      "hex": "#f9f8f4",
+      "count": 132
+    },
+    "text": {
+      "local_box": [
+        81,
+        21,
+        111,
+        31
+      ],
+      "method": "most frequent RGB with mean channel in [0,80]",
+      "rgb": [
+        28,
+        27,
+        25
+      ],
+      "hex": "#1c1b19",
+      "count": 2
+    },
+    "field": {
+      "local_box": [
+        35,
+        57,
+        120,
+        61
+      ],
+      "method": "most frequent exact RGB; text patch includes antialias/background",
+      "rgb": [
+        238,
+        237,
+        233
+      ],
+      "hex": "#eeede9",
+      "count": 68
+    },
+    "track": {
+      "local_box": [
+        105,
+        102,
+        180,
+        105
+      ],
+      "method": "most frequent exact RGB; text patch includes antialias/background",
+      "rgb": [
+        224,
+        223,
+        219
+      ],
+      "hex": "#e0dfdb",
+      "count": 42
+    },
+    "secondary": {
+      "local_box": [
+        128,
+        89,
+        185,
+        94
+      ],
+      "method": "most frequent RGB with mean channel in [70,180]",
+      "rgb": [
+        157,
+        156,
+        154
+      ],
+      "hex": "#9d9c9a",
+      "count": 4
+    },
+    "black": {
+      "local_box": [
+        25,
+        283,
+        65,
+        296
+      ],
+      "method": "most frequent exact RGB; text patch includes antialias/background",
+      "rgb": [
+        13,
+        13,
+        13
+      ],
+      "hex": "#0d0d0d",
+      "count": 287
+    }
+  },
+  "icons": [
+    {
+      "file": "back.svg",
+      "sha256": "6853b01f809d11819a2c25ab780b83cdd6d0347f1927f92c411b332d3e024627",
+      "classification": "Approximate local vector, no raster source pixels",
+      "viewBox": [
+        0,
+        0,
+        24,
+        24
+      ],
+      "copied_from": "MODEL_tela_06_V1/assets/back.svg",
+      "origin_sha256": "6853b01f809d11819a2c25ab780b83cdd6d0347f1927f92c411b332d3e024627",
+      "byte_identical": true
+    },
+    {
+      "file": "battery.svg",
+      "sha256": "00adb9fbad3577e1a5110e4fe7039773faaebc79eef595ea602f56eb79b788e4",
+      "classification": "Approximate local vector, no raster source pixels",
+      "viewBox": [
+        0,
+        0,
+        24,
+        24
+      ],
+      "copied_from": "MODEL_tela_06_V1/assets/battery.svg",
+      "origin_sha256": "00adb9fbad3577e1a5110e4fe7039773faaebc79eef595ea602f56eb79b788e4",
+      "byte_identical": true
+    },
+    {
+      "file": "cellular.svg",
+      "sha256": "bfef56a21521154b475f4e5dd76c582a6d0b512103b73195d80b767e6998e8df",
+      "classification": "Approximate local vector, no raster source pixels",
+      "viewBox": [
+        0,
+        0,
+        24,
+        24
+      ],
+      "copied_from": "MODEL_tela_06_V1/assets/cellular.svg",
+      "origin_sha256": "bfef56a21521154b475f4e5dd76c582a6d0b512103b73195d80b767e6998e8df",
+      "byte_identical": true
+    },
+    {
+      "file": "chevron.svg",
+      "sha256": "507248056663c95484d16613efd906fa54337458a726bcd659eefb74fa2eacdd",
+      "classification": "Approximate local vector, no raster source pixels",
+      "viewBox": [
+        0,
+        0,
+        24,
+        24
+      ]
+    },
+    {
+      "file": "location.svg",
+      "sha256": "07af411c8440344908a7705a6ed1e02860f5c23d7074c07c0f03b6357cd01fed",
+      "classification": "Approximate local vector, no raster source pixels",
+      "viewBox": [
+        0,
+        0,
+        24,
+        24
+      ],
+      "copied_from": "MODEL_tela_07_V1/assets/search.svg",
+      "origin_sha256": "07af411c8440344908a7705a6ed1e02860f5c23d7074c07c0f03b6357cd01fed",
+      "byte_identical": true
+    },
+    {
+      "file": "wifi.svg",
+      "sha256": "4fadfbcb4893402906a346c5c2f462bda9052857153b27a750214e940c7f8815",
+      "classification": "Approximate local vector, no raster source pixels",
+      "viewBox": [
+        0,
+        0,
+        24,
+        24
+      ],
+      "copied_from": "MODEL_tela_06_V1/assets/wifi.svg",
+      "origin_sha256": "4fadfbcb4893402906a346c5c2f462bda9052857153b27a750214e940c7f8815",
+      "byte_identical": true
+    }
+  ],
+  "limitations": [
+    "JPEG and low resolution; vectors are approximations, not exact tracing.",
+    "location.svg represents the magnifying glass visible at field start, not a pin.",
+    "All labels, status time, chips, controls, tracks and handles must be native HTML/CSS; no full-reference background."
+  ]
+}

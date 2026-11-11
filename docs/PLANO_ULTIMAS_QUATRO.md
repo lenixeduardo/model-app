@@ -2,7 +2,7 @@
 
 Atualização: 2026-11-11 (America/Sao_Paulo). A execução está autorizada; este documento organiza o despacho sem solicitar nova confirmação. Não define conteúdo, medidas ou layout das telas08–11 antes de seus gates. As referências fornecidas já existem e serão abertas pelo planejador de cada tela quando liberado.
 
-A Tela07 está retomando implementação e precisa de auditoria independente **>9,0/10** antes de iniciar conteúdo08. A meta de cada tela é **9,5/10**; exatamente9,0 não libera avanço. Preservar integralmente03–06 aprovadas (9,13/9,30/9,34/9,28), seus pacotes publicados e evidências.
+A Tela07V2 foi aprovada por auditoria independente com **9,32/10** (soma9,315), liberando08. O planejamento08 está entregue em `MODEL_tela_08_V1/DESIGN_SPEC.md` e `PLANO.md`; próximo papel: **assets08**. A meta de cada tela é **9,5/10**; exatamente9,0 não libera avanço. Preservar integralmente03–06 aprovadas (9,13/9,30/9,34/9,28), seus pacotes publicados e evidências.
 
 ## Despacho sequencial
 
@@ -38,4 +38,4 @@ Usar pacotes separados por tela e versões explícitas; manter03–06 intactas. 
 
 O agente pode executar o trabalho no workspace e coordenar os papéis autorizados. Não tem capacidade de alterar o modo da interface ou mover a sessão para ChatGPT Work; isso não impede a continuidade local já autorizada.
 
-**Próximo despacho:** concluir implementador07_retomada → auditor07 independente. Assim que `AUDITORIA.md` da07 registrar gate>9,0 sem bloqueador material, liberar **planejador08** para abrir a referência fornecida e entregar sua especificação e plano; depois assets08 → implementador08 → auditor08, sem nova confirmação.
+**Próximo despacho:** **assets08**, conforme especificação e plano08 já entregues após gate07 aprovado. Depois implementador08 → auditor08 independente. Só gate08>9,0 libera planejador09, sem nova confirmação.

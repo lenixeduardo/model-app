@@ -1,0 +1,172 @@
+{
+  "version": "1.0.0-prototipo.1",
+  "console": [],
+  "network_errors": [],
+  "checks": {
+    "all_flows": "passed: city, distance, all six endpoints, categories, radio, apply summary, Escape/focus restore, validation, reset, keyboard range, reload",
+    "reduced_motion": true,
+    "back07": "http://localhost:8000/MODEL_tela_07_V1/index.html"
+  },
+  "browser": "156.0.8078.79",
+  "native_inputs": [
+    {
+      "id": "city",
+      "type": "text"
+    },
+    {
+      "id": "age",
+      "type": "range"
+    },
+    {
+      "id": "height",
+      "type": "range"
+    },
+    {
+      "id": "fee",
+      "type": "range"
+    },
+    {
+      "id": "lower",
+      "type": "number"
+    },
+    {
+      "id": "upper",
+      "type": "number"
+    }
+  ],
+  "targets": [
+    {
+      "id": "",
+      "width": 64,
+      "height": 44
+    },
+    {
+      "id": "reset",
+      "width": 64,
+      "height": 44
+    },
+    {
+      "id": "city",
+      "width": 175.734375,
+      "height": 44
+    },
+    {
+      "id": "distance",
+      "width": 101.78125,
+      "height": 47.921875
+    },
+    {
+      "id": "value-age",
+      "width": 68.203125,
+      "height": 44
+    },
+    {
+      "id": "age",
+      "width": 335.40625,
+      "height": 44
+    },
+    {
+      "id": "value-height",
+      "width": 85.90625,
+      "height": 44
+    },
+    {
+      "id": "height",
+      "width": 335.40625,
+      "height": 44
+    },
+    {
+      "id": "value-fee",
+      "width": 100.234375,
+      "height": 44
+    },
+    {
+      "id": "fee",
+      "width": 335.40625,
+      "height": 44
+    },
+    {
+      "id": "Fashion",
+      "width": 79.953125,
+      "height": 44
+    },
+    {
+      "id": "Fitness",
+      "width": 74.09375,
+      "height": 44
+    },
+    {
+      "id": "Comercial",
+      "width": 85.8125,
+      "height": 44
+    },
+    {
+      "id": "Editorial",
+      "width": 76.0625,
+      "height": 44
+    },
+    {
+      "id": "Lifestyle",
+      "width": 79.953125,
+      "height": 44
+    },
+    {
+      "id": "Passarela",
+      "width": 74.09375,
+      "height": 44
+    },
+    {
+      "id": "Imediata",
+      "width": 89.921875,
+      "height": 44
+    },
+    {
+      "id": "Próximas semanas",
+      "width": 151.859375,
+      "height": 44
+    },
+    {
+      "id": "Flexível",
+      "width": 81.9375,
+      "height": 44
+    },
+    {
+      "id": "apply",
+      "width": 339.3125,
+      "height": 63.890625
+    }
+  ],
+  "viewports": [
+    {
+      "width": 375,
+      "height": 812,
+      "scrollWidth": 375,
+      "scrollHeight": 812,
+      "dpr": 1
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 844,
+      "dpr": 1
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "scrollWidth": 430,
+      "scrollHeight": 932,
+      "dpr": 1
+    }
+  ],
+  "sha256": {
+    "screenshots/captura-375.png": "95e677c5445bb664340b377bd0af1c8b8c8a4678298512bea5166ffd2db10cf4",
+    "screenshots/captura-430.png": "3da7e8d70040b6872550b076511067dbfca99cc7c35e506c308539654673fe7e",
+    "screenshots/candidato-390.png": "1c742fde2ac431e1c1ee07df3fed6fd823ff95f0f90a1f10617bea97f63ed3b2",
+    "screenshots/captura-390.png": "1c742fde2ac431e1c1ee07df3fed6fd823ff95f0f90a1f10617bea97f63ed3b2",
+    "comparacao-390.png": "169848c27f0b47ae1e953c025950b9db869e19107e3b2174a39ecaec0d016f76",
+    "index.html": "3fe6c198f49695d7b1c0d910053c91988550fd0d6c2c25300a1c92345bf28ea9",
+    "styles.css": "d231f1573ecdfea85ee05048f489b651ebfee64b8eaeb0ab009e5efc0bb822e2",
+    "app.js": "eda0f86c6e2992262e745ae920b0709ed829625b0206a51569cfcacf920a8fe7"
+  }
+}
