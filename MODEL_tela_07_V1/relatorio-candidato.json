@@ -1,0 +1,160 @@
+{
+  "DPR": 1,
+  "version": "1.0.0-prototipo.2",
+  "viewports": [
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "document": [
+        390,
+        844
+      ],
+      "images": [
+        {
+          "src": "assets/campanha-inverno-2025.png",
+          "loaded": true,
+          "natural": [
+            62,
+            59
+          ],
+          "render": [
+            120,
+            114
+          ],
+          "fit": "contain",
+          "visibleSourceFraction": 1,
+          "ratioError": 0.001784121320249632
+        },
+        {
+          "src": "assets/marca-esportiva.png",
+          "loaded": true,
+          "natural": [
+            62,
+            64
+          ],
+          "render": [
+            120,
+            124
+          ],
+          "fit": "contain",
+          "visibleSourceFraction": 1,
+          "ratioError": 0.0010080645161290036
+        },
+        {
+          "src": "assets/editorial-masculino.png",
+          "loaded": true,
+          "natural": [
+            62,
+            65
+          ],
+          "render": [
+            120,
+            126
+          ],
+          "fit": "contain",
+          "visibleSourceFraction": 1,
+          "ratioError": 0.001465201465201571
+        }
+      ],
+      "targets": [
+        {
+          "name": "Criar casting",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "name": "Todos",
+          "width": 82.109375,
+          "height": 44
+        },
+        {
+          "name": "Moda",
+          "width": 82.109375,
+          "height": 44
+        },
+        {
+          "name": "Comercial",
+          "width": 82.109375,
+          "height": 44
+        },
+        {
+          "name": "Editorial",
+          "width": 82.109375,
+          "height": 44
+        },
+        {
+          "name": "Detalhes: Campanha Inverno 2025",
+          "width": 303.4375,
+          "height": 157.234375
+        },
+        {
+          "name": "Salvar Campanha Inverno 2025",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Detalhes: Marca Esportiva",
+          "width": 303.4375,
+          "height": 168.875
+        },
+        {
+          "name": "Salvar Marca Esportiva",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Detalhes: Editorial Masculino",
+          "width": 303.4375,
+          "height": 174.703125
+        },
+        {
+          "name": "Salvar Editorial Masculino",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Descobrir",
+          "width": 52,
+          "height": 48
+        },
+        {
+          "name": "Buscar",
+          "width": 52,
+          "height": 48
+        },
+        {
+          "name": "Novo casting",
+          "width": 52,
+          "height": 48
+        },
+        {
+          "name": "Chat",
+          "width": 52,
+          "height": 48
+        },
+        {
+          "name": "Perfil",
+          "width": 52,
+          "height": 48
+        }
+      ],
+      "console": [],
+      "networkErrors": [],
+      "externalRequests": [],
+      "actions": "Filters 3/1/1/2; isolated save toggles; reload reset; five keyboard dialogs with trapped and restored focus/Escape; real links03/06 passed"
+    }
+  ],
+  "browser": "156.0.8078.79",
+  "sha256": {
+    "captura-375.png": "423a0eebf2b7255c48ed10ea4fb0dcee4ae834258590f4c801eda40226667369",
+    "comparacao-390.png": "6a2bfdfd434f0745c4473f9855dd70fcf2994b9b7bfbc15674e21a45d9424425",
+    "index.html": "19cceb21c787a0247b6fbb469f0c678893f190d3810b760800a73f1365442297",
+    "captura-430.png": "09f7b857d9c37737031c0ac9c319229cdea5cfc5db9be21ad87e09aba068d861",
+    "candidato-390.png": "e21be24abb872863b5af8f4a26c0ab31c8aebca81ca3a422f280f2183a4f3dbb",
+    "captura-390.png": "80542d59af3bed6c5025c1ed690d007bf1f6432783ad32f72cfa9290a155fe9d",
+    "styles.css": "2a8ef16f5524145fd016c0debf910d8b63a97a9548bcbdb55d03c64ef9f2cf94",
+    "app.js": "015feb6612b63284f61c79cd2090b4042aadccd5240baa83ab1b3af80f6a0a9b"
+  }
+}

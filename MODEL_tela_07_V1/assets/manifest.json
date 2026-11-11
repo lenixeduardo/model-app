@@ -1,0 +1,188 @@
+{
+  "source": {
+    "file": "MODEL_assets_v1/originais/mockup-geral.jpg",
+    "sha256": "9120f379280879ca9c7695eeccba7288630b6956b39708eb94311080dbedf3dd",
+    "dimensions": [
+      1179,
+      753
+    ]
+  },
+  "reference": {
+    "file": "MODEL_assets_v1/referencias/07-castings.png",
+    "sha256": "e95400549d1cf8825446fae0e6a43ded7aa6b6733cc4c304efc1cddf003f1fdb",
+    "dimensions": [
+      201,
+      317
+    ],
+    "source_box": [
+      11,
+      434,
+      212,
+      751
+    ],
+    "rgb_identical": true
+  },
+  "photos": [
+    {
+      "file": "campanha-inverno-2025.png",
+      "description": "Homem de cabelo escuro, casaco preto aberto, fundo cinza.",
+      "local_box": [
+        12,
+        65,
+        74,
+        124
+      ],
+      "source_box": [
+        23,
+        499,
+        85,
+        558
+      ],
+      "dimensions": [
+        62,
+        59
+      ],
+      "sha256": "01bef4709dc03530af5e0b659cdf6012dc7d3f70a736134dbfde0e7d8576e80e",
+      "crop_rgb_sha256": "3ef4574740c3aecff80828b42299e0d89d467d652981cc2ac4778d851cf33d6f",
+      "visible_pixels": 3634,
+      "transparent_pixels": 24,
+      "visible_rgb_identical": true,
+      "transparent_rgb_zero": true,
+      "mask": "Binary geometric rounded rectangle, radius5 source pixels; no resampling",
+      "complete_visible_frame": true
+    },
+    {
+      "file": "marca-esportiva.png",
+      "description": "Homem de cabelo curto e regata escura; região dos olhos sombreada, óculos não confirmáveis.",
+      "local_box": [
+        12,
+        140,
+        74,
+        204
+      ],
+      "source_box": [
+        23,
+        574,
+        85,
+        638
+      ],
+      "dimensions": [
+        62,
+        64
+      ],
+      "sha256": "cedc4ccf9670d940ca9c4b76ec49dd9c9eb2dbecdb05aa46b877313a47cbf09c",
+      "crop_rgb_sha256": "4305c411f9762cfd8cf405b1ea020ce59c07b622d9500da3929420fefecc51c7",
+      "visible_pixels": 3944,
+      "transparent_pixels": 24,
+      "visible_rgb_identical": true,
+      "transparent_rgb_zero": true,
+      "mask": "Binary geometric rounded rectangle, radius5 source pixels; no resampling",
+      "complete_visible_frame": true
+    },
+    {
+      "file": "editorial-masculino.png",
+      "description": "Homem de cabelo escuro, camisa clara aberta, fundo cinza escuro.",
+      "local_box": [
+        12,
+        218,
+        74,
+        283
+      ],
+      "source_box": [
+        23,
+        652,
+        85,
+        717
+      ],
+      "dimensions": [
+        62,
+        65
+      ],
+      "sha256": "d53657c8cf5e9edf34d5d704060dc428bc822208479bd62b0934c9a92e160c8c",
+      "crop_rgb_sha256": "0bc9391b640efa7f29e53b6f7bb3948eaabebb69ec03a9a5753b8483682b99ad",
+      "visible_pixels": 4006,
+      "transparent_pixels": 24,
+      "visible_rgb_identical": true,
+      "transparent_rgb_zero": true,
+      "mask": "Binary geometric rounded rectangle, radius5 source pixels; no resampling",
+      "complete_visible_frame": true
+    }
+  ],
+  "icons": [
+    {
+      "file": "battery.svg",
+      "sha256": "00adb9fbad3577e1a5110e4fe7039773faaebc79eef595ea602f56eb79b788e4",
+      "classification": "Local approximate vector; no source raster pixels",
+      "copied_from": "MODEL_tela_06_V1/assets/battery.svg"
+    },
+    {
+      "file": "bookmark.svg",
+      "sha256": "e74797ddd29d545b601d59173d74257708a126be3e8e325b6affbaa9712acc16",
+      "classification": "Local approximate vector; no source raster pixels",
+      "copied_from": "MODEL_tela_04_V1/assets/icons/salvar.svg"
+    },
+    {
+      "file": "calendar.svg",
+      "sha256": "c3566dd13f8af8e12d96d133b49a9ff0de904aabad425ed819ab47368366bbc8",
+      "classification": "Local approximate vector; no source raster pixels"
+    },
+    {
+      "file": "cellular.svg",
+      "sha256": "bfef56a21521154b475f4e5dd76c582a6d0b512103b73195d80b767e6998e8df",
+      "classification": "Local approximate vector; no source raster pixels",
+      "copied_from": "MODEL_tela_06_V1/assets/cellular.svg"
+    },
+    {
+      "file": "chat.svg",
+      "sha256": "4081da2af81779dcc72c1cadbf3c442bd3eb42c8bd68d8b037d932cd612007d5",
+      "classification": "Local approximate vector; no source raster pixels"
+    },
+    {
+      "file": "currency.svg",
+      "sha256": "0057ad6ad83d434b5f4eaf4668119e7771979490303ffdd3e121b96081ba44b1",
+      "classification": "Local approximate vector; no source raster pixels"
+    },
+    {
+      "file": "location.svg",
+      "sha256": "98c07716f96393609740fc77e15db40ad56a7a37c70dd2e9598dc06df53fcf18",
+      "classification": "Local approximate vector; no source raster pixels",
+      "copied_from": "MODEL_tela_06_V1/assets/location.svg"
+    },
+    {
+      "file": "nav-home.svg",
+      "sha256": "27199af1d9b77943db8b68ac22aeda0e100a9cf53a1be25071b181d14bcf0d97",
+      "classification": "Local approximate vector; no source raster pixels"
+    },
+    {
+      "file": "plus.svg",
+      "sha256": "0ea5353e0a94c8b2426684db1179c448bfeb7cc992ceac8cf6206360a636f623",
+      "classification": "Local approximate vector; no source raster pixels"
+    },
+    {
+      "file": "profile.svg",
+      "sha256": "427728a1660072ddeacae699ca4060c30db565cf8164317c4f63848daaa984dc",
+      "classification": "Local approximate vector; no source raster pixels"
+    },
+    {
+      "file": "search.svg",
+      "sha256": "07af411c8440344908a7705a6ed1e02860f5c23d7074c07c0f03b6357cd01fed",
+      "classification": "Local approximate vector; no source raster pixels"
+    },
+    {
+      "file": "top-plus.svg",
+      "sha256": "18e49517fa5749f0a99375527d007b264b5c78a603bcf4f95f310eac4d7c8387",
+      "classification": "Local approximate vector; no source raster pixels"
+    },
+    {
+      "file": "wifi.svg",
+      "sha256": "4fadfbcb4893402906a346c5c2f462bda9052857153b27a750214e940c7f8815",
+      "classification": "Local approximate vector; no source raster pixels",
+      "copied_from": "MODEL_tela_06_V1/assets/wifi.svg"
+    }
+  ],
+  "limitations": [
+    "Low resolution JPEG; source matte/compression retained; no recovered or generated pixels.",
+    "No titles, labels, dates, fee values or UI rasterized into photo assets.",
+    "Faces and bodies remain source-only; original three frames are independent."
+  ]
+}

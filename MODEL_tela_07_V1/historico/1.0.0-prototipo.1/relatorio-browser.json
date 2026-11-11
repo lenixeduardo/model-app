@@ -1,0 +1,434 @@
+{
+  "DPR": 1,
+  "version": "1.0.0-prototipo.1",
+  "viewports": [
+    {
+      "viewport": [
+        375,
+        812
+      ],
+      "document": [
+        375,
+        812
+      ],
+      "images": [
+        {
+          "src": "assets/campanha-inverno-2025.png",
+          "loaded": true,
+          "natural": [
+            62,
+            59
+          ],
+          "render": [
+            116,
+            151
+          ],
+          "fit": "cover"
+        },
+        {
+          "src": "assets/marca-esportiva.png",
+          "loaded": true,
+          "natural": [
+            62,
+            64
+          ],
+          "render": [
+            116,
+            162
+          ],
+          "fit": "cover"
+        },
+        {
+          "src": "assets/editorial-masculino.png",
+          "loaded": true,
+          "natural": [
+            62,
+            65
+          ],
+          "render": [
+            116,
+            168
+          ],
+          "fit": "cover"
+        }
+      ],
+      "targets": [
+        {
+          "name": "Criar casting",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "name": "Todos",
+          "width": 78.8125,
+          "height": 44
+        },
+        {
+          "name": "Moda",
+          "width": 78.8125,
+          "height": 44
+        },
+        {
+          "name": "Comercial",
+          "width": 78.8125,
+          "height": 44
+        },
+        {
+          "name": "Editorial",
+          "width": 78.8125,
+          "height": 44
+        },
+        {
+          "name": "Detalhes: Campanha Inverno 2025",
+          "width": 290.25,
+          "height": 151.265625
+        },
+        {
+          "name": "Salvar Campanha Inverno 2025",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Detalhes: Marca Esportiva",
+          "width": 290.25,
+          "height": 162.484375
+        },
+        {
+          "name": "Salvar Marca Esportiva",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Detalhes: Editorial Masculino",
+          "width": 290.25,
+          "height": 168.078125
+        },
+        {
+          "name": "Salvar Editorial Masculino",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Descobrir",
+          "width": 52,
+          "height": 48
+        },
+        {
+          "name": "Buscar",
+          "width": 52,
+          "height": 48
+        },
+        {
+          "name": "Novo casting",
+          "width": 52,
+          "height": 48
+        },
+        {
+          "name": "Chat",
+          "width": 52,
+          "height": 48
+        },
+        {
+          "name": "Perfil",
+          "width": 52,
+          "height": 48
+        }
+      ],
+      "console": [],
+      "networkErrors": [],
+      "externalRequests": [],
+      "actions": "Filters 3/1/1/2; isolated save toggles; reload reset; five keyboard dialogs with trapped and restored focus/Escape; real links03/06 passed"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "document": [
+        390,
+        844
+      ],
+      "images": [
+        {
+          "src": "assets/campanha-inverno-2025.png",
+          "loaded": true,
+          "natural": [
+            62,
+            59
+          ],
+          "render": [
+            120,
+            157
+          ],
+          "fit": "cover"
+        },
+        {
+          "src": "assets/marca-esportiva.png",
+          "loaded": true,
+          "natural": [
+            62,
+            64
+          ],
+          "render": [
+            120,
+            169
+          ],
+          "fit": "cover"
+        },
+        {
+          "src": "assets/editorial-masculino.png",
+          "loaded": true,
+          "natural": [
+            62,
+            65
+          ],
+          "render": [
+            120,
+            175
+          ],
+          "fit": "cover"
+        }
+      ],
+      "targets": [
+        {
+          "name": "Criar casting",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "name": "Todos",
+          "width": 82.109375,
+          "height": 44
+        },
+        {
+          "name": "Moda",
+          "width": 82.109375,
+          "height": 44
+        },
+        {
+          "name": "Comercial",
+          "width": 82.109375,
+          "height": 44
+        },
+        {
+          "name": "Editorial",
+          "width": 82.109375,
+          "height": 44
+        },
+        {
+          "name": "Detalhes: Campanha Inverno 2025",
+          "width": 303.4375,
+          "height": 157.234375
+        },
+        {
+          "name": "Salvar Campanha Inverno 2025",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Detalhes: Marca Esportiva",
+          "width": 303.4375,
+          "height": 168.875
+        },
+        {
+          "name": "Salvar Marca Esportiva",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Detalhes: Editorial Masculino",
+          "width": 303.4375,
+          "height": 174.703125
+        },
+        {
+          "name": "Salvar Editorial Masculino",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Descobrir",
+          "width": 52,
+          "height": 48
+        },
+        {
+          "name": "Buscar",
+          "width": 52,
+          "height": 48
+        },
+        {
+          "name": "Novo casting",
+          "width": 52,
+          "height": 48
+        },
+        {
+          "name": "Chat",
+          "width": 52,
+          "height": 48
+        },
+        {
+          "name": "Perfil",
+          "width": 52,
+          "height": 48
+        }
+      ],
+      "console": [],
+      "networkErrors": [],
+      "externalRequests": [],
+      "actions": "Filters 3/1/1/2; isolated save toggles; reload reset; five keyboard dialogs with trapped and restored focus/Escape; real links03/06 passed"
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "document": [
+        430,
+        932
+      ],
+      "images": [
+        {
+          "src": "assets/campanha-inverno-2025.png",
+          "loaded": true,
+          "natural": [
+            62,
+            59
+          ],
+          "render": [
+            133,
+            174
+          ],
+          "fit": "cover"
+        },
+        {
+          "src": "assets/marca-esportiva.png",
+          "loaded": true,
+          "natural": [
+            62,
+            64
+          ],
+          "render": [
+            133,
+            186
+          ],
+          "fit": "cover"
+        },
+        {
+          "src": "assets/editorial-masculino.png",
+          "loaded": true,
+          "natural": [
+            62,
+            65
+          ],
+          "render": [
+            133,
+            193
+          ],
+          "fit": "cover"
+        }
+      ],
+      "targets": [
+        {
+          "name": "Criar casting",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "name": "Todos",
+          "width": 90.921875,
+          "height": 44
+        },
+        {
+          "name": "Moda",
+          "width": 90.921875,
+          "height": 44
+        },
+        {
+          "name": "Comercial",
+          "width": 90.921875,
+          "height": 44
+        },
+        {
+          "name": "Editorial",
+          "width": 90.921875,
+          "height": 44
+        },
+        {
+          "name": "Detalhes: Campanha Inverno 2025",
+          "width": 338.6875,
+          "height": 173.625
+        },
+        {
+          "name": "Salvar Campanha Inverno 2025",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Detalhes: Marca Esportiva",
+          "width": 338.6875,
+          "height": 186.484375
+        },
+        {
+          "name": "Salvar Marca Esportiva",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Detalhes: Editorial Masculino",
+          "width": 338.6875,
+          "height": 192.921875
+        },
+        {
+          "name": "Salvar Editorial Masculino",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Descobrir",
+          "width": 52,
+          "height": 48
+        },
+        {
+          "name": "Buscar",
+          "width": 52,
+          "height": 48
+        },
+        {
+          "name": "Novo casting",
+          "width": 52,
+          "height": 48
+        },
+        {
+          "name": "Chat",
+          "width": 52,
+          "height": 48
+        },
+        {
+          "name": "Perfil",
+          "width": 52,
+          "height": 48
+        }
+      ],
+      "console": [],
+      "networkErrors": [],
+      "externalRequests": [],
+      "actions": "Filters 3/1/1/2; isolated save toggles; reload reset; five keyboard dialogs with trapped and restored focus/Escape; real links03/06 passed"
+    }
+  ],
+  "browser": "156.0.8078.79",
+  "fallback": {
+    "separateContext": true,
+    "failedPhotos": 3,
+    "reducedMotion": true,
+    "dialogOperational": true
+  },
+  "sha256": {
+    "captura-375.png": "423a0eebf2b7255c48ed10ea4fb0dcee4ae834258590f4c801eda40226667369",
+    "comparacao-390.png": "e831013fb97e9619ca078b976f5aa80438cdc499e6f18a59cd4f8424d9971731",
+    "index.html": "19cceb21c787a0247b6fbb469f0c678893f190d3810b760800a73f1365442297",
+    "captura-430.png": "09f7b857d9c37737031c0ac9c319229cdea5cfc5db9be21ad87e09aba068d861",
+    "candidato-390.png": "e539a1a0fe268f28d19f29c555ebbfae34f1942121f2b163f93b30a42a2a2161",
+    "captura-390.png": "80542d59af3bed6c5025c1ed690d007bf1f6432783ad32f72cfa9290a155fe9d",
+    "styles.css": "ff5431feff03ce03439909552dae7a8695f2d88921ccfa04710f520f5d9892de",
+    "app.js": "508dd283c439481ca59af97f9ba3cc81f54e3326152ec7518f06b093c51eaa69"
+  }
+}

@@ -1,6 +1,6 @@
 # MODEL — fila sequencial de agentes
 
-Atualização: 2026-11-09. Regra atual do usuário: prosseguir tela a tela, com quatro papéis enfileirados, e liberar a próxima tela somente com nota **superior a 9,0/10** na comparação visual. Meta: 9,5/10. A condição >9,0 é mais estrita que o >=9,0 do handoff anterior e governa esta fila. Nota exatamente 9,0 não libera avanço.
+Atualização: 2026-11-11 (America/Sao_Paulo). Regra atual do usuário: prosseguir tela a tela, com quatro papéis enfileirados, e liberar a próxima tela somente com nota **superior a 9,0/10** na comparação visual. Meta: 9,5/10. A condição >9,0 é mais estrita que o >=9,0 do handoff anterior e governa esta fila. Nota exatamente 9,0 não libera avanço.
 
 ## Estado da fila
 
@@ -10,11 +10,11 @@ Atualização: 2026-11-09. Regra atual do usuário: prosseguir tela a tela, com 
 | 2 | 04 — Perfil do modelo | **APROVADA VISUALMENTE:9,30/10**, V1 **1.0.0-prototipo.1**; auditor04 independente concluído, soma9,295 e nenhum P1 material. | Gate04>9,0 atingido; evidências e limites em MODEL_tela_04_V1/AUDITORIA.md. Preservar03/04 aprovadas; próximo papel planejador05. |
 | 3 | 05 — Portfólio | **APROVADA VISUALMENTE:9,34/10**, V1 **1.0.0-prototipo.1**; auditor05 independente concluído, soma9,335 e nenhum P1 material. | Gate05>9,0 atingido; preservar03/04/05 e evidências. Próximo papel planejador06 LIBERADO. |
 | 4 | 06 — Chat / Negociação | **APROVADA VISUALMENTE:9,28/10**, V1 **1.0.0-prototipo.1**; auditor06 independente concluído, soma9,275 e nenhum P1 material. | Gate06>9,0 atingido; preservar03/04/05/06 e evidências. Próximo papel planejador07 LIBERADO. |
-| 5 | 07 — Castings | Não iniciada; **planejador07 LIBERADO**. | Gate06 aprovado9,28/10; executar quatro papéis próprios07. |
-| 6 | 08 — Filtros | Não iniciada. | Aprovação documentada da Tela 07. |
-| 7 | 09 — Salvos | Não iniciada. | Aprovação documentada da Tela 08. |
-| 8 | 10 — Meu perfil | Não iniciada. | Aprovação documentada da Tela 09. |
-| 9 | 11 — Notificações | Não iniciada. | Aprovação documentada da Tela 10. |
+| 5 | 07 — Castings | **APROVADA VISUALMENTE:9,32/10**, soma9,315; versão1.0.0-prototipo.2, auditor07 concluído sem P1 material. | Gate07>9,0 atingido; preservar03–07 e evidências. Próximo papel planejador08 LIBERADO. |
+| 6 | 08 — Filtros | **Planejador08 LIBERADO**; conteúdo não iniciado pelo auditor07. | Auditoria07 V2 aprovada9,32/10 (>9,0); seguir planejador → assets → implementador → auditor08. |
+| 7 | 09 — Salvos | Aguardando gate08. | Auditoria08 documentada >9,0; depois planejador09. |
+| 8 | 10 — Meu perfil | Aguardando gate09. | Auditoria09 documentada >9,0; depois planejador10. |
+| 9 | 11 — Notificações | Aguardando gate10. | Auditoria10 documentada >9,0; depois planejador11. |
 
 As telas 01/02 não integram esta fila de continuidade iniciada na 03. Os recortes já existentes das telas seguintes são referências; sua existência não significa planejamento, implementação ou aprovação.
 
@@ -135,3 +135,48 @@ A autorização de gerar assets não é prova de que existe a fotografia integra
 - Referência, três capturas raw e comparação abertas via view_image; dimensões, hashes atuais, colagem exata390 e RGB dos quatro crops conferidos independentemente.
 - Evidência técnica do implementador revisada, sem segunda navegação/browser pelo auditor. P2: foto proporcional exige conteúdo de card compacto, último avatar≈20px alto, diferenças de fonte/ícones e acabamento. Limites completos em [AUDITORIA06](../MODEL_tela_06_V1/AUDITORIA.md).
 - **Auditor06 concluído. Próximo papel: planejador07 LIBERADO.**03/04/05 preservadas; código/assets/capturas06 intactos; sem publicação ou início07 nesta auditoria. Registros anteriores de bloqueio06 são históricos e superados por esta decisão.
+
+## Estágio07 — planejamento entregue
+
+- Referência07 e mockup geral abertos; painel global `[11,434,212,751]`,201×317, confirmado RGB idêntico (bbox=None).
+- Geometria, textos/datas/valores, três fotografias distintas, SVGs locais, adaptação sem distorção e interações em `MODEL_tela_07_V1/DESIGN_SPEC.md`; sequência TDD/implementação/capturas/auditoria em `MODEL_tela_07_V1/PLANO.md`.
+- Filtros/saves/dialogs somente em memória; tabbar com cinco ícones originais, links03/06 aprovados e painéis locais honestos; sem iniciar02 ou08–11. Nenhuma seta de retorno inventada.
+- **Planejador07 concluído. Próximo papel: assets07 LIBERADO**, depois implementador07 e auditor independente. Sem código, assets novos, capturas, nota ou publicação.03/04/05/06 preservadas.08 aguarda gate07>9,0, meta9,5.
+
+## Estágio07 — assets entregues
+
+- Três fotos originais independentes62×59,62×64,62×65; boxes refinados e provas separadas no manifest. Painel global[11,434,212,751] idêntico à referência; RGB visível idêntico ao JPEG, RGB oculto zero; cantos geométricos e matte residual documentados.
+- Treze SVGs locais aproximados, incluindo cópias de04/06 por hash; sem glifos, legendas PNG ou UI embutida nas fotografias. ASSETS.md, assets/manifest.json e assets/extract_assets.py entregues e verificados.
+- **Assets07 concluído. Próximo papel: implementador07 LIBERADO**, depois auditor independente; gate07>9,0 pendente, meta9,5.03–06 preservadas; sem interface, capturas, nota, publicação ou início08.
+
+## Coordenação final — 2026-11-11 (America/Sao_Paulo)
+
+07 retoma implementação; sua nota permanece pendente até auditoria independente das evidências finais. A fila executável08→09→10→11 e os quatro papéis por tela estão em [PLANO_ULTIMAS_QUATRO.md](PLANO_ULTIMAS_QUATRO.md). Essa coordenação não antecipa planejamento de conteúdo, assets ou implementação08.
+
+A execução já está autorizada, incluindo dependências necessárias e publicação no GitHub do pacote correspondente à versão aprovada. Não exige nova reunião ou confirmação. O agente trabalha no workspace e não dispõe de capacidade para mudar o modo da interface ou transferir a sessão para ChatGPT Work.
+
+## Estágio07 — implementação entregue
+
+- Versão1.0.0-prototipo.1 em `MODEL_tela_07_V1/`: HTML/CSS/JS nativos, três fotos originais com cover proporcional e SVGs locais. Filtros, saves/reset, dialogs honestos, navegação03/06.
+- Candidata390 aberta e espaçamento revisado; finais raw375×812/390×844/430×932 e comparação proporcional abertas. Chromium DPR1 e relatório JSON, SHA256SUMS e EVIDENCIAS.md entregues; limites de crop/resolução e da fase RED registrados.
+- **Implementador07 concluído. Próximo papel: auditor07 independente.** Gate>9,0/meta9,5 pendente; sem nota própria ou publicação.03–06 preservadas.08–11 não iniciadas por este papel.
+
+## Estágio07 — auditor independente concluído, correção necessária
+
+- **NÃO APROVADA:8,76/10**, soma8,755, versão1.0.0-prototipo.1. Gate>9,0 não atingido; P1 material de enquadramento: cover preserva razão dos pixels, mas amplia cabeça/corpo37–39% e recorta27–28% da largura original nos três frames.
+- Referência, três capturas e comparação abertas; RGB dos três crops originais, dimensões, hashes atuais e colagem390 conferidos independentemente. Relatório Chromium revisado, sem segunda renderização pelo auditor.
+- Coordenadas, correção CSS e P2 do hash antigo da comparação no JSON em [AUDITORIA07](../MODEL_tela_07_V1/AUDITORIA.md). **Próximo papel: implementador07 para correção, nova versão/capturas e reauditoria.08 permanece aguardando.**
+-03–06 preservadas; nenhum código, asset ou captura alterado, nenhuma publicação ou planejamento08 nesta auditoria.
+
+## Estágio07 — revisão de implementação V2 entregue
+
+- Auditoria V1 reprovou8,76 pelo P1 de crop. Versão1.0.0-prototipo.2 passa a mostrar os três frames integrais, com largura fluida/altura natural, mantendo âncoras, textos, cores e navbar.
+- Regressão de área-fonte visível falhou na V1 (72,73% na foto01) e passou na V2 (100% nas três fotos/três viewports). Três finais raw e comparação atualizadas; hashes JSON/SHA256SUMS consistentes. V1 preservada em histórico.
+- **Próximo papel: auditor07 independente para V2.** Sem nota própria/publicação;03–06 preservadas;08 não iniciada.
+
+## Estágio07 — reauditoria V2 aprovada
+
+- **APROVADA VISUALMENTE:9,32/10**, soma9,315, versão1.0.0-prototipo.2. Gate>9,0 atingido, meta9,5 não atingida; nenhum P1 material. A decisão negativa8,76 da V1 acima é histórica e foi superada após correção e novas capturas.
+- Referência, três novas capturas V2 e comparação reabertas; enquadramentos integrais e proporção das três pessoas preservados. RGB dos crops, dimensões, hashes JSON/SHA256SUMS e colagem390 conferidos independentemente. Evidência Chromium atual revisada, sem segunda renderização/browser pelo auditor.
+- P2: fotos proporcionais mais baixas que rows/metadados, fonte/ícones e matte/resolução do original. Escopo e hashes em [AUDITORIA07](../MODEL_tela_07_V1/AUDITORIA.md).
+- **Auditor07 concluído. Próximo papel: planejador08 LIBERADO.**03–06 preservadas; código/assets/capturas07 intactos na auditoria. Não houve publicação ou início de conteúdo08 por este papel.
