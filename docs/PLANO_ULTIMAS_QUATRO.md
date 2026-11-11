@@ -38,4 +38,9 @@ Usar pacotes separados por tela e versões explícitas; manter03–06 intactas. 
 
 O agente pode executar o trabalho no workspace e coordenar os papéis autorizados. Não tem capacidade de alterar o modo da interface ou mover a sessão para ChatGPT Work; isso não impede a continuidade local já autorizada.
 
-**Próximo despacho:** **assets08**, conforme especificação e plano08 já entregues após gate07 aprovado. Depois implementador08 → auditor08 independente. Só gate08>9,0 libera planejador09, sem nova confirmação.
+**Despacho inicial (histórico):** assets08, após gate07 aprovado. A sequência avançou mediante as auditorias de cada tela; o estado atual consta em FILA_AGENTES.md e STATUS_APROVACOES.json.
+
+
+## Encerramento visual em 2026-11-11
+
+Sequência08–11 concluída pelos quatro papéis e aprovada por auditorias independentes:08=9,23;09=9,27;10=9,28;11=9,27 (soma11=9,2725). Gate11 estritamente>9,0 atendido, nenhum P1 material; meta9,5 não atingida. [Auditoria11](../MODEL_tela_11_V1/AUDITORIA.md) registra diferenças, hashes e limites. Fila visual encerrada; este registro não afirma publicação, backend ou teste em dispositivo real.

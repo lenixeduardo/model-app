@@ -13,8 +13,8 @@ Atualização: 2026-11-11 (America/Sao_Paulo). Regra atual do usuário: prossegu
 | 5 | 07 — Castings | **APROVADA VISUALMENTE:9,32/10**, soma9,315; versão1.0.0-prototipo.2, auditor07 concluído sem P1 material. | Gate07>9,0 atingido; preservar03–07 e evidências. Próximo papel planejador08 LIBERADO. |
 | 6 | 08 — Filtros | **APROVADA VISUALMENTE:9,23/10**, soma9,234615; versão1.0.0-prototipo.1, auditor08 independente concluído sem P1 material. | Gate08>9,0 atingido; fotografia N/A e rubrica normalizada. Preservar03–08; próximo papel planejador09 LIBERADO. |
 | 7 | 09 — Salvos | **APROVADA VISUALMENTE:9,27/10**, soma9,265; versão1.0.0-prototipo.1, auditor09 concluído sem P1 material. | Gate09>9,0 atingido; preservar03–09. Próximo papel planejador10 LIBERADO. |
-| 8 | 10 — Meu perfil | **Planejamento10 concluído; assets10 LIBERADO** após gate09 de9,27/10. | DESIGN_SPEC.md e PLANO.md entregues; assets10 → implementador10 → auditor10 independente. Gate10 próprio antes de11. |
-| 9 | 11 — Notificações | Aguardando gate10. | Auditoria10 documentada >9,0; depois planejador11. |
+| 8 | 10 — Meu perfil | **APROVADA VISUALMENTE:9,28/10**, soma9,2825; auditor10 independente, versão1.0.0-prototipo.1. | Gate10>9,0 atingido; preservar03–10 e evidências. Planejamento11 liberado e entregue. |
+| 9 | 11 — Notificações | **Planejamento11 concluído; assets11 LIBERADO** após gate10 de9,28/10. | DESIGN_SPEC.md e PLANO.md entregues; assets11 → implementador11 → auditor11 independente. Gate11 próprio>9,0 encerra fila visual. |
 
 As telas 01/02 não integram esta fila de continuidade iniciada na 03. Os recortes já existentes das telas seguintes são referências; sua existência não significa planejamento, implementação ou aprovação.
 
@@ -254,3 +254,30 @@ A execução já está autorizada, incluindo dependências necessárias e public
 - Referência, três capturas reais e comparação abertas;46 hashes release, colagem390 exata, crop fonte e4386 pixels RGB genuínos do avatar conferidos independentemente. Foto integral1:1, overlay co-registrado e suporte permanente; cinco menus sem bio, selo preto, texto nativo.
 - P2: editar dominante, respiro avatar/identidade, tipografia/ícones aproximados e limites fora dos tamanhos-alvo. Relatórios Chromium revisados, sem segunda sessão browser pelo auditor; detalhes/sha em [AUDITORIA10](../MODEL_tela_10_V1/AUDITORIA.md).
 - **Auditor10 concluído. Próximo papel: planejador11 LIBERADO.**03–09 e runtime/assets/capturas10 preservados. Sem publicação ou início11 por este papel. Pendências10 anteriores são históricas, superadas por esta decisão.
+
+
+## Estágio11 — planejamento entregue
+
+- Original e referência11 abertos visualmente;184×317, crop global[805,434,989,751] RGB idêntico confirmado. Seis notificações com duas linhas cada, cinco avatares fotográficos+um círculo coral, quatro filtros e navbar5 com perfil ativo. Textos, medidas, limites de identidade/ícone e adaptação proporcional em `MODEL_tela_11_V1/DESIGN_SPEC.md`.
+- Plano em `MODEL_tela_11_V1/PLANO.md`; fotos genuínas próprias11 sem síntese, textos nativos, filtros/readstates/dialogs somente em memória e links demonstrativos06/07/10 documentados. Não inferir vínculo remoto, leitura inicial ou identidade de avatares por semelhança.
+- **Planejador11 concluído. Próximo papel: assets11 LIBERADO**, depois implementador11 e auditor11 independente. Gate11>9,0/meta9,5 pendente.03–10 preservadas; sem assets novos, HTML/CSS/JS, capturas, nota ou publicação neste papel. Registros anteriores de espera pelo gate10 são históricos, superados pela auditoria10 aprovada e este handoff.
+
+## Estágio11 — assets entregues
+
+- Cinco PNGs28×28 RGBA exclusivos11, discos integrais com matte JPEG genuína e alpha geométrico exterior; RGB de todos pixels visíveis idêntico ao original, sem reconstrução. Referência184×317 idêntica ao crop global[805,434,989,751]. Coordenadas/máscaras/limites em ASSETS.md e manifest.
+- Dez SVGs locais independentes aproximados para status/mais/navbar/casting, coral amostrado; textos permanecem HTML nativo. Script assets/extract_assets.py reproduz arquivos, hashes e provas RGB/alpha. Original, referência e preview dos cinco avatares abertos.
+- **Assets11 concluído. Próximo papel: implementador11 LIBERADO**, depois auditor11 independente. Gate11>9,0/meta9,5 pendente.03–10 preservadas; sem interface, capturas do app, nota ou publicação neste papel.
+
+## Estágio11 — implementação entregue
+
+- Versão1.0.0-prototipo.1; HTML/CSS/JS nativos, seis linhas exatas, cinco fotos próprias integrais1:1, coral e navegação SVG. Todas6/Castings2/Mensagens1/Sistema3, leitura inicial não informada, alterações e reset em memória, dialogs acessíveis e links demonstrativos03/06/07/10.
+- Teste de contrato antes do HTML passou. Playwright Chromium156 DPR1 verificou alvos44 sem interseção, assets/font local/overflow, filtros, estados explícitos/desfazer/reset/reload, Tab/Escape/foco, links HTTP200, reduced-motion e fallback. Relatório registra ausência de erros de console/rede na versão final. Candidata390 aberta antes das finais; três capturas reais375/390/430 e comparação390 proporcional à altura844 abertas. EVIDENCIAS.json/SHA256SUMS correspondem à entrega.
+- **Implementador11 concluído. Próximo papel: auditor11 independente LIBERADO.** Gate11>9,0/meta9,5 pendente.03–10 preservadas por este papel; sem nota ou publicação.
+
+
+## Estágio11 — auditor independente concluído
+
+- **APROVADA VISUALMENTE:9,27/10**, soma9,2725; versão1.0.0-prototipo.1. Gate>9,0 atendido; meta9,5 não atingida; nenhum P1 material.
+- Referência, três capturas e comparação abertas;37 hashes finais, crop RGB,2960 pixels genuínos de cinco avatares e colagem proporcional exata conferidos independentemente. Relatório Chromium156 DPR1 revisado, sem segunda sessão browser do auditor.
+- P2: peso tipográfico/escala navbar, pictograma e preenchimento coral, aro do mais; limites de fonte/JPEG e provas funcionais em [AUDITORIA11](../MODEL_tela_11_V1/AUDITORIA.md).
+- **Gate11 encerrado. Últimas quatro telas08–11 aprovadas visualmente** (08=9,23;09=9,27;10=9,28;11=9,27).03–10/runtime/assets/capturas preservados. Sem publicação, backend ou dispositivo físico alegados neste papel. Estados pendentes11 acima são históricos, superados por esta decisão.

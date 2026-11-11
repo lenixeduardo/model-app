@@ -1,0 +1,92 @@
+{
+  "version": "1.0.0-prototipo.1",
+  "browser": "156.0.8078.79",
+  "device_scale_factor": 1,
+  "initial_test": "PASS before HTML: five genuine photo contracts and ten SVG assets; source test is intentionally preimplementation only",
+  "commands": [
+    "./MODEL_tela_11_V1/serve.sh",
+    "node MODEL_tela_11_V1/verify.cjs --candidate",
+    "node MODEL_tela_11_V1/verify.cjs",
+    "python MODEL_tela_11_V1/evidence.py"
+  ],
+  "captures": [
+    {
+      "file": "captura-375.png",
+      "width": 375,
+      "height": 812,
+      "opened_visually": true
+    },
+    {
+      "file": "captura-390.png",
+      "width": 390,
+      "height": 844,
+      "opened_visually": true
+    },
+    {
+      "file": "captura-430.png",
+      "width": 430,
+      "height": 932,
+      "opened_visually": true
+    }
+  ],
+  "candidate_opened_before_finals": true,
+  "comparison": {
+    "file": "comparacao-390.png",
+    "reference": [
+      490,
+      844
+    ],
+    "app": [
+      390,
+      844
+    ],
+    "proportions_preserved": true,
+    "opened_visually": true
+  },
+  "browser_report": "browser-report.json",
+  "limits": [
+    "Arial and vector icons are approximations",
+    "JPEG photos have only 28x28 original pixels",
+    "No remote identity, taxonomy or read state inferred",
+    "Target viewport heights >=660; no general desktop redesign claimed"
+  ],
+  "auditor_score": null,
+  "sha256": {
+    "ASSETS.md": "4c5bf78c7fedfdb979d7a3716adda2c4d2df960e3c760aa936bd6ede47d6e5b2",
+    "CHANGELOG.md": "61970acb4c52c7831b3fb13af2f5898f26bd6475b0a832961060414e41da61b1",
+    "DESIGN_SPEC.md": "3a45cded33a78f477feaf70a8decde29056ea311068a506478da676eb1e17850",
+    "PLANO.md": "5ea34e5199a579377c305e8b7881fa3f85d2bd6231a8ee9f17977daae4b9c8cc",
+    "README.md": "5d5ee8840f03e620ce048d20f39a8a6f3d378e88b3f5160665d0e899af386650",
+    "VERSION": "36db35c23849bf438a82d522c1202c664362e6157dc9e9276dbec672b6c06e8a",
+    "app.js": "3ab09c47209698ec17b34f28882349561661ea6b78672300f3722b0feeab657e",
+    "assets/avatar-01.png": "8e410fd0b39f75b4719a87ef41aacd02f1cc477c39a6e8e3f28a2f5bbb91e6bf",
+    "assets/avatar-02.png": "93788a15086c10be5cec43c081fd5ddf345a24d27188eff2d6ec7d8ab182c11f",
+    "assets/avatar-03.png": "4d7de2a7d310a426b7911c03daff9f1f694869758807b63c4eea75e45ebb07b1",
+    "assets/avatar-05.png": "cd031f2f2e2df48868a55fe43c871e96018ef16cb5010f68a71cd7e9b0650384",
+    "assets/avatar-06.png": "7e2e8ac90ce0738a97d0d83a1c95f52635660e51a7cdc4f98806606937397c19",
+    "assets/battery.svg": "ed53603002842691380e2e64180331d84be2eb6b2dba807ce0a2fa46c67078af",
+    "assets/casting.svg": "ccd7cf82d1fd3eae2d0a04cb12ada2fe4042b1aa6ebc1ee1eae7a3efc94f1942",
+    "assets/cellular.svg": "d351a7ba3a3ba95bfe67f00b413c3defcefdfe8a850e2f7387a877e1ef6c7870",
+    "assets/chat.svg": "699018635dd4be69cf12e533a2334e824c41dd796200216b18c1a257931332a1",
+    "assets/extract_assets.py": "9ede945efa2d6fe8233d2d65747693e0cf0544a36fadb7976aa4cb5d89049591",
+    "assets/home.svg": "14100952285c3faff7c733506597bf40610b950c2c906ea1a14ea87506ba059e",
+    "assets/manifest.json": "c52f7ef853649a4eb1af9615903187407be7b86e8277e9cda1d6e56db91d33a7",
+    "assets/plus-circle.svg": "cb4b1e1581df9d5f7d65788687a93c1cad61bd1974737d4561e70f3a733a994a",
+    "assets/plus.svg": "6d867277ae4bd556c865e3e2f4a14febb252ede5b52e2e181aef0b9a1c41305a",
+    "assets/profile.svg": "940176e1ed98b1471d9dbede0f3feaa5ef12ac3b5b1da866c3505e22747e5dbb",
+    "assets/search.svg": "350bdc384e33f1099123da55d2aa1e8238ddab811f6492174d0ad3b72b42f50d",
+    "assets/wifi.svg": "23bc34d242c4ea1503166b21d75c2693a29e478f89f62a41d11c680a6020a284",
+    "browser-report.json": "afa28b3ec278fc416f717185b8cb3455d325608c1d29a495b3e22056e009589b",
+    "candidata-390.png": "34eb41a1c41842f0e69971bcfa9c8011914ebb35336bc2baab809a0c9a9a65b2",
+    "captura-375.png": "183a98dfd7136de5123b34ba883873ef68089b786737b992366956d7792d9db7",
+    "captura-390.png": "34eb41a1c41842f0e69971bcfa9c8011914ebb35336bc2baab809a0c9a9a65b2",
+    "captura-430.png": "ad6876332a487075e1a7d50e0de234cb53d065f5e502af065687200495261768",
+    "comparacao-390.png": "93cb33c406323982718e9b4c8a9c2ef7da4f53403cf24be24a9ff558b615cb0b",
+    "evidence.py": "b23f47d40d520a78866eb165ffac055d699b27c5798cdbfa6be42bf8bdf8ddf8",
+    "index.html": "1222cbbccf3d6ca06c297b7d6ed5ff24097cc717b0fcf48be3a6a1bf529aecef",
+    "serve.sh": "cd638a7786f734141213d46ac1d2e552d90c5d20279cf001a7049effa489dbd9",
+    "styles.css": "cabd56fcf383d16c51cd1c43b3fb2fcf34cf4db4ce8a11af5cf968accfb63087",
+    "test_initial.py": "a791b3e95c99e9bd95798413d23bc7594883a93f65a3808a8c835cb781ab3d4e",
+    "verify.cjs": "e0a88cd92b14baa35f023c4c631bfd98aeaa480ea5c3d67f6ca3598f939f3a01"
+  }
+}

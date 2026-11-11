@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0-prototipo.1",
+  "visual_score": 9.27,
+  "gate": ">9.0",
+  "date": "2026-11-11",
+  "timezone": "America/Sao_Paulo",
+  "captures": [
+    {
+      "file": "captura-375.png",
+      "raw": "captura-375.png",
+      "size": [
+        375,
+        812
+      ],
+      "sha256": "183a98dfd7136de5123b34ba883873ef68089b786737b992366956d7792d9db7"
+    },
+    {
+      "file": "captura-390.png",
+      "raw": "captura-390.png",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "34eb41a1c41842f0e69971bcfa9c8011914ebb35336bc2baab809a0c9a9a65b2"
+    },
+    {
+      "file": "captura-430.png",
+      "raw": "captura-430.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "ad6876332a487075e1a7d50e0de234cb53d065f5e502af065687200495261768"
+    }
+  ]
+}

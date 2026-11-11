@@ -1,0 +1,336 @@
+{
+  "source": {
+    "path": "MODEL_assets_v1/originais/mockup-geral.jpg",
+    "sha256": "9120f379280879ca9c7695eeccba7288630b6956b39708eb94311080dbedf3dd",
+    "size": [
+      1179,
+      753
+    ]
+  },
+  "reference": {
+    "path": "MODEL_assets_v1/referencias/11-notificacoes.png",
+    "sha256": "faa1090dc625fd265c2a48dd1a7b10490cd02dab0a5a235df00298a7f0c15c6a",
+    "size": [
+      184,
+      317
+    ],
+    "global_bbox": [
+      805,
+      434,
+      989,
+      751
+    ],
+    "RGB_difference_bbox": null
+  },
+  "photos": [
+    {
+      "file": "avatar-01.png",
+      "sha256": "8e410fd0b39f75b4719a87ef41aacd02f1cc477c39a6e8e3f28a2f5bbb91e6bf",
+      "size": [
+        28,
+        28
+      ],
+      "local_bbox": [
+        12,
+        75,
+        40,
+        103
+      ],
+      "global_bbox": [
+        817,
+        509,
+        845,
+        537
+      ],
+      "circle_center_local": [
+        25.5,
+        88.5
+      ],
+      "alpha": {
+        "formula": "255 iff hypot(x-13.5,y-13.5)<=13.7 else 0",
+        "visible_pixels": 592,
+        "transparent_pixels": 192,
+        "transparent_RGB": [
+          0,
+          0,
+          0
+        ],
+        "partial_alpha": false
+      },
+      "visible_RGB_exact": true,
+      "occluded_pixels": "None apparent inside photographic disk; source JPEG matte retained near edge. Detail beyond source unavailable."
+    },
+    {
+      "file": "avatar-02.png",
+      "sha256": "93788a15086c10be5cec43c081fd5ddf345a24d27188eff2d6ec7d8ab182c11f",
+      "size": [
+        28,
+        28
+      ],
+      "local_bbox": [
+        12,
+        110,
+        40,
+        138
+      ],
+      "global_bbox": [
+        817,
+        544,
+        845,
+        572
+      ],
+      "circle_center_local": [
+        25.5,
+        123.5
+      ],
+      "alpha": {
+        "formula": "255 iff hypot(x-13.5,y-13.5)<=13.7 else 0",
+        "visible_pixels": 592,
+        "transparent_pixels": 192,
+        "transparent_RGB": [
+          0,
+          0,
+          0
+        ],
+        "partial_alpha": false
+      },
+      "visible_RGB_exact": true,
+      "occluded_pixels": "None apparent inside photographic disk; source JPEG matte retained near edge. Detail beyond source unavailable."
+    },
+    {
+      "file": "avatar-03.png",
+      "sha256": "4d7de2a7d310a426b7911c03daff9f1f694869758807b63c4eea75e45ebb07b1",
+      "size": [
+        28,
+        28
+      ],
+      "local_bbox": [
+        12,
+        145,
+        40,
+        173
+      ],
+      "global_bbox": [
+        817,
+        579,
+        845,
+        607
+      ],
+      "circle_center_local": [
+        25.5,
+        158.5
+      ],
+      "alpha": {
+        "formula": "255 iff hypot(x-13.5,y-13.5)<=13.7 else 0",
+        "visible_pixels": 592,
+        "transparent_pixels": 192,
+        "transparent_RGB": [
+          0,
+          0,
+          0
+        ],
+        "partial_alpha": false
+      },
+      "visible_RGB_exact": true,
+      "occluded_pixels": "None apparent inside photographic disk; source JPEG matte retained near edge. Detail beyond source unavailable."
+    },
+    {
+      "file": "avatar-05.png",
+      "sha256": "cd031f2f2e2df48868a55fe43c871e96018ef16cb5010f68a71cd7e9b0650384",
+      "size": [
+        28,
+        28
+      ],
+      "local_bbox": [
+        12,
+        216,
+        40,
+        244
+      ],
+      "global_bbox": [
+        817,
+        650,
+        845,
+        678
+      ],
+      "circle_center_local": [
+        25.5,
+        229.5
+      ],
+      "alpha": {
+        "formula": "255 iff hypot(x-13.5,y-13.5)<=13.7 else 0",
+        "visible_pixels": 592,
+        "transparent_pixels": 192,
+        "transparent_RGB": [
+          0,
+          0,
+          0
+        ],
+        "partial_alpha": false
+      },
+      "visible_RGB_exact": true,
+      "occluded_pixels": "None apparent inside photographic disk; source JPEG matte retained near edge. Detail beyond source unavailable."
+    },
+    {
+      "file": "avatar-06.png",
+      "sha256": "7e2e8ac90ce0738a97d0d83a1c95f52635660e51a7cdc4f98806606937397c19",
+      "size": [
+        28,
+        28
+      ],
+      "local_bbox": [
+        12,
+        251,
+        40,
+        279
+      ],
+      "global_bbox": [
+        817,
+        685,
+        845,
+        713
+      ],
+      "circle_center_local": [
+        25.5,
+        264.5
+      ],
+      "alpha": {
+        "formula": "255 iff hypot(x-13.5,y-13.5)<=13.7 else 0",
+        "visible_pixels": 592,
+        "transparent_pixels": 192,
+        "transparent_RGB": [
+          0,
+          0,
+          0
+        ],
+        "partial_alpha": false
+      },
+      "visible_RGB_exact": true,
+      "occluded_pixels": "None apparent inside photographic disk; source JPEG matte retained near edge. Detail beyond source unavailable."
+    }
+  ],
+  "icons": [
+    {
+      "file": "plus-circle.svg",
+      "sha256": "cb4b1e1581df9d5f7d65788687a93c1cad61bd1974737d4561e70f3a733a994a",
+      "provenance": "New local vector approximation of Tela11 raster; no reused external artwork.",
+      "exact_raster_match": false
+    },
+    {
+      "file": "home.svg",
+      "sha256": "14100952285c3faff7c733506597bf40610b950c2c906ea1a14ea87506ba059e",
+      "provenance": "New local vector approximation of Tela11 raster; no reused external artwork.",
+      "exact_raster_match": false
+    },
+    {
+      "file": "search.svg",
+      "sha256": "350bdc384e33f1099123da55d2aa1e8238ddab811f6492174d0ad3b72b42f50d",
+      "provenance": "New local vector approximation of Tela11 raster; no reused external artwork.",
+      "exact_raster_match": false
+    },
+    {
+      "file": "plus.svg",
+      "sha256": "6d867277ae4bd556c865e3e2f4a14febb252ede5b52e2e181aef0b9a1c41305a",
+      "provenance": "New local vector approximation of Tela11 raster; no reused external artwork.",
+      "exact_raster_match": false
+    },
+    {
+      "file": "chat.svg",
+      "sha256": "699018635dd4be69cf12e533a2334e824c41dd796200216b18c1a257931332a1",
+      "provenance": "New local vector approximation of Tela11 raster; no reused external artwork.",
+      "exact_raster_match": false
+    },
+    {
+      "file": "profile.svg",
+      "sha256": "940176e1ed98b1471d9dbede0f3feaa5ef12ac3b5b1da866c3505e22747e5dbb",
+      "provenance": "New local vector approximation of Tela11 raster; no reused external artwork.",
+      "exact_raster_match": false
+    },
+    {
+      "file": "cellular.svg",
+      "sha256": "d351a7ba3a3ba95bfe67f00b413c3defcefdfe8a850e2f7387a877e1ef6c7870",
+      "provenance": "New local vector approximation of Tela11 raster; no reused external artwork.",
+      "exact_raster_match": false
+    },
+    {
+      "file": "wifi.svg",
+      "sha256": "23bc34d242c4ea1503166b21d75c2693a29e478f89f62a41d11c680a6020a284",
+      "provenance": "New local vector approximation of Tela11 raster; no reused external artwork.",
+      "exact_raster_match": false
+    },
+    {
+      "file": "battery.svg",
+      "sha256": "ed53603002842691380e2e64180331d84be2eb6b2dba807ce0a2fa46c67078af",
+      "provenance": "New local vector approximation of Tela11 raster; no reused external artwork.",
+      "exact_raster_match": false
+    },
+    {
+      "file": "casting.svg",
+      "sha256": "ccd7cf82d1fd3eae2d0a04cb12ada2fe4042b1aa6ebc1ee1eae7a3efc94f1942",
+      "provenance": "New local vector approximation of Tela11 raster; no reused external artwork.",
+      "exact_raster_match": false
+    }
+  ],
+  "samples": {
+    "paper": {
+      "local_point": [
+        45,
+        280
+      ],
+      "RGB": [
+        249,
+        248,
+        243
+      ]
+    },
+    "inactive_pill": {
+      "local_point": [
+        145,
+        52
+      ],
+      "RGB": [
+        240,
+        239,
+        235
+      ]
+    },
+    "coral_left": {
+      "local_point": [
+        18,
+        193
+      ],
+      "RGB": [
+        181,
+        115,
+        99
+      ]
+    },
+    "coral_fill": {
+      "local_point": [
+        19,
+        187
+      ],
+      "RGB": [
+        189,
+        108,
+        79
+      ]
+    },
+    "black": {
+      "local_point": [
+        165,
+        26
+      ],
+      "RGB": [
+        11,
+        11,
+        11
+      ]
+    }
+  },
+  "generator": {
+    "file": "extract_assets.py",
+    "sha256": "9ede945efa2d6fe8233d2d65747693e0cf0544a36fadb7976aa4cb5d89049591",
+    "Pillow_version": "13.0.0"
+  }
+}

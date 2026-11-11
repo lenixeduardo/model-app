@@ -14,7 +14,7 @@ Aplicativo editorial para descoberta e contratação de modelos masculinos. Prot
 | 08 — Filtros | Aprovada visualmente | 9,23 | [Auditoria](MODEL_tela_08_V1/AUDITORIA.md) |
 | 09 — Salvos | Aprovada visualmente | 9,27 | [Auditoria](MODEL_tela_09_V1/AUDITORIA.md) |
 | 10 — Meu perfil | Aprovada visualmente | 9,28 | [Auditoria](MODEL_tela_10_V1/AUDITORIA.md) |
-| 11 — Notificações | Pendente; seguir gate da tela anterior | — | — |
+| 11 — Notificações | Aprovada visualmente | 9,27 | [Auditoria](MODEL_tela_11_V1/AUDITORIA.md) |
 
 Telas01/02 têm referências, mas seu código original não foi recebido neste workspace. A aprovação é visual, fundamentada nas três capturas reais e auditoria de cada tela, não em testes técnicos apenas. Meta9,5; gate de avanço>9,0. Tela03 usa legendas gráficas específicas do perfil de Enzo com H1/P acessíveis e fallback nativo; veja seus limites de integração no README próprio.
 
