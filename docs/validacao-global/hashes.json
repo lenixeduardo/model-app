@@ -1,0 +1,72 @@
+[
+  {
+    "screen": 3,
+    "manifests": [],
+    "failures": []
+  },
+  {
+    "screen": 4,
+    "manifests": [],
+    "failures": []
+  },
+  {
+    "screen": 5,
+    "manifests": [],
+    "failures": []
+  },
+  {
+    "screen": 6,
+    "manifests": [],
+    "failures": []
+  },
+  {
+    "screen": 7,
+    "manifests": [
+      {
+        "manifest": "SHA256SUMS",
+        "entries": 12
+      }
+    ],
+    "failures": []
+  },
+  {
+    "screen": 8,
+    "manifests": [
+      {
+        "manifest": "EVIDENCIAS_SHA256.json",
+        "entries": 11
+      }
+    ],
+    "failures": []
+  },
+  {
+    "screen": 9,
+    "manifests": [
+      {
+        "manifest": "SHA256SUMS",
+        "entries": 10
+      }
+    ],
+    "failures": []
+  },
+  {
+    "screen": 10,
+    "manifests": [
+      {
+        "manifest": "SHA256SUMS",
+        "entries": 46
+      }
+    ],
+    "failures": []
+  },
+  {
+    "screen": 11,
+    "manifests": [
+      {
+        "manifest": "SHA256SUMS",
+        "entries": 37
+      }
+    ],
+    "failures": []
+  }
+]

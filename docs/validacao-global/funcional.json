@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-11T04:53:12.415Z",
+  "checks": [
+    {
+      "name": "03 curtir/favoritar/ignorar/desfazer locais",
+      "status": "PASS",
+      "observed": "toggles e desfazer respondem"
+    },
+    {
+      "name": "04 salvar perfil",
+      "status": "PASS",
+      "observed": "estado local alterado"
+    },
+    {
+      "name": "05 tabs e lightbox",
+      "status": "PASS",
+      "observed": "vazio honesto e lightbox"
+    },
+    {
+      "name": "06 mensagem local sem interpretar HTML e reset por reload",
+      "status": "PASS",
+      "observed": "DOM seguro neste caminho; mensagem não persistida nem enviada"
+    },
+    {
+      "name": "07 filtro e salvar casting",
+      "status": "PASS",
+      "observed": "duas linhas e toggle local"
+    },
+    {
+      "name": "08 edição inválida/válida e resumo local",
+      "status": "PASS",
+      "observed": "restrição inferior<=superior e resumo aprovados; sem aplicar em07"
+    },
+    {
+      "name": "10 edição segura e reset",
+      "status": "PASS",
+      "observed": "textContent seguro neste caminho; reset por reload"
+    },
+    {
+      "name": "11 filtros e leitura explícita",
+      "status": "PASS",
+      "observed": "contagens6/2/1/3, ler e desfazer respondem"
+    },
+    {
+      "name": "Integração observada: salvar07 NÃO alimenta09",
+      "status": "PASS",
+      "observed": "lacuna de produto reproduzida: casting salvo em07 ausente em09"
+    }
+  ]
+}

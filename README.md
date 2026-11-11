@@ -2,6 +2,10 @@
 
 Aplicativo editorial para descoberta e contratação de modelos masculinos. Protótipos frontend locais; autenticação, persistência e backend não integrados.
 
+## Validação do projeto como conjunto
+
+**Pendente como aplicativo integrado.** A revisão global de11/11/2026 confirmou o carregamento dos nove protótipos e identificou navegação incompleta, estado isolado, pendências de acessibilidade e sobreposição de toque em Filtros. Aprovação visual individual não equivale a aprovação do produto completo. [Relatório e evidências](docs/VALIDACAO_GLOBAL.md).
+
 ## Estado validado
 
 | Tela | Estado | Nota /10 | Evidência |

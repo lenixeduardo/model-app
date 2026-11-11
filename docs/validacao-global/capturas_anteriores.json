@@ -1,0 +1,164 @@
+[
+  {
+    "screen": 3,
+    "file": "captura-375.png",
+    "sha256": "785b97112705d0b79deb10be2158e904deb10f3b88eec10801e0eb65ff2543e1",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 3,
+    "file": "captura-390.png",
+    "sha256": "e3873b6bed0892bb40261c4b840f3d4479604df9896773adac2c5587f7fddf64",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 3,
+    "file": "captura-430.png",
+    "sha256": "6a53548cd0df0a437bfa2e560d291c19b7f8c6df2fb4614ae1cb2e67fd855b66",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 4,
+    "file": "captura-375.png",
+    "sha256": "5caa8cc19f9b60489407056faba862c88b705d20d8fe6d5966e31cd98e3f75aa",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 4,
+    "file": "captura-390.png",
+    "sha256": "51b44781ebb87fde8be24abdca34b8e6ef1ac00b812e26e617b5df7eb9fb9931",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 4,
+    "file": "captura-430.png",
+    "sha256": "69058529d18140344cb688fdaefba92d1c9a58993711d162b6ec9579129239ac",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 5,
+    "file": "captura-375.png",
+    "sha256": "e17d292e865132f17e1fa64c45d062a84808a62150211595f208f8b777de1340",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 5,
+    "file": "captura-390.png",
+    "sha256": "3349b232f8297f37749c44a6d8f3042c31bb81e0f0b98407a705bcf8b08fbd7c",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 5,
+    "file": "captura-430.png",
+    "sha256": "871c6198f0788f2a9f6988fb2c97f35bf89918c8ae9d56e4c46c7a7875db895c",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 6,
+    "file": "captura-375.png",
+    "sha256": "28f64c6b1955907564a1daaf391bdd9328fb3ae5f3fbe93c91d56827e044a38f",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 6,
+    "file": "captura-390.png",
+    "sha256": "aac6d46f3c49e1a96184c56671008a8102e664734fab12f6670ec8f1c088788f",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 6,
+    "file": "captura-430.png",
+    "sha256": "8116aac22690ba216934e1d6cddb417217a59bfe4c86b90226b052d34cc49e2e",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 7,
+    "file": "captura-375.png",
+    "sha256": "95d5074ee48416bd5355261a8aefecaaf7d7a49d30addb229861d62f7bd2b319",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 7,
+    "file": "captura-390.png",
+    "sha256": "75f1e5a0bfa75969a3a3c191348cb4411c15105b21c7c592425ec871e144776b",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 7,
+    "file": "captura-430.png",
+    "sha256": "f1b3770b97715590aa28fa10a397a3f197d96d3ee7f85e77902891a105824712",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 8,
+    "file": "captura-375.png",
+    "sha256": "95e677c5445bb664340b377bd0af1c8b8c8a4678298512bea5166ffd2db10cf4",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 8,
+    "file": "captura-390.png",
+    "sha256": "1c742fde2ac431e1c1ee07df3fed6fd823ff95f0f90a1f10617bea97f63ed3b2",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 8,
+    "file": "captura-430.png",
+    "sha256": "3da7e8d70040b6872550b076511067dbfca99cc7c35e506c308539654673fe7e",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 9,
+    "file": "captura-375.png",
+    "sha256": "e1809aa2a2b5b56f96196677dde033ccdd4bf85227a964c23526dec9ccd3884d",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 9,
+    "file": "captura-390.png",
+    "sha256": "578cf21dcd71464050d49f072d69b8462b063cab46dbdc07a22e0d729a4a8ad4",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 9,
+    "file": "captura-430.png",
+    "sha256": "d35863cd90463ea07da15bc7d8ae31e002d4e7ae768af4d44939cf90fd2588f7",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 10,
+    "file": "captura-375.png",
+    "sha256": "0ca8893f94aab07a750074c1e0693a00cd8104fa2521d64e833dbf26ba7193c4",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 10,
+    "file": "captura-390.png",
+    "sha256": "a312ea9b53d4e1f2714a19ecc071ce80579fe7654d84312de42d9f4e265f4c4e",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 10,
+    "file": "captura-430.png",
+    "sha256": "6e0a478203e79e8885261d2474ccdfd431e51bcf8d2240169109baae7e68b61a",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 11,
+    "file": "captura-375.png",
+    "sha256": "183a98dfd7136de5123b34ba883873ef68089b786737b992366956d7792d9db7",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 11,
+    "file": "captura-390.png",
+    "sha256": "34eb41a1c41842f0e69971bcfa9c8011914ebb35336bc2baab809a0c9a9a65b2",
+    "present_in_existing_evidence": true
+  },
+  {
+    "screen": 11,
+    "file": "captura-430.png",
+    "sha256": "ad6876332a487075e1a7d50e0de234cb53d065f5e502af065687200495261768",
+    "present_in_existing_evidence": true
+  }
+]
