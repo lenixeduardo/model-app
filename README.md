@@ -12,7 +12,7 @@ Aplicativo editorial para descoberta e contratação de modelos masculinos. Prot
 | 06 — Chat / Negociação | Aprovada visualmente | 9,28 | [Auditoria](MODEL_tela_06_V1/AUDITORIA.md) |
 | 07 — Castings | Aprovada visualmente | 9,32 | [Auditoria](MODEL_tela_07_V1/AUDITORIA.md) |
 | 08 — Filtros | Aprovada visualmente | 9,23 | [Auditoria](MODEL_tela_08_V1/AUDITORIA.md) |
-| 09 — Salvos | Pendente; seguir gate da tela anterior | — | — |
+| 09 — Salvos | Aprovada visualmente | 9,27 | [Auditoria](MODEL_tela_09_V1/AUDITORIA.md) |
 | 10 — Meu perfil | Pendente; seguir gate da tela anterior | — | — |
 | 11 — Notificações | Pendente; seguir gate da tela anterior | — | — |
 

@@ -1,0 +1,514 @@
+{
+  "version": "1.0.0-prototipo.1",
+  "browser": "156.0.8078.79",
+  "errors": [],
+  "networkFailures": [],
+  "responses": [],
+  "viewports": [
+    {
+      "width": 375,
+      "height": 812,
+      "overflow": false,
+      "loaded": true,
+      "photos": [
+        {
+          "src": "assets/enzo.png",
+          "natural": [
+            74,
+            63
+          ],
+          "render": [
+            158,
+            134
+          ],
+          "rect": [
+            157.65625,
+            134.21875
+          ],
+          "fit": "fill",
+          "fullFrame": true
+        },
+        {
+          "src": "assets/gabriel.png",
+          "natural": [
+            74,
+            63
+          ],
+          "render": [
+            158,
+            134
+          ],
+          "rect": [
+            157.65625,
+            134.21875
+          ],
+          "fit": "fill",
+          "fullFrame": true
+        },
+        {
+          "src": "assets/rafael.png",
+          "natural": [
+            74,
+            65
+          ],
+          "render": [
+            158,
+            138
+          ],
+          "rect": [
+            157.65625,
+            138.46875
+          ],
+          "fit": "fill",
+          "fullFrame": true
+        },
+        {
+          "src": "assets/theo.png",
+          "natural": [
+            74,
+            65
+          ],
+          "render": [
+            158,
+            138
+          ],
+          "rect": [
+            157.65625,
+            138.46875
+          ],
+          "fit": "fill",
+          "fullFrame": true
+        }
+      ],
+      "targets": [
+        {
+          "name": "Opções dos salvos",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Modelos",
+          "width": 156.234375,
+          "height": 44
+        },
+        {
+          "name": "Castings",
+          "width": 156.25,
+          "height": 44
+        },
+        {
+          "name": "Ver prévia de Enzo",
+          "width": 157.65625,
+          "height": 90.21875
+        },
+        {
+          "name": "Remover Enzo dos salvos",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Ver prévia de Gabriel",
+          "width": 157.65625,
+          "height": 90.21875
+        },
+        {
+          "name": "Remover Gabriel dos salvos",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Ver prévia de Rafael",
+          "width": 157.65625,
+          "height": 94.46875
+        },
+        {
+          "name": "Remover Rafael dos salvos",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Ver prévia de Theo",
+          "width": 157.65625,
+          "height": 94.46875
+        },
+        {
+          "name": "Remover Theo dos salvos",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Início",
+          "width": 75,
+          "height": 44
+        },
+        {
+          "name": "Buscar",
+          "width": 75,
+          "height": 44
+        },
+        {
+          "name": "Adicionar",
+          "width": 75,
+          "height": 44
+        },
+        {
+          "name": "Conversas",
+          "width": 75,
+          "height": 44
+        },
+        {
+          "name": "Meu perfil",
+          "width": 75,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "loaded": true,
+      "photos": [
+        {
+          "src": "assets/enzo.png",
+          "natural": [
+            74,
+            63
+          ],
+          "render": [
+            164,
+            140
+          ],
+          "rect": [
+            163.96875,
+            139.59375
+          ],
+          "fit": "fill",
+          "fullFrame": true
+        },
+        {
+          "src": "assets/gabriel.png",
+          "natural": [
+            74,
+            63
+          ],
+          "render": [
+            164,
+            140
+          ],
+          "rect": [
+            163.96875,
+            139.59375
+          ],
+          "fit": "fill",
+          "fullFrame": true
+        },
+        {
+          "src": "assets/rafael.png",
+          "natural": [
+            74,
+            65
+          ],
+          "render": [
+            164,
+            144
+          ],
+          "rect": [
+            163.96875,
+            144.015625
+          ],
+          "fit": "fill",
+          "fullFrame": true
+        },
+        {
+          "src": "assets/theo.png",
+          "natural": [
+            74,
+            65
+          ],
+          "render": [
+            164,
+            144
+          ],
+          "rect": [
+            163.96875,
+            144.015625
+          ],
+          "fit": "fill",
+          "fullFrame": true
+        }
+      ],
+      "targets": [
+        {
+          "name": "Opções dos salvos",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Modelos",
+          "width": 162.484375,
+          "height": 44
+        },
+        {
+          "name": "Castings",
+          "width": 162.5,
+          "height": 44
+        },
+        {
+          "name": "Ver prévia de Enzo",
+          "width": 163.96875,
+          "height": 95.59375
+        },
+        {
+          "name": "Remover Enzo dos salvos",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Ver prévia de Gabriel",
+          "width": 163.96875,
+          "height": 95.59375
+        },
+        {
+          "name": "Remover Gabriel dos salvos",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Ver prévia de Rafael",
+          "width": 163.96875,
+          "height": 100.015625
+        },
+        {
+          "name": "Remover Rafael dos salvos",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Ver prévia de Theo",
+          "width": 163.96875,
+          "height": 100.015625
+        },
+        {
+          "name": "Remover Theo dos salvos",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Início",
+          "width": 78,
+          "height": 44
+        },
+        {
+          "name": "Buscar",
+          "width": 78,
+          "height": 44
+        },
+        {
+          "name": "Adicionar",
+          "width": 78,
+          "height": 44
+        },
+        {
+          "name": "Conversas",
+          "width": 78,
+          "height": 44
+        },
+        {
+          "name": "Meu perfil",
+          "width": 78,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "overflow": false,
+      "loaded": true,
+      "photos": [
+        {
+          "src": "assets/enzo.png",
+          "natural": [
+            74,
+            63
+          ],
+          "render": [
+            181,
+            154
+          ],
+          "rect": [
+            180.78125,
+            153.90625
+          ],
+          "fit": "fill",
+          "fullFrame": true
+        },
+        {
+          "src": "assets/gabriel.png",
+          "natural": [
+            74,
+            63
+          ],
+          "render": [
+            181,
+            154
+          ],
+          "rect": [
+            180.78125,
+            153.90625
+          ],
+          "fit": "fill",
+          "fullFrame": true
+        },
+        {
+          "src": "assets/rafael.png",
+          "natural": [
+            74,
+            65
+          ],
+          "render": [
+            181,
+            159
+          ],
+          "rect": [
+            180.78125,
+            158.78125
+          ],
+          "fit": "fill",
+          "fullFrame": true
+        },
+        {
+          "src": "assets/theo.png",
+          "natural": [
+            74,
+            65
+          ],
+          "render": [
+            181,
+            159
+          ],
+          "rect": [
+            180.78125,
+            158.78125
+          ],
+          "fit": "fill",
+          "fullFrame": true
+        }
+      ],
+      "targets": [
+        {
+          "name": "Opções dos salvos",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Modelos",
+          "width": 179.15625,
+          "height": 44
+        },
+        {
+          "name": "Castings",
+          "width": 179.171875,
+          "height": 44
+        },
+        {
+          "name": "Ver prévia de Enzo",
+          "width": 180.78125,
+          "height": 109.90625
+        },
+        {
+          "name": "Remover Enzo dos salvos",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Ver prévia de Gabriel",
+          "width": 180.78125,
+          "height": 109.90625
+        },
+        {
+          "name": "Remover Gabriel dos salvos",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Ver prévia de Rafael",
+          "width": 180.78125,
+          "height": 114.78125
+        },
+        {
+          "name": "Remover Rafael dos salvos",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Ver prévia de Theo",
+          "width": 180.78125,
+          "height": 114.78125
+        },
+        {
+          "name": "Remover Theo dos salvos",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "Início",
+          "width": 86,
+          "height": 44
+        },
+        {
+          "name": "Buscar",
+          "width": 86,
+          "height": 44
+        },
+        {
+          "name": "Adicionar",
+          "width": 86,
+          "height": 44
+        },
+        {
+          "name": "Conversas",
+          "width": 86,
+          "height": 44
+        },
+        {
+          "name": "Meu perfil",
+          "width": 86,
+          "height": 44
+        }
+      ]
+    }
+  ],
+  "actions": {
+    "individualAndUndo": true,
+    "tabs": "true",
+    "previewEnzo": "Enzo, 26",
+    "focusEnzo": "Ver prévia de Enzo",
+    "previewGabriel": "Gabriel, 28",
+    "focusGabriel": "Ver prévia de Gabriel",
+    "previewRafael": "Rafael, 29",
+    "focusRafael": "Ver prévia de Rafael",
+    "previewTheo": "Theo, 24",
+    "focusTheo": "Ver prévia de Theo",
+    "localDialogs": true,
+    "navigation03": {
+      "url": "http://127.0.0.1:8099/MODEL_tela_03_V2/index.html",
+      "hash": ""
+    },
+    "navigation07": {
+      "url": "http://127.0.0.1:8099/MODEL_tela_07_V1/index.html",
+      "hash": ""
+    },
+    "navigation06": {
+      "url": "http://127.0.0.1:8099/MODEL_tela_06_V1/index.html",
+      "hash": ""
+    },
+    "navigation04": {
+      "url": "http://127.0.0.1:8099/MODEL_tela_04_V1/index.html",
+      "hash": ""
+    },
+    "reloadResets": true,
+    "reducedMotion": true
+  }
+}

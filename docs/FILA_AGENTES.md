@@ -12,8 +12,8 @@ Atualização: 2026-11-11 (America/Sao_Paulo). Regra atual do usuário: prossegu
 | 4 | 06 — Chat / Negociação | **APROVADA VISUALMENTE:9,28/10**, V1 **1.0.0-prototipo.1**; auditor06 independente concluído, soma9,275 e nenhum P1 material. | Gate06>9,0 atingido; preservar03/04/05/06 e evidências. Próximo papel planejador07 LIBERADO. |
 | 5 | 07 — Castings | **APROVADA VISUALMENTE:9,32/10**, soma9,315; versão1.0.0-prototipo.2, auditor07 concluído sem P1 material. | Gate07>9,0 atingido; preservar03–07 e evidências. Próximo papel planejador08 LIBERADO. |
 | 6 | 08 — Filtros | **APROVADA VISUALMENTE:9,23/10**, soma9,234615; versão1.0.0-prototipo.1, auditor08 independente concluído sem P1 material. | Gate08>9,0 atingido; fotografia N/A e rubrica normalizada. Preservar03–08; próximo papel planejador09 LIBERADO. |
-| 7 | 09 — Salvos | **Planejador09 LIBERADO** pelo gate08 de9,23/10. | Seguir quatro papéis sequenciais; gate09 próprio antes de10. |
-| 8 | 10 — Meu perfil | Aguardando gate09. | Auditoria09 documentada >9,0; depois planejador10. |
+| 7 | 09 — Salvos | **APROVADA VISUALMENTE:9,27/10**, soma9,265; versão1.0.0-prototipo.1, auditor09 concluído sem P1 material. | Gate09>9,0 atingido; preservar03–09. Próximo papel planejador10 LIBERADO. |
+| 8 | 10 — Meu perfil | **Planejador10 LIBERADO** pelo gate09 de9,27/10. | Executar quatro papéis sequenciais; gate10 próprio antes de11. |
 | 9 | 11 — Notificações | Aguardando gate10. | Auditoria10 documentada >9,0; depois planejador11. |
 
 As telas 01/02 não integram esta fila de continuidade iniciada na 03. Os recortes já existentes das telas seguintes são referências; sua existência não significa planejamento, implementação ou aprovação.
@@ -200,3 +200,31 @@ A execução já está autorizada, incluindo dependências necessárias e public
 - Referência, três capturas e comparação abertas via view_image; dimensões e11 hashes conferidos. Logs/scripts Chromium156/DPR1 revisados, sem segunda sessão de browser ou recaptura independente.
 - P2 e limites: fonte/ícones aproximados, thumb idade≈7px deslocado na390, preenchimento negativo quando altura inferior fica abaixo do domínio visual inicial, clamp dos sliders e cobertura parcial de acessibilidade/rede no script. Detalhes e hashes em [AUDITORIA08](../MODEL_tela_08_V1/AUDITORIA.md).
 - **Auditor08 concluído. Próximo papel: planejador09 LIBERADO.**03–07 e código/assets/capturas08 preservados; sem publicação ou planejamento09 neste papel. Registros anteriores de pendência08 são históricos, superados por esta decisão.
+
+
+## Estágio09 — planejamento entregue
+
+- Referência09 e original abertos; crop global[428,434,604,751],176×317, RGB idêntico confirmado (bbox=None). Quatro identidades/labels, grid2×2, tabs/nav, amostras RGB e contratos locais em `MODEL_tela_09_V1/DESIGN_SPEC.md`; execução em `MODEL_tela_09_V1/PLANO.md`.
+- Fotografias integrais com razão intrínseca obrigatória; sem cover que amplie anatomia. Bookmarks exigem separação alpha de UI e controle opaco co-registrado sobre pixels indisponíveis; sem reconstrução de pele/corpo.
+- **Planejador09 concluído. Próximo papel: assets09 LIBERADO**, depois implementador09 e auditor independente. Gate09>9,0/meta9,5 pendente;10/11 aguardam.03–08 preservadas; sem assets novos, código, capturas, nota ou publicação neste papel.
+
+
+## Estágio09 — assets entregues
+
+- Quatro fotos originais RGBA independentes: Enzo/Gabriel74×63; Rafael/Theo74×65. Frame integral e RGB visível idêntico ao JPEG, RGB transparente zero; sem substituição de pessoa ou preenchimento sob UI. Referência176×317 idêntica ao crop global[428,434,604,751].
+- Bookmarks separados por alpha e oito SVGs de controle opaco nos dois estados, com centros/raios/bboxes e cobertura registrados; nove SVGs de status/header/nav. ASSETS.md, assets/manifest.json e assets/extract_assets.py incluem proveniência, hashes, cores amostradas e limites de matte/resolução. Fotos exigem largura fluida/altura intrínseca, sem cover divergente.
+- **Assets09 concluído. Próximo papel: implementador09 LIBERADO**, depois auditor independente; gate09>9,0/meta9,5 pendente.03–08 preservadas;10/11 aguardam. Sem interface, capturas, nota ou publicação neste papel.
+
+## Estágio09 — implementação entregue
+
+- Versão1.0.0-prototipo.1: HTML/CSS/JS nativos, quatro frames integrais em proporção intrínseca, labels exatos, controles opacos co-registrados com escala do container e clipping conjunto. Estado salvo/desmarcado em memória, desfazer, tabs/vazio, previews e dialogs locais; perfil04 somente Enzo.
+- Capturas reais DPR1 375×812,390×844,430×932, candidata390 e comparação proporcional à altura844 abertas. JSONs, scripts reproduzíveis, hashes e documentação entregues; nenhuma autoatribuição de nota.
+- **Implementador09 concluído. Próximo papel: auditor09 independente LIBERADO.** Gate09>9,0/meta9,5 pendente.03–08 preservadas;10/11 aguardam; sem publicação.
+
+
+## Estágio09 — auditor independente concluído
+
+- **APROVADA VISUALMENTE:9,27/10**, soma9,265; versão1.0.0-prototipo.1. Gate>9,0 atendido, meta9,5 não atingida; nenhum P1 material.
+- Referência, três CAPtura finais e comparação abertas;10 hashes, colagem390 exata, RGB genuíno dos4 crops e12 ratios de frame conferidos. Relatórios Chromium/fallback revisados, sem segunda sessão de browser independente.
+- P2 de respiro foto/legenda, bookmark opaco dominante, fonte/ícones e limites de insumos em [AUDITORIA09](../MODEL_tela_09_V1/AUDITORIA.md).
+- **Auditor09 concluído. Próximo papel: planejador10 LIBERADO.**03–08 (08=9,23) e código/assets/capturas09 preservados. Sem publicação ou início10 neste papel;11 aguarda gate10. Pendências09 anteriores acima são históricas, superadas por esta decisão.

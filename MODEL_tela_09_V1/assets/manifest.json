@@ -1,0 +1,394 @@
+{
+  "source": {
+    "file": "MODEL_assets_v1/originais/mockup-geral.jpg",
+    "sha256": "9120f379280879ca9c7695eeccba7288630b6956b39708eb94311080dbedf3dd",
+    "dimensions": [
+      1179,
+      753
+    ]
+  },
+  "reference": {
+    "file": "MODEL_assets_v1/referencias/09-salvos.png",
+    "sha256": "2ef31f40f70ae50d3f5317ea79d9162e57d547cbdde5cdf46c3ceebc1966c508",
+    "dimensions": [
+      176,
+      317
+    ],
+    "global_box": [
+      428,
+      434,
+      604,
+      751
+    ],
+    "rgb_identical": true
+  },
+  "photos": [
+    {
+      "file": "enzo.png",
+      "identity": "Enzo",
+      "age": 26,
+      "city": "São Paulo, SP",
+      "local_box": [
+        12,
+        72,
+        86,
+        135
+      ],
+      "global_box": [
+        440,
+        506,
+        514,
+        569
+      ],
+      "width": 74,
+      "height": 63,
+      "aspect_ratio": 1.1746031746031746,
+      "sha256": "6c5e8f0ecf063b029dcf13372dbe8b8e47993b05c4cd431f4eecf28c7782a2e5",
+      "visible_rgb_equal_source": true,
+      "transparent_rgb_zero": true,
+      "visible_pixels": 4366,
+      "hidden_pixels": 296,
+      "corner_radius": 5.0,
+      "control": {
+        "center_local_panel": [
+          77,
+          126
+        ],
+        "center_relative_photo": [
+          65,
+          54
+        ],
+        "center_fraction": [
+          0.8783783783783784,
+          0.8571428571428571
+        ],
+        "mask_radius": 9.5,
+        "mask_bbox_relative": [
+          55.5,
+          44.5,
+          74.5,
+          63.5
+        ],
+        "svg_diameter": 20,
+        "opaque_circle_radius": 9.75,
+        "fill": "#4a3830",
+        "coverage_both_states": true
+      }
+    },
+    {
+      "file": "gabriel.png",
+      "identity": "Gabriel",
+      "age": 28,
+      "city": "Rio de Janeiro, RJ",
+      "local_box": [
+        92,
+        72,
+        166,
+        135
+      ],
+      "global_box": [
+        520,
+        506,
+        594,
+        569
+      ],
+      "width": 74,
+      "height": 63,
+      "aspect_ratio": 1.1746031746031746,
+      "sha256": "ba8e7d6c5d1eb76176bce5ab9cc16618eb7e6e2887bac232f11272ed2bfbcfa1",
+      "visible_rgb_equal_source": true,
+      "transparent_rgb_zero": true,
+      "visible_pixels": 4366,
+      "hidden_pixels": 296,
+      "corner_radius": 5.0,
+      "control": {
+        "center_local_panel": [
+          157,
+          126
+        ],
+        "center_relative_photo": [
+          65,
+          54
+        ],
+        "center_fraction": [
+          0.8783783783783784,
+          0.8571428571428571
+        ],
+        "mask_radius": 9.5,
+        "mask_bbox_relative": [
+          55.5,
+          44.5,
+          74.5,
+          63.5
+        ],
+        "svg_diameter": 20,
+        "opaque_circle_radius": 9.75,
+        "fill": "#312f2f",
+        "coverage_both_states": true
+      }
+    },
+    {
+      "file": "rafael.png",
+      "identity": "Rafael",
+      "age": 29,
+      "city": "São Paulo, SP",
+      "local_box": [
+        12,
+        168,
+        86,
+        233
+      ],
+      "global_box": [
+        440,
+        602,
+        514,
+        667
+      ],
+      "width": 74,
+      "height": 65,
+      "aspect_ratio": 1.1384615384615384,
+      "sha256": "3a119884e922d42bcf2a959718bbfaed0f97f467c52e686f24a93644c8be20cc",
+      "visible_rgb_equal_source": true,
+      "transparent_rgb_zero": true,
+      "visible_pixels": 4514,
+      "hidden_pixels": 296,
+      "corner_radius": 5.0,
+      "control": {
+        "center_local_panel": [
+          77,
+          224
+        ],
+        "center_relative_photo": [
+          65,
+          56
+        ],
+        "center_fraction": [
+          0.8783783783783784,
+          0.8615384615384616
+        ],
+        "mask_radius": 9.5,
+        "mask_bbox_relative": [
+          55.5,
+          46.5,
+          74.5,
+          65.5
+        ],
+        "svg_diameter": 20,
+        "opaque_circle_radius": 9.75,
+        "fill": "#3a241a",
+        "coverage_both_states": true
+      }
+    },
+    {
+      "file": "theo.png",
+      "identity": "Theo",
+      "age": 24,
+      "city": "Belo Horizonte, MG",
+      "local_box": [
+        92,
+        168,
+        166,
+        233
+      ],
+      "global_box": [
+        520,
+        602,
+        594,
+        667
+      ],
+      "width": 74,
+      "height": 65,
+      "aspect_ratio": 1.1384615384615384,
+      "sha256": "e0d6ef51c201cf0486a7431ccdd11818314a6e32f933c5f402473f929d370a00",
+      "visible_rgb_equal_source": true,
+      "transparent_rgb_zero": true,
+      "visible_pixels": 4514,
+      "hidden_pixels": 296,
+      "corner_radius": 5.0,
+      "control": {
+        "center_local_panel": [
+          157,
+          224
+        ],
+        "center_relative_photo": [
+          65,
+          56
+        ],
+        "center_fraction": [
+          0.8783783783783784,
+          0.8615384615384616
+        ],
+        "mask_radius": 9.5,
+        "mask_bbox_relative": [
+          55.5,
+          46.5,
+          74.5,
+          65.5
+        ],
+        "svg_diameter": 20,
+        "opaque_circle_radius": 9.75,
+        "fill": "#130e0a",
+        "coverage_both_states": true
+      }
+    }
+  ],
+  "icons": [
+    {
+      "file": "nav-home.svg",
+      "source": "MODEL_tela_07_V1/assets/nav-home.svg",
+      "sha256": "27199af1d9b77943db8b68ac22aeda0e100a9cf53a1be25071b181d14bcf0d97",
+      "byte_identical": true
+    },
+    {
+      "file": "search.svg",
+      "source": "MODEL_tela_07_V1/assets/search.svg",
+      "sha256": "07af411c8440344908a7705a6ed1e02860f5c23d7074c07c0f03b6357cd01fed",
+      "byte_identical": true
+    },
+    {
+      "file": "plus.svg",
+      "source": "MODEL_tela_07_V1/assets/plus.svg",
+      "sha256": "0ea5353e0a94c8b2426684db1179c448bfeb7cc992ceac8cf6206360a636f623",
+      "byte_identical": true
+    },
+    {
+      "file": "chat.svg",
+      "source": "MODEL_tela_07_V1/assets/chat.svg",
+      "sha256": "4081da2af81779dcc72c1cadbf3c442bd3eb42c8bd68d8b037d932cd612007d5",
+      "byte_identical": true
+    },
+    {
+      "file": "profile.svg",
+      "source": "MODEL_tela_07_V1/assets/profile.svg",
+      "sha256": "427728a1660072ddeacae699ca4060c30db565cf8164317c4f63848daaa984dc",
+      "byte_identical": true
+    },
+    {
+      "file": "cellular.svg",
+      "source": "MODEL_tela_06_V1/assets/cellular.svg",
+      "sha256": "bfef56a21521154b475f4e5dd76c582a6d0b512103b73195d80b767e6998e8df",
+      "byte_identical": true
+    },
+    {
+      "file": "wifi.svg",
+      "source": "MODEL_tela_06_V1/assets/wifi.svg",
+      "sha256": "4fadfbcb4893402906a346c5c2f462bda9052857153b27a750214e940c7f8815",
+      "byte_identical": true
+    },
+    {
+      "file": "battery.svg",
+      "source": "MODEL_tela_06_V1/assets/battery.svg",
+      "sha256": "00adb9fbad3577e1a5110e4fe7039773faaebc79eef595ea602f56eb79b788e4",
+      "byte_identical": true
+    }
+  ],
+  "colors": {
+    "paper": {
+      "box": [
+        5,
+        35,
+        170,
+        44
+      ],
+      "mode_rgb": [
+        249,
+        248,
+        244
+      ],
+      "mode_hex": "#f9f8f4",
+      "count": 795,
+      "uncertainty": "JPEG variation"
+    },
+    "lower_paper": {
+      "box": [
+        10,
+        260,
+        165,
+        280
+      ],
+      "mode_rgb": [
+        248,
+        247,
+        243
+      ],
+      "mode_hex": "#f8f7f3",
+      "count": 836,
+      "uncertainty": "JPEG variation"
+    },
+    "active_tab": {
+      "box": [
+        20,
+        50,
+        80,
+        58
+      ],
+      "mode_rgb": [
+        12,
+        12,
+        12
+      ],
+      "mode_hex": "#0c0c0c",
+      "count": 70,
+      "uncertainty": "JPEG variation"
+    },
+    "secondary_text": {
+      "box": [
+        94,
+        153,
+        153,
+        159
+      ],
+      "mode_rgb": [
+        250,
+        249,
+        245
+      ],
+      "mode_hex": "#faf9f5",
+      "count": 18,
+      "uncertainty": "JPEG pixels; secondary region includes paper, not an isolated font color"
+    },
+    "secondary_glyph_pixel": {
+      "coordinate": [
+        97,
+        155
+      ],
+      "rgb": [
+        131,
+        129,
+        130
+      ],
+      "hex": "#838182"
+    }
+  },
+  "mask_rule": "Evaluate pixel centers (x+.5,y+.5); remove circle radius9.5 and outside rounded rectangle radius5. No RGB changes for alpha>0. Alpha is binary; hidden RGB=0. Control disk radius9.75 covers mask in saved and unsaved SVG. Clip UI at same photo frame/corners.",
+  "limitations": [
+    "Original JPEG only; no unseen photo pixels recovered.",
+    "Four identities assigned strictly from labels; Gabriel clothing differs from prose description: actual original sleeveless gray top retained.",
+    "UI footprint/corner geometry approximate ±1 source pixel; JPEG matte may remain.",
+    "Opaque controls approximate original translucent overlays; each fill sampled from original left annulus.",
+    "No source font available; use native Arial/Helvetica text, never raster labels."
+  ],
+  "generated_files": {
+    "battery.svg": "00adb9fbad3577e1a5110e4fe7039773faaebc79eef595ea602f56eb79b788e4",
+    "bookmark-enzo-saved.svg": "c14e01e929a8d1f6f0dab3a3bf9ffb1d3f8a3a000c8833d45f860cffc1083a28",
+    "bookmark-enzo-unsaved.svg": "46bfd48cb92c66adf001dff244c69775a94c1791391c9de8b29387e570078b20",
+    "bookmark-gabriel-saved.svg": "970e525c88e4a7050dd7de61ee36d3002ea5b18b0f337f9b3ad420c0f5d67c22",
+    "bookmark-gabriel-unsaved.svg": "bc0694d336964ccaa8bd7b15d0516798f8c1a7a94ec1cc5fa9b639f7c1790409",
+    "bookmark-rafael-saved.svg": "27d798bc981a706e739e60ba73ff5765e309d8e547a93041ad49b0a09387228b",
+    "bookmark-rafael-unsaved.svg": "65414f7ba4b3b76eeae36195188278f817a541ba1c8cbdb0490d26cf1ce65b8d",
+    "bookmark-theo-saved.svg": "790f5b8d04f2e6843a0e2472ebf8e9364a7db4d402f75cda8a17aac7ed666506",
+    "bookmark-theo-unsaved.svg": "d4ea3db7387a81ca06f8ba52b82ced336c226fca37162a932394de6174eef652",
+    "cellular.svg": "bfef56a21521154b475f4e5dd76c582a6d0b512103b73195d80b767e6998e8df",
+    "chat.svg": "4081da2af81779dcc72c1cadbf3c442bd3eb42c8bd68d8b037d932cd612007d5",
+    "enzo.png": "6c5e8f0ecf063b029dcf13372dbe8b8e47993b05c4cd431f4eecf28c7782a2e5",
+    "gabriel.png": "ba8e7d6c5d1eb76176bce5ab9cc16618eb7e6e2887bac232f11272ed2bfbcfa1",
+    "nav-home.svg": "27199af1d9b77943db8b68ac22aeda0e100a9cf53a1be25071b181d14bcf0d97",
+    "options.svg": "5e66af58137e73d3287a81d293a814821d5cd40a992a923f0342630f24326854",
+    "plus.svg": "0ea5353e0a94c8b2426684db1179c448bfeb7cc992ceac8cf6206360a636f623",
+    "profile.svg": "427728a1660072ddeacae699ca4060c30db565cf8164317c4f63848daaa984dc",
+    "rafael.png": "3a119884e922d42bcf2a959718bbfaed0f97f467c52e686f24a93644c8be20cc",
+    "search.svg": "07af411c8440344908a7705a6ed1e02860f5c23d7074c07c0f03b6357cd01fed",
+    "theo.png": "e0d6ef51c201cf0486a7431ccdd11818314a6e32f933c5f402473f929d370a00",
+    "wifi.svg": "4fadfbcb4893402906a346c5c2f462bda9052857153b27a750214e940c7f8815"
+  }
+}
