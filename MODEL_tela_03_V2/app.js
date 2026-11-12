@@ -10,45 +10,46 @@ const dismiss = document.querySelector('.dismiss');
 const dialog = document.querySelector('dialog');
 const portrait = document.querySelector('.portrait');
 
-for (const [selector, selected, cleared] of [
-  ['.favorite', 'Enzo adicionado aos favoritos desta sessão.', 'Enzo removido dos favoritos desta sessão.'],
-  ['.like', 'Curtida registrada nesta sessão.', 'Curtida desfeita nesta sessão.'],
-]) {
-  const button = document.querySelector(selector);
-  button.addEventListener('click', () => {
-    const next = button.getAttribute('aria-pressed') !== 'true';
-    button.setAttribute('aria-pressed', String(next));
-    announcement.textContent = next ? selected : cleared;
+function syncActions() {
+  const state = ModelStore.getState();
+  document.querySelector('.favorite').setAttribute('aria-pressed', state.savedProfileIds.includes('enzo'));
+  document.querySelector('.like').setAttribute('aria-pressed', state.likedProfileIds.includes('enzo'));
+  const ignored=state.dismissedProfileIds.includes('enzo');
+  details.hidden=ignored; actions.hidden=ignored; emptyState.hidden=!ignored;
+  if(ignored) screen.dataset.dismissed='true'; else delete screen.dataset.dismissed;
+}
+for (const [selector, field] of [['.favorite','savedProfileIds'], ['.like','likedProfileIds']]) {
+  document.querySelector(selector).addEventListener('click', () => {
+    const result = ModelStore.dispatch({type:'toggle',field,id:'enzo'});
+    announcement.textContent = result.persistent ? 'Alteração salva neste dispositivo.' : 'Armazenamento indisponível: a alteração pode se perder ao sair desta página.';
   });
 }
+ModelStore.subscribe(syncActions); syncActions();
 
 dismiss.addEventListener('click', () => {
-  details.hidden = true;
-  actions.hidden = true;
-  emptyState.hidden = false;
-  screen.dataset.dismissed = 'true';
-  announcement.textContent = 'Perfil ignorado nesta sessão. Desfazer disponível.';
+  const result=ModelStore.dispatch({type:'toggle',field:'dismissedProfileIds',id:'enzo'});
+  announcement.textContent = result.persistent?'Perfil ignorado neste dispositivo. Desfazer disponível.':'Armazenamento indisponível: a alteração pode se perder ao sair desta página.';
   undo.focus();
 });
 undo.addEventListener('click', () => {
-  details.hidden = false;
-  actions.hidden = false;
-  emptyState.hidden = true;
-  delete screen.dataset.dismissed;
+  ModelStore.dispatch({type:'toggle',field:'dismissedProfileIds',id:'enzo'});
   announcement.textContent = 'Perfil de Enzo restaurado.';
   dismiss.focus();
 });
 
 const panels = {
   back: ['Descobrir', 'Esta versão apresenta o perfil de Enzo. A navegação para a grade será conectada na integração ao aplicativo.'],
-  options: ['Mais opções', 'As ações disponíveis neste protótipo são ignorar, favoritar e curtir. As escolhas ficam apenas nesta sessão.'],
+  options: ['Mais opções', 'As ações disponíveis neste protótipo são ignorar, favoritar e curtir. As escolhas ficam neste dispositivo.'],
   info: ['Enzo, 26', 'São Paulo, SP · 1,84 m. Fashion, Editorial, Comercial. Perfil verificado.'],
 };
 for (const button of document.querySelectorAll('[data-panel]')) {
   button.addEventListener('click', () => {
+    if (button.dataset.panel === 'back') return ModelNavigation.goTo('descobrir');
+    if (button.dataset.panel === 'info') return ModelNavigation.goTo('perfil-modelo');
     const [title, copy] = panels[button.dataset.panel];
     document.querySelector('#dialog-title').textContent = title;
     document.querySelector('#dialog-copy').textContent = copy;
+    let link = dialog.querySelector('.saved-link'); if (!link) { link = document.createElement('a'); link.className = 'saved-link'; link.href = '../MODEL_tela_09_V1/'; link.textContent = 'Salvos'; dialog.append(link); }
     dialog.showModal();
   });
 }

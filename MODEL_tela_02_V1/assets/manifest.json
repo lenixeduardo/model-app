@@ -1,0 +1,26 @@
+{
+  "reference": "MODEL_assets_v1/referencias/02-descoberta.png",
+  "source_sha256": "a152aeca87a53a5a1890f0bc04a9710bb7838741c076f999e3fa5c1d1a6d0a39",
+  "assets": {
+    "back.svg": "6853b01f809d11819a2c25ab780b83cdd6d0347f1927f92c411b332d3e024627",
+    "battery.svg": "00adb9fbad3577e1a5110e4fe7039773faaebc79eef595ea602f56eb79b788e4",
+    "bookmark.svg": "e74797ddd29d545b601d59173d74257708a126be3e8e325b6affbaa9712acc16",
+    "cellular.svg": "bfef56a21521154b475f4e5dd76c582a6d0b512103b73195d80b767e6998e8df",
+    "chat.svg": "4081da2af81779dcc72c1cadbf3c442bd3eb42c8bd68d8b037d932cd612007d5",
+    "enzo.png": "9f66560b274fb9eaeef8053fc313b61710f823557ae231661b2107b67b227ec6",
+    "filter.svg": "77292fbb686fa60c014330b299f78227afee30fea55f2c133ab7969143c848e9",
+    "gabriel.png": "307e8fbd3aeae7c62aa80b4ba8a21eb08d5a9f3e8937223000d0e12139b0e36b",
+    "location.svg": "98c07716f96393609740fc77e15db40ad56a7a37c70dd2e9598dc06df53fcf18",
+    "nav-home.svg": "27199af1d9b77943db8b68ac22aeda0e100a9cf53a1be25071b181d14bcf0d97",
+    "options.svg": "1432aed709396dc6d97b9cde8a0e2d04dc6ab99b2d07d192a52478c50903be7d",
+    "plus.svg": "0ea5353e0a94c8b2426684db1179c448bfeb7cc992ceac8cf6206360a636f623",
+    "profile.svg": "427728a1660072ddeacae699ca4060c30db565cf8164317c4f63848daaa984dc",
+    "rafael.png": "982885c504ff0fcb0d813b4e834d6e2ddcae9fdbb726dfb5290f278bff93209f",
+    "search.svg": "07af411c8440344908a7705a6ed1e02860f5c23d7074c07c0f03b6357cd01fed",
+    "theo.png": "1f7ccf8ac66cb4e34e11948f3017dadb4720a0a05f1a71ee0bcbc9da851bdbe9",
+    "verified.svg": "53616d75a8938e7afb6cd038e4d13ccdd2bfc33ebd1822d2ff0e8ec2cc77d25f",
+    "wifi.svg": "4fadfbcb4893402906a346c5c2f462bda9052857153b27a750214e940c7f8815"
+  },
+  "extraction": "MODEL_assets_v1/extrair_entrada.py",
+  "notes": "Recortes preservam RGB fora de máscaras alpha estreitas de UI, coordenadas em extrair_entrada.py."
+}

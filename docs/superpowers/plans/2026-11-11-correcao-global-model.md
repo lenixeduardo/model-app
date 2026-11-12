@@ -27,6 +27,13 @@
 4. Filtros sem resultado ou com limites inválidos: validação e estado vazio, sem inventar dados disponíveis.
 5. Teclado,320×568 e texto ampliado: controles alcançáveis e sem sobreposição; preservar acesso por rolagem.
 
+## Estado da execução nesta publicação
+
+- **Etapa1 implementada e revisada:** entrada, Telas01/02 e navegação. Auditoria visual01=9,23;02=9,10 no escopo da tarefa1.
+- **Etapa2 implementada:** estado compartilhado e persistência local, incluindo correções da primeira revisão;21 testes de navegação/estado passaram. A revisão independente final desta rodada ainda está pendente.
+- **Etapa3 pendente:** contraste, ARIA/rótulos e áreas de toque; não houve aprovação global de acessibilidade.
+- Etapas4–6 e a nova auditoria visual das telas modificadas permanecem pendentes. A publicação dos avanços não equivale a aceite final.
+
 ## Ordem e marcos
 
 | Ordem | Prioridade | Entrega | Dependência |

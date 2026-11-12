@@ -1,3 +1,5 @@
+**Integração em andamento:** o runtime desta pasta foi alterado após a auditoria visual histórica. `AUDITORIA.md`, capturas antigas e seus manifests descrevem a versão pré-integração, recuperável no commit `b49b77d`; não certificam os arquivos atuais. Novas evidências e aceite final permanecem pendentes. Ver [estado da integração](../docs/correcoes-123/AVALIACAO_ATUAL.md).
+
 **Estado vigente: APROVADA VISUALMENTE — 9,23/10**, versão 1.0.0-prototipo.1. Auditoria independente e hashes em AUDITORIA.md / EVIDENCIAS_RELEASE.json. Gate >9,0 atingido; a aprovação não certifica backend ou dispositivo físico.
 
 # Tela08 — Filtros
@@ -15,3 +17,8 @@ Alvos44px, foco visível, dialogs nativos com Escape e retorno de foco, teclado/
 Evidências: `relatorio-browser.json` contém versão do Chromium, dimensões/DPR1, entradas nativas, alvos, fluxos, console/rede e SHA256. Capturas sem foco ou dialog: `screenshots/captura-{375,390,430}.png`. `comparacao-390.png` redimensiona a referência para844px de altura preservando proporções e mantém a captura390×844 sem distorção. Candidata390 foi aberta e comparada antes do congelamento; três finais e comparação foram inspecionadas. Baixa resolução JPEG e proporções de viewport distintas limitam comparação pixel a pixel. A pontuação9,23/10 foi atribuída pelo auditor independente, após abrir as capturas reais.
 
 As capturas captura-375.png / captura-390.png / captura-430.png são os raw finais ou cópias idênticas dos raw em screenshots/, sem edição. Candidatos e versões anteriores são históricos, não prova da versão aprovada.
+
+
+## Integração
+
+Navegação integrada à demonstração local. Dados e ações permanecem locais; não há backend.

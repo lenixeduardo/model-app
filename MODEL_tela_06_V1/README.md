@@ -1,3 +1,5 @@
+**Integração em andamento:** o runtime desta pasta foi alterado após a auditoria visual histórica. `AUDITORIA.md`, capturas antigas e seus manifests descrevem a versão pré-integração, recuperável no commit `b49b77d`; não certificam os arquivos atuais. Novas evidências e aceite final permanecem pendentes. Ver [estado da integração](../docs/correcoes-123/AVALIACAO_ATUAL.md).
+
 # MODEL tela06 — protótipo local
 
 Versão1.0.0-prototipo.1. **Aprovada visualmente em9,28/10**, auditoria independente semP1 material; gate>9,0 atingido. HTML/CSS/JavaScript nativos, sem dependências de runtime. Servir **a raiz model-app**, por exemplo `python -m http.server 8000`, e abrir `/MODEL_tela_06_V1/`. O link voltar aponta para05 aprovada.
@@ -19,3 +21,8 @@ Dialogs concentram as explicações de protótipo para preservar o conteúdo ini
 ## Nomes de entrega
 
 Os raw originais permanecem em screenshots/. Para os nomes captura-375.png/captura-390.png/captura-430.png, executar `python MODEL_tela_06_V1/exportar_capturas.py` após render.py. O exportador copia os mesmos bytes, sem editar imagens; EVIDENCIAS.json registra os pares e SHA-256. A comparação usa os raw originais.
+
+
+## Integração
+
+Navegação integrada à demonstração local. Dados e ações permanecem locais; não há backend.

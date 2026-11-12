@@ -1,3 +1,5 @@
+**Integração em andamento:** o runtime desta pasta foi alterado após a auditoria visual histórica. `AUDITORIA.md`, capturas antigas e seus manifests descrevem a versão pré-integração, recuperável no commit `b49b77d`; não certificam os arquivos atuais. Novas evidências e aceite final permanecem pendentes. Ver [estado da integração](../docs/correcoes-123/AVALIACAO_ATUAL.md).
+
 # MODEL — Tela 03 V2
 
 **Aprovada visualmente:9,13/10**, ciclo7, versão2.0.0-prototipo.7. Gate>9,0 atingido; meta9,5 permanece. Aceite do protótipo estático de Enzo, sem certificação de backend ou dados arbitrários.
@@ -40,3 +42,8 @@ As escolhas ficam em memória; recarregar reinicia. Nenhuma API é chamada. Volt
 P2 restantes: contorno do selo, diferença de nitidez dos chips, margem da informação e céu/base mais uniformes. UI raster tem resolução limitada e é específica deste perfil. Aparelho físico, VoiceOver e safe areas reais não certificados. Testes técnicos e aprovação visual são escopos diferentes.
 
 A fila em ../docs/FILA_AGENTES.md libera a Tela04. Esta nota não se transfere às telas seguintes. Os PNGs e SVGs experimentais rejeitados não são dependências do runtime aprovado.
+
+
+## Integração
+
+Navegação integrada à demonstração local. Dados e ações permanecem locais; não há backend.

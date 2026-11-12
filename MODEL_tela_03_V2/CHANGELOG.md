@@ -1,3 +1,11 @@
+## Integração de estado local (state1)
+
+- Conecta os dados desta tela ao estado de demonstração persistido no dispositivo.
+
+# Integração de navegação
+
+- Conexões e retornos demonstrativos; estado compartilhado e backend permanecem pendentes. Versão 2.0.0-prototipo.7.integracao.1.
+
 # Tela 03 V2 — 2026-11-09
 
 ## Implementação

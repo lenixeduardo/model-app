@@ -2,3 +2,5 @@
 .open-card{width:calc(100% - 40px)}
 /* V2: preserve every original photograph edge and intrinsic frame. */
 .photo{height:auto;object-fit:contain}
+#filter-status:not(:empty){position:absolute;z-index:4;left:7%;right:7%;top:calc(85 * var(--v));background:#f9f8f4;padding:8px;font-size:14px}
+#filter-status button{min-height:44px;text-decoration:underline}

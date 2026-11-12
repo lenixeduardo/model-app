@@ -1,3 +1,5 @@
+**Integração em andamento:** o runtime desta pasta foi alterado após a auditoria visual histórica. `AUDITORIA.md`, capturas antigas e seus manifests descrevem a versão pré-integração, recuperável no commit `b49b77d`; não certificam os arquivos atuais. Novas evidências e aceite final permanecem pendentes. Ver [estado da integração](../docs/correcoes-123/AVALIACAO_ATUAL.md).
+
 # Tela04 — Perfil de Enzo
 
 Versão `1.0.0-prototipo.1`. **Aprovada visualmente em9,30/10**, auditoria independente semP1 material. Gate>9,0 atingido; meta9,5 permanece. Consulte AUDITORIA.md para pesos, hashes eP2.
@@ -9,3 +11,8 @@ Frontend estático independente com HTML, CSS e JS nativos. Servir a raiz do rep
 Verificações automatizadas: imagens/SVGs carregados, ausência de erros de console/rede e overflow, controles>=44px, salvar, quatro recortes em diálogo, contato/compartilhar/opções/mensagem, Escape, retorno de foco, foco visível e link real03. Relatório: `relatorio-browser.json`. Fotos usam `object-fit:cover`, sem transformações ou distorção; a quarta continua parcial. CSS declara safe-area por viewport-fit; ações ficam afastadas da borda e conteúdo reduzido em altura pode rolar. Redução de movimento declarada sem animações; fallback conserva alt e fundo neutro. Esses últimos itens são revisão de código; não equivalem a teste físico de dispositivo/VoiceOver.
 
 O contador1/8 pertence ao mockup; há somente quatro recortes fornecidos. Salvar vale só nesta sessão. Diálogos informam o caráter demonstrativo e não enviam solicitações ou mensagens. Baixa resolução e ícones aproximados estão documentados em ASSETS.md. Nenhuma fotografia foi gerada, substituída ou reconstruída. Tela03 não foi alterada. Tela05 foi liberada para planejamento após esta auditoria04>9,0; sua nota e suas capturas serão próprias.
+
+
+## Integração
+
+Navegação integrada à demonstração local. Dados e ações permanecem locais; não há backend.

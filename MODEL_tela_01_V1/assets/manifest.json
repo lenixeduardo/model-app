@@ -1,0 +1,12 @@
+{
+  "reference": "MODEL_assets_v1/referencias/01-splash.png",
+  "source_sha256": "ee9b8b3511592c36c66bd8da1b9d6936aeb0c1264b6fb97bdb8d830017126f80",
+  "assets": {
+    "battery.svg": "00adb9fbad3577e1a5110e4fe7039773faaebc79eef595ea602f56eb79b788e4",
+    "cellular.svg": "bfef56a21521154b475f4e5dd76c582a6d0b512103b73195d80b767e6998e8df",
+    "retrato.png": "dbfa6e9bdc5faf64aca4b57c231fcb151cbaff94e5d4f21de21b6c550fb52d7d",
+    "wifi.svg": "4fadfbcb4893402906a346c5c2f462bda9052857153b27a750214e940c7f8815"
+  },
+  "extraction": "MODEL_assets_v1/extrair_entrada.py",
+  "notes": "Hero parcial RGB (1,18,187,249), sem máscara, com fotografia, wordmark e divisor originais; identidade estática."
+}

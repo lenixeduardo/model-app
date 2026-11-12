@@ -1,5 +1,16 @@
 # MODEL
 
+## Avanços da integração — publicação de trabalho em andamento
+
+As onze telas estão implementadas nesta versão. Entrada e navegação foram conectadas; favoritos, salvos, filtros, mensagens, edição e leitura de notificações usam estado compartilhado com persistência local. **21 testes de navegação e estado passaram na última reexecução.** Autenticação e serviços reais continuam fora desta entrega.
+
+**Acessibilidade e aceite integrado final permanecem pendentes.** Há alertas de contraste/ARIA/rótulos, sobreposições de toque e necessidade de novas capturas das telas modificadas. A revisão independente da última rodada de estado não foi concluída; os testes não substituem essa revisão. As notas abaixo são aprovações visuais históricas das versões indicadas nas respectivas auditorias, não aprovação automática do código integrado atual.
+
+[Avaliação atual](docs/correcoes-123/AVALIACAO_ATUAL.md) · [Relatórios de implementação e revisão](docs/correcoes-123/revisoes/) · [Plano de correção](docs/superpowers/plans/2026-11-11-correcao-global-model.md).
+
+Para testar: `npm ci` e `npm run test:e2e`. Para navegar: `python3 -m http.server 8765 --bind 127.0.0.1`, abrir `http://127.0.0.1:8765/`.
+
+
 Aplicativo editorial para descoberta e contratação de modelos masculinos. Protótipos frontend locais; autenticação, persistência e backend não integrados.
 
 ## Validação do projeto como conjunto

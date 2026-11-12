@@ -1,3 +1,5 @@
+**Integração em andamento:** o runtime desta pasta foi alterado após a auditoria visual histórica. `AUDITORIA.md`, capturas antigas e seus manifests descrevem a versão pré-integração, recuperável no commit `b49b77d`; não certificam os arquivos atuais. Novas evidências e aceite final permanecem pendentes. Ver [estado da integração](../docs/correcoes-123/AVALIACAO_ATUAL.md).
+
 # Portfólio — tela05
 
 Versão `1.0.0-prototipo.1`. **Aprovada visualmente em9,34/10**, auditoria independente semP1 material; gate>9,0 atingido. HTML/CSS/JS nativos e sete recortes oficiais locais. Servir a raiz do repositório: `python -m http.server 8000` em `model-app`; abrir `/MODEL_tela_05_V1/`. Link Voltar aponta à04 aprovada;03/04 não foram alteradas.
@@ -11,3 +13,8 @@ TDD: primeiro render.py foi executado antes do HTML e falhou com `Expected imple
 Limites: fonte172×404 de baixa resolução. Fotos06/07 são parciais e permanecem assim. Tiles têm largura proporcional à viewport e alturas proporcionais ao painel; `object-fit:cover` preserva proporção natural e ajusta o enquadramento vertical aproximadamente8% em relação à fonte, sem estirar corpos/pixels. Nos parciais o crop é o limite absoluto de informação. Não há reconstrução ou geração. Fontes nativas e ícones vetoriais são aproximações. Pill Fotos usa44px mínimos para acessibilidade, ligeiramente maior que o escalonamento literal na menor altura.
 
 Candidato390 inspecionado contra a fonte: corrigidos ícones pretos de SVG externo com inversão CSS e fechamento Escape do campo search. Capturas finais obtidas antes de interações. Auditoria independente concluída em9,34/10; planejamento06 liberado. A nota não é transferida à tela seguinte. Consulte AUDITORIA.md para rubrica, hashes eP2.
+
+
+## Integração
+
+Navegação integrada à demonstração local. Dados e ações permanecem locais; não há backend.

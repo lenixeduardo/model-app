@@ -1,0 +1,408 @@
+{
+  "commit": "f3d37dd",
+  "tests": "21 passed (17.6s)",
+  "viewports": [
+    390,
+    844
+  ],
+  "results": [
+    {
+      "screen": 1,
+      "violations": [],
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "screen": 2,
+      "violations": [],
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "screen": 3,
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".progress"
+              ],
+              "failure": "Fix all of the following:\n  aria-label attribute cannot be used on \"div\" elements with no valid role attribute."
+            }
+          ]
+        }
+      ],
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "screen": 4,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".identity > p"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 4.42 (foreground color: #737373, background color: #f8f7f3, font size: 10.7pt (14.2188px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div:nth-child(1) > dt"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 4.17 (foreground color: #777777, background color: #f8f7f3, font size: 9.9pt (13.2031px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div:nth-child(2) > dt"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 4.17 (foreground color: #777777, background color: #f8f7f3, font size: 9.9pt (13.2031px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div:nth-child(3) > dt"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 4.17 (foreground color: #777777, background color: #f8f7f3, font size: 9.9pt (13.2031px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".bio > p"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 4.36 (foreground color: #747474, background color: #f8f7f3, font size: 10.4pt (13.8125px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "screen": 5,
+      "violations": [],
+      "overflow": false,
+      "brokenImages": [
+        ""
+      ]
+    },
+    {
+      "screen": 6,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                "small"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 3.64 (foreground color: #82817b, background color: #f8f7f3, font size: 9.9pt (13.26px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".first > time"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 2.8 (foreground color: #96958e, background color: #f8f7f3, font size: 8.9pt (11.895px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".outgoing > time"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 2.8 (foreground color: #96958e, background color: #f8f7f3, font size: 8.9pt (11.895px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".last > time"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 2.8 (foreground color: #96958e, background color: #f8f7f3, font size: 8.9pt (11.895px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "screen": 7,
+      "violations": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                "article:nth-child(1) > .open-card"
+              ],
+              "failure": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "button[aria-label=\"Detalhes: Marca Esportiva\"]"
+              ],
+              "failure": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "button[aria-label=\"Detalhes: Editorial Masculino\"]"
+              ],
+              "failure": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            }
+          ]
+        }
+      ],
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "screen": 8,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                "#reset"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 4.33 (foreground color: #777570, background color: #f9f8f4, font size: 9.5pt (12.675px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "#value-fee"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 4.33 (foreground color: #777570, background color: #f9f8f4, font size: 9.2pt (12.285px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                "#value-age"
+              ],
+              "failure": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "#value-height"
+              ],
+              "failure": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "#value-fee"
+              ],
+              "failure": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            }
+          ]
+        }
+      ],
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "screen": 9,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                "article:nth-child(1) > .city"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 3.64 (foreground color: #838182, background color: #f9f8f4, font size: 10.0pt (13.2955px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article:nth-child(2) > .city"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 3.64 (foreground color: #838182, background color: #f9f8f4, font size: 10.0pt (13.2955px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article:nth-child(3) > .city"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 3.64 (foreground color: #838182, background color: #f9f8f4, font size: 10.0pt (13.2955px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article:nth-child(4) > .city"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 3.64 (foreground color: #838182, background color: #f9f8f4, font size: 10.0pt (13.2955px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "screen": 10,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".tags > span:nth-child(1)"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 4.28 (foreground color: #70706c, background color: #efeeea, font size: 9.5pt (12.636px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".tags > span:nth-child(2)"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 4.28 (foreground color: #70706c, background color: #efeeea, font size: 9.5pt (12.636px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "span:nth-child(3)"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 4.28 (foreground color: #70706c, background color: #efeeea, font size: 9.5pt (12.636px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "screen": 11,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                "button[data-id=\"0\"] > .time"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 3.17 (foreground color: #8c8c88, background color: #f9f8f3, font size: 8.0pt (10.608px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "button[data-id=\"1\"] > .time"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 3.17 (foreground color: #8c8c88, background color: #f9f8f3, font size: 8.0pt (10.608px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "button[data-id=\"2\"] > .time"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 3.17 (foreground color: #8c8c88, background color: #f9f8f3, font size: 8.0pt (10.608px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "button[data-id=\"3\"] > .time"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 3.17 (foreground color: #8c8c88, background color: #f9f8f3, font size: 8.0pt (10.608px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "button[data-id=\"4\"] > .time"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 3.17 (foreground color: #8c8c88, background color: #f9f8f3, font size: 8.0pt (10.608px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "button[data-id=\"5\"] > .time"
+              ],
+              "failure": "Fix any of the following:\n  Element has insufficient color contrast of 3.17 (foreground color: #8c8c88, background color: #f9f8f3, font size: 8.0pt (10.608px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                "button[data-id=\"0\"]"
+              ],
+              "failure": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "button[data-id=\"1\"]"
+              ],
+              "failure": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "button[data-id=\"2\"]"
+              ],
+              "failure": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "button[data-id=\"3\"]"
+              ],
+              "failure": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "button[data-id=\"4\"]"
+              ],
+              "failure": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            },
+            {
+              "target": [
+                "button[data-id=\"5\"]"
+              ],
+              "failure": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+            }
+          ]
+        }
+      ],
+      "overflow": false,
+      "brokenImages": []
+    }
+  ],
+  "github_main": "b49b77daee4b8d9e83fc485dbed6412513ba599d",
+  "local_head": "f3d37dd",
+  "accessibility_rule_screen_groups": 10,
+  "accessibility_node_occurrences": 37,
+  "screens_with_alerts": [
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "confirmed_target_overlaps": [
+    {
+      "screen": 4,
+      "context": "galeria",
+      "targets": [
+        "Ver recorte parcial da foto 4",
+        "Ver portfólio de Enzo"
+      ],
+      "intersection_css_px": [
+        42.71875,
+        22
+      ]
+    },
+    {
+      "screen": 8,
+      "context": "returnTo=descobrir",
+      "targets": [
+        "Idade: ajustar limite inferior",
+        "Editar limites de Altura"
+      ],
+      "intersection_css_px": [
+        85.90625,
+        2.796875
+      ]
+    }
+  ]
+}

@@ -1,3 +1,7 @@
+# Integração de navegação
+
+- Conexões e retornos demonstrativos; estado compartilhado e backend permanecem pendentes. Versão 1.0.0-prototipo.1.integracao.1.
+
 # Changelog
 
 ## 1.0.0-prototipo.1 — 2026-11-09

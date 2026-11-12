@@ -1,3 +1,5 @@
+**Integração em andamento:** o runtime desta pasta foi alterado após a auditoria visual histórica. `AUDITORIA.md`, capturas antigas e seus manifests descrevem a versão pré-integração, recuperável no commit `b49b77d`; não certificam os arquivos atuais. Novas evidências e aceite final permanecem pendentes. Ver [estado da integração](../docs/correcoes-123/AVALIACAO_ATUAL.md).
+
 **Estado vigente: APROVADA VISUALMENTE — 9,27/10**, versão 1.0.0-prototipo.1. Auditoria independente e hashes em AUDITORIA.md / EVIDENCIAS_RELEASE.json. Gate >9,0 atingido; a aprovação não certifica backend ou dispositivo físico.
 
 # Notificações — protótipo local
@@ -13,3 +15,8 @@ Verificação reproduzível: iniciar servidor, `node MODEL_tela_11_V1/verify.cjs
 Três capturas reais DPR1 e comparação foram abertas visualmente pelo implementador. Comparação mantém referência490×844 e app390×844 sem esticar. `browser-report.json` registra testes realizados. Auditoria independente concluída:9,27/10; gate>9,0 atingido, meta9,5 não atingida. Diferenças em AUDITORIA.md.03–10 não foram editadas por este papel.
 
 As capturas captura-375.png / captura-390.png / captura-430.png são os raw finais ou cópias idênticas dos raw em screenshots/, sem edição. Candidatos e versões anteriores são históricos, não prova da versão aprovada.
+
+
+## Integração
+
+Navegação integrada à demonstração local. Dados e ações permanecem locais; não há backend.

@@ -1,3 +1,5 @@
+**Integração em andamento:** o runtime desta pasta foi alterado após a auditoria visual histórica. `AUDITORIA.md`, capturas antigas e seus manifests descrevem a versão pré-integração, recuperável no commit `b49b77d`; não certificam os arquivos atuais. Novas evidências e aceite final permanecem pendentes. Ver [estado da integração](../docs/correcoes-123/AVALIACAO_ATUAL.md).
+
 **Estado vigente: APROVADA VISUALMENTE — 9,28/10**, versão 1.0.0-prototipo.1. Auditoria independente e hashes em AUDITORIA.md / EVIDENCIAS_RELEASE.json. Gate >9,0 atingido; a aprovação não certifica backend ou dispositivo físico.
 
 # Meu Perfil — tela10
@@ -15,3 +17,8 @@ Executados: cinco menus e Adicionar com Escape/retorno de foco; disponibilidade 
 Ações são locais e temporárias; nenhum backend, upload, pagamento, login ou envio. Portfólio de outra pessoa não é atribuído a Matheus. Limites visuais: Arial é aproximação, vetores são reconstruções, JPEG pequeno limita detalhe; o suporte de editar preserva cobertura e pode parecer dominante. Auditoria independente concluída:9,28/10, gate>9,0 atingido; diferenças residuais em AUDITORIA.md.
 
 As capturas captura-375.png / captura-390.png / captura-430.png são os raw finais ou cópias idênticas dos raw em screenshots/, sem edição. Candidatos e versões anteriores são históricos, não prova da versão aprovada.
+
+
+## Integração
+
+Navegação integrada à demonstração local. Dados e ações permanecem locais; não há backend.
